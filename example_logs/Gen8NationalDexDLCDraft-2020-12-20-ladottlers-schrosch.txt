@@ -1,0 +1,488 @@
+|init|battle
+|title|LA Dottlers vs. Schrosch
+|j|☆LA Dottlers
+|j|☆Schrosch
+|t:|1608497866
+|player|p1|LA Dottlers|ladottlers.png|
+|player|p2|Schrosch|schrosch.png|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex DLC Draft
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Medicham, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Silvally-*|
+|poke|p1|Flygon, F|
+|poke|p1|Probopass, M|
+|poke|p1|Spiritomb, F|
+|poke|p2|Palossand, F|
+|poke|p2|Forretress, F|
+|poke|p2|Cloyster, M|
+|poke|p2|Shiftry, M|
+|poke|p2|Altaria, M|
+|poke|p2|Gallade, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆LA Dottlers|glgf!
+|c|☆Schrosch|gl hf!
+|c|☆LA Dottlers|glglglggl
+|c|☆LA Dottlers|glHF!
+|c|☆LA Dottlers|Lmao
+|j| murmer☭
+|
+|t:|1608497910
+|start
+|switch|p1a: Sharknado 2|Flygon, F|100\/100
+|switch|p2a: Worst Division|Gallade, M|100\/100
+|turn|1
+|
+|t:|1608497933
+|detailschange|p2a: Worst Division|Gallade-Mega, M
+|-mega|p2a: Worst Division|Gallade|Galladite
+|move|p1a: Sharknado 2|U-turn|p2a: Worst Division
+|-damage|p2a: Worst Division|73\/100
+|
+|t:|1608497941
+|switch|p1a: Troll 2|Spiritomb, F|100\/100|[from]move: U-turn
+|move|p2a: Worst Division|Triple Axel|p1a: Troll 2
+|-damage|p1a: Troll 2|94\/100
+|-damage|p2a: Worst Division|56\/100|[from] item: Rocky Helmet|[of] p1a: Troll 2
+|-damage|p1a: Troll 2|81\/100
+|-damage|p2a: Worst Division|40\/100|[from] item: Rocky Helmet|[of] p1a: Troll 2
+|-damage|p1a: Troll 2|61\/100
+|-damage|p2a: Worst Division|24\/100|[from] item: Rocky Helmet|[of] p1a: Troll 2
+|-hitcount|p1a: Troll 2|3
+|
+|upkeep
+|turn|2
+|
+|t:|1608497968
+|switch|p2a: THandC|Shiftry, M|100\/100
+|move|p1a: Troll 2|Foul Play|p2a: THandC
+|-resisted|p2a: THandC
+|-damage|p2a: THandC|85\/100
+|
+|-heal|p2a: THandC|91\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|l| murmer☭
+|
+|t:|1608498045
+|move|p2a: THandC|Toxic|p1a: Troll 2
+|-status|p1a: Troll 2|tox
+|move|p1a: Troll 2|Pain Split|p2a: THandC
+|-sethp|p2a: THandC|70\/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Troll 2|88\/100 tox|[from] move: Pain Split
+|
+|-heal|p2a: THandC|76\/100|[from] item: Leftovers
+|-damage|p1a: Troll 2|82\/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1608498074
+|switch|p1a: Super Mario Bros.|Probopass, M|100\/100
+|move|p2a: THandC|Knock Off|p1a: Super Mario Bros.
+|-damage|p1a: Super Mario Bros.|78\/100
+|-enditem|p1a: Super Mario Bros.|Chople Berry|[from] move: Knock Off|[of] p2a: THandC
+|
+|-heal|p2a: THandC|83\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1608498116
+|switch|p2a: Silicate Syndicate|Palossand, F, shiny|100\/100
+|move|p1a: Super Mario Bros.|Stealth Rock|p2a: Silicate Syndicate
+|-sidestart|p2: Schrosch|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1608498213
+|switch|p1a: The Ro(t)om|Rotom-Wash|100\/100
+|move|p2a: Silicate Syndicate|Stockpile|p2a: Silicate Syndicate
+|-start|p2a: Silicate Syndicate|stockpile1
+|-boost|p2a: Silicate Syndicate|def|1
+|-boost|p2a: Silicate Syndicate|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1608498220
+|move|p1a: The Ro(t)om|Hydro Pump|p2a: Silicate Syndicate
+|-supereffective|p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|52\/100
+|-ability|p2a: Silicate Syndicate|Water Compaction|boost
+|-boost|p2a: Silicate Syndicate|def|2
+|-enditem|p2a: Silicate Syndicate|Luminous Moss
+|-boost|p2a: Silicate Syndicate|spd|1|[from] item: Luminous Moss
+|move|p2a: Silicate Syndicate|Block|p1a: The Ro(t)om
+|-activate|p1a: The Ro(t)om|trapped
+|
+|upkeep
+|turn|8
+|
+|t:|1608498234
+|move|p1a: The Ro(t)om|Hydro Pump|p2a: Silicate Syndicate|[miss]
+|-miss|p1a: The Ro(t)om|p2a: Silicate Syndicate
+|move|p2a: Silicate Syndicate|Shore Up|p2a: Silicate Syndicate
+|-heal|p2a: Silicate Syndicate|100\/100
+|
+|upkeep
+|turn|9
+|c|☆LA Dottlers|Uh ok
+|c|☆LA Dottlers|Wow
+|c|☆LA Dottlers|Typo central
+|c|☆LA Dottlers|I meant uh oh
+|c|☆Schrosch|mb for the miss
+|c|☆LA Dottlers|np np
+|
+|t:|1608498271
+|move|p1a: The Ro(t)om|Hydro Pump|p2a: Silicate Syndicate|[miss]
+|-miss|p1a: The Ro(t)om|p2a: Silicate Syndicate
+|move|p2a: Silicate Syndicate|Stockpile|p2a: Silicate Syndicate
+|-start|p2a: Silicate Syndicate|stockpile2
+|-boost|p2a: Silicate Syndicate|def|1
+|-boost|p2a: Silicate Syndicate|spd|1
+|
+|upkeep
+|turn|10
+|c|☆LA Dottlers|Oy
+|c|☆LA Dottlers|Mb for running inaccurate moves tbh
+|
+|t:|1608498311
+|move|p1a: The Ro(t)om|Hydro Pump|p2a: Silicate Syndicate
+|-supereffective|p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|69\/100
+|-ability|p2a: Silicate Syndicate|Water Compaction|boost
+|-boost|p2a: Silicate Syndicate|def|2
+|move|p2a: Silicate Syndicate|Stockpile|p2a: Silicate Syndicate
+|-start|p2a: Silicate Syndicate|stockpile3
+|-boost|p2a: Silicate Syndicate|def|0
+|-boost|p2a: Silicate Syndicate|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1608498319
+|move|p1a: The Ro(t)om|Hydro Pump|p2a: Silicate Syndicate
+|-supereffective|p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|44\/100
+|move|p2a: Silicate Syndicate|Shore Up|p2a: Silicate Syndicate
+|-heal|p2a: Silicate Syndicate|94\/100
+|
+|upkeep
+|turn|12
+|
+|t:|1608498326
+|move|p1a: The Ro(t)om|Hydro Pump|p2a: Silicate Syndicate|[miss]
+|-miss|p1a: The Ro(t)om|p2a: Silicate Syndicate
+|move|p2a: Silicate Syndicate|Curse|p1a: The Ro(t)om
+|-start|p1a: The Ro(t)om|Curse|[of] p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|44\/100
+|
+|-damage|p1a: The Ro(t)om|75\/100|[from] Curse
+|upkeep
+|turn|13
+|
+|t:|1608498332
+|move|p1a: The Ro(t)om|Hydro Pump|p2a: Silicate Syndicate
+|-supereffective|p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|17\/100
+|move|p2a: Silicate Syndicate|Shore Up|p2a: Silicate Syndicate
+|-heal|p2a: Silicate Syndicate|67\/100
+|
+|-heal|p1a: The Ro(t)om|82\/100|[from] item: Leftovers
+|-damage|p1a: The Ro(t)om|57\/100|[from] Curse
+|upkeep
+|turn|14
+|
+|t:|1608498338
+|move|p1a: The Ro(t)om|Hydro Pump|p2a: Silicate Syndicate
+|-supereffective|p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|39\/100
+|move|p2a: Silicate Syndicate|Shore Up|p2a: Silicate Syndicate
+|-heal|p2a: Silicate Syndicate|89\/100
+|
+|-heal|p1a: The Ro(t)om|63\/100|[from] item: Leftovers
+|-damage|p1a: The Ro(t)om|38\/100|[from] Curse
+|upkeep
+|turn|15
+|
+|t:|1608498352
+|move|p1a: The Ro(t)om|Will-O-Wisp|p2a: Silicate Syndicate
+|-status|p2a: Silicate Syndicate|brn
+|move|p2a: Silicate Syndicate|Stockpile||[still]
+|-fail|p2a: Silicate Syndicate
+|
+|-heal|p1a: The Ro(t)om|44\/100|[from] item: Leftovers
+|-damage|p2a: Silicate Syndicate|83\/100 brn|[from] brn
+|-damage|p1a: The Ro(t)om|19\/100|[from] Curse
+|upkeep
+|turn|16
+|
+|t:|1608498364
+|move|p1a: The Ro(t)om|Volt Switch|p2a: Silicate Syndicate
+|-immune|p2a: Silicate Syndicate
+|move|p2a: Silicate Syndicate|Shore Up|p2a: Silicate Syndicate
+|-heal|p2a: Silicate Syndicate|100\/100 brn
+|
+|-heal|p1a: The Ro(t)om|25\/100|[from] item: Leftovers
+|-damage|p2a: Silicate Syndicate|94\/100 brn|[from] brn
+|-damage|p1a: The Ro(t)om|0 fnt|[from] Curse
+|faint|p1a: The Ro(t)om
+|upkeep
+|
+|t:|1608498379
+|switch|p1a: Maximum Overdrive|Silvally-Water|100\/100
+|turn|17
+|c|☆LA Dottlers|probably gg here
+|
+|t:|1608498398
+|move|p1a: Maximum Overdrive|Surf|p2a: Silicate Syndicate
+|-supereffective|p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|67\/100 brn
+|move|p2a: Silicate Syndicate|Curse|p1a: Maximum Overdrive
+|-start|p1a: Maximum Overdrive|Curse|[of] p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|17\/100 brn
+|
+|-damage|p2a: Silicate Syndicate|11\/100 brn|[from] brn
+|-damage|p1a: Maximum Overdrive|76\/100|[from] Curse
+|upkeep
+|turn|18
+|
+|t:|1608498409
+|move|p1a: Maximum Overdrive|Surf|p2a: Silicate Syndicate
+|-supereffective|p2a: Silicate Syndicate
+|-damage|p2a: Silicate Syndicate|0 fnt
+|faint|p2a: Silicate Syndicate
+|
+|-damage|p1a: Maximum Overdrive|51\/100|[from] Curse
+|upkeep
+|c|☆LA Dottlers|nvm
+|c|☆LA Dottlers|Super sick set thoug
+|
+|t:|1608498427
+|switch|p2a: Cloud 69|Altaria, M|100\/100
+|turn|19
+|
+|t:|1608498434
+|move|p1a: Maximum Overdrive|Parting Shot|p2a: Cloud 69
+|-unboost|p2a: Cloud 69|atk|1
+|-unboost|p2a: Cloud 69|spa|1
+|
+|t:|1608498448
+|switch|p1a: Xanadu|Medicham, M|100\/100|[from]move: Parting Shot
+|move|p2a: Cloud 69|Defog|p1a: Xanadu
+|-unboost|p1a: Xanadu|evasion|1
+|-sideend|p2: Schrosch|Stealth Rock|[from] move: Defog|[of] p2a: Cloud 69
+|
+|upkeep
+|turn|20
+|
+|t:|1608498497
+|detailschange|p1a: Xanadu|Medicham-Mega, M
+|-mega|p1a: Xanadu|Medicham|Medichamite
+|move|p1a: Xanadu|Ice Punch|p2a: Cloud 69
+|-supereffective|p2a: Cloud 69
+|-damage|p2a: Cloud 69|0 fnt
+|faint|p2a: Cloud 69
+|
+|upkeep
+|
+|t:|1608498515
+|switch|p2a: Worst Division|Gallade-Mega, M|24\/100
+|turn|21
+|
+|t:|1608498528
+|switch|p1a: Troll 2|Spiritomb, F|82\/100 tox
+|move|p2a: Worst Division|Leaf Blade|p1a: Troll 2
+|-damage|p1a: Troll 2|53\/100 tox
+|-damage|p2a: Worst Division|7\/100|[from] item: Rocky Helmet|[of] p1a: Troll 2
+|
+|-damage|p1a: Troll 2|47\/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1608498569
+|switch|p2a: THandC|Shiftry, M|83\/100
+|move|p1a: Troll 2|Foul Play|p2a: THandC
+|-resisted|p2a: THandC
+|-damage|p2a: THandC|67\/100
+|
+|-heal|p2a: THandC|73\/100|[from] item: Leftovers
+|-damage|p1a: Troll 2|34\/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1608498645
+|switch|p1a: Maximum Overdrive|Silvally-Water|51\/100
+|move|p2a: THandC|Giga Drain|p1a: Maximum Overdrive
+|-supereffective|p1a: Maximum Overdrive
+|-damage|p1a: Maximum Overdrive|7\/100
+|-heal|p2a: THandC|93\/100|[from] drain|[of] p1a: Maximum Overdrive
+|
+|-heal|p2a: THandC|99\/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1608498657
+|move|p1a: Maximum Overdrive|Surf|p2a: THandC
+|-resisted|p2a: THandC
+|-damage|p2a: THandC|74\/100
+|move|p2a: THandC|Giga Drain|p1a: Maximum Overdrive
+|-supereffective|p1a: Maximum Overdrive
+|-damage|p1a: Maximum Overdrive|0 fnt
+|-heal|p2a: THandC|77\/100|[from] drain|[of] p1a: Maximum Overdrive
+|faint|p1a: Maximum Overdrive
+|
+|-heal|p2a: THandC|84\/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1608498674
+|switch|p1a: Super Mario Bros.|Probopass, M|78\/100
+|turn|25
+|
+|t:|1608498695
+|switch|p2a: Worst Division|Gallade-Mega, M|7\/100
+|move|p1a: Super Mario Bros.|Stealth Rock|p2a: Worst Division
+|-sidestart|p2: Schrosch|move: Stealth Rock
+|
+|upkeep
+|turn|26
+|
+|t:|1608498704
+|switch|p1a: Troll 2|Spiritomb, F|34\/100 tox
+|move|p2a: Worst Division|Rock Slide|p1a: Troll 2|[miss]
+|-miss|p2a: Worst Division|p1a: Troll 2
+|
+|-damage|p1a: Troll 2|28\/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1608498721
+|move|p2a: Worst Division|Rock Slide|p1a: Troll 2
+|-crit|p1a: Troll 2
+|-damage|p1a: Troll 2|0 fnt
+|faint|p1a: Troll 2
+|
+|upkeep
+|
+|t:|1608498735
+|switch|p1a: Xanadu|Medicham-Mega, M|100\/100
+|turn|28
+|c|☆LA Dottlers|Crit did matter unless you're adamant
+|c|☆Schrosch|sorry, but i missed the turn before
+|c|☆LA Dottlers|Well still mattered even then
+|c|☆LA Dottlers|TRUE
+|c|☆LA Dottlers|Lol
+|c|☆LA Dottlers|But the miss makes up for the pumps :eyes:
+|c|☆Schrosch|true
+|
+|t:|1608498861
+|switch|p2a: THandC|Shiftry, M|84\/100
+|-damage|p2a: THandC|71\/100|[from] Stealth Rock
+|move|p1a: Xanadu|Fake Out|p2a: THandC
+|-damage|p2a: THandC|46\/100
+|
+|-heal|p2a: THandC|52\/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1608498881
+|move|p1a: Xanadu|Ice Punch|p2a: THandC
+|-supereffective|p2a: THandC
+|-crit|p2a: THandC
+|-damage|p2a: THandC|0 fnt
+|faint|p2a: THandC
+|
+|upkeep
+|
+|t:|1608498887
+|switch|p2a: Worst Division|Gallade-Mega, M|7\/100
+|-damage|p2a: Worst Division|1\/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1608498910
+|move|p2a: Worst Division|Triple Axel|p1a: Xanadu
+|-damage|p1a: Xanadu|89\/100
+|-damage|p1a: Xanadu|63\/100
+|-damage|p1a: Xanadu|25\/100
+|-hitcount|p1a: Xanadu|3
+|move|p1a: Xanadu|Ice Punch|p2a: Worst Division
+|-damage|p2a: Worst Division|0 fnt
+|faint|p2a: Worst Division
+|
+|upkeep
+|
+|t:|1608498929
+|switch|p2a: I'm thorny|Forretress, F|100\/100
+|-damage|p2a: I'm thorny|88\/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1608498966
+|switch|p1a: Super Mario Bros.|Probopass, M|78\/100
+|move|p2a: I'm thorny|Rock Polish|p2a: I'm thorny
+|-boost|p2a: I'm thorny|spe|2
+|
+|upkeep
+|turn|32
+|
+|t:|1608498990
+|move|p2a: I'm thorny|Rock Slide|p1a: Super Mario Bros.|[miss]
+|-miss|p2a: I'm thorny|p1a: Super Mario Bros.
+|move|p1a: Super Mario Bros.|Earth Power|p2a: I'm thorny
+|-damage|p2a: I'm thorny|55\/100
+|
+|upkeep
+|turn|33
+|
+|t:|1608499006
+|switch|p2a: Moister|Cloyster, M|100\/100
+|-damage|p2a: Moister|76\/100|[from] Stealth Rock
+|move|p1a: Super Mario Bros.|Earth Power|p2a: Moister
+|-damage|p2a: Moister|31\/100
+|
+|upkeep
+|turn|34
+|
+|t:|1608499020
+|move|p2a: Moister|Liquidation|p1a: Super Mario Bros.
+|-supereffective|p1a: Super Mario Bros.
+|-damage|p1a: Super Mario Bros.|26\/100
+|move|p1a: Super Mario Bros.|Earth Power|p2a: Moister
+|-damage|p2a: Moister|0 fnt
+|faint|p2a: Moister
+|
+|upkeep
+|
+|t:|1608499029
+|switch|p2a: I'm thorny|Forretress, F|55\/100
+|-damage|p2a: I'm thorny|43\/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1608499034
+|move|p2a: I'm thorny|Rock Polish|p2a: I'm thorny
+|-boost|p2a: I'm thorny|spe|2
+|move|p1a: Super Mario Bros.|Earth Power|p2a: I'm thorny
+|-damage|p2a: I'm thorny|11\/100
+|-unboost|p2a: I'm thorny|spd|1
+|
+|upkeep
+|turn|36
+|
+|t:|1608499043
+|move|p2a: I'm thorny|Flail|p1a: Super Mario Bros.
+|-resisted|p1a: Super Mario Bros.
+|-damage|p1a: Super Mario Bros.|20\/100
+|move|p1a: Super Mario Bros.|Earth Power|p2a: I'm thorny
+|-damage|p2a: I'm thorny|0 fnt
+|faint|p2a: I'm thorny
+|
+|win|LA Dottlers

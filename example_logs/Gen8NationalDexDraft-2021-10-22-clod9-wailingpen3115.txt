@@ -1,0 +1,508 @@
+|init|battle
+|title|clod9 vs. wailingpen3115
+|j|☆clod9
+|j|☆wailingpen3115
+|t:|1634933463
+|gametype|singles
+|player|p1|clod9|janine|
+|player|p2|wailingpen3115|wattson|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex Draft
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Glalie, M|
+|poke|p1|Chesnaught, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Sylveon, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Slowking, F|
+|poke|p2|Moltres|
+|poke|p2|Tapu Koko|
+|poke|p2|Nidoqueen, F|
+|poke|p2|Weavile, F|
+|poke|p2|Audino, M|
+|poke|p2|Bronzong|
+|teampreview
+|c|☆clod9|gl hf
+|c|☆wailingpen3115|thx u2
+|
+|t:|1634933521
+|start
+|switch|p1a: Loki|Cinderace, F, shiny|100\/100
+|switch|p2a: Popeyes|Tapu Koko|100\/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Popeyes
+|turn|1
+|j| Bivalvin22
+|
+|t:|1634933635
+|move|p1a: Loki|Gunk Shot|p2a: Popeyes
+|-supereffective|p2a: Popeyes
+|-damage|p2a: Popeyes|0 fnt
+|faint|p2a: Popeyes
+|
+|upkeep
+|
+|t:|1634933644
+|switch|p2a: Taco Bell|Bronzong, shiny|100\/100
+|turn|2
+|
+|t:|1634933664
+|switch|p1a: Chesnaught|Chesnaught, M|100\/100
+|move|p2a: Taco Bell|Stealth Rock|p1a: Chesnaught
+|-sidestart|p1: clod9|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1634933677
+|move|p2a: Taco Bell|Protect|p2a: Taco Bell
+|-singleturn|p2a: Taco Bell|Protect
+|move|p1a: Chesnaught|Spikes|p2a: Taco Bell
+|-sidestart|p2: wailingpen3115|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1634933685
+|switch|p2a: K.F.C|Moltres, shiny|100\/100
+|move|p1a: Chesnaught|Spikes|p2a: K.F.C
+|-sidestart|p2: wailingpen3115|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1634933701
+|switch|p1a: Sylveon|Sylveon, F|100\/100
+|-damage|p1a: Sylveon|88\/100|[from] Stealth Rock
+|move|p2a: K.F.C|U-turn|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|83\/100
+|
+|t:|1634933730
+|switch|p2a: Taco Bell|Bronzong, shiny|100\/100|[from]move: U-turn
+|
+|-heal|p1a: Sylveon|89\/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1634933738
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Taco Bell|Heavy Slam|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|95\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1634933758
+|move|p1a: Sylveon|Baton Pass|p1a: Sylveon
+|
+|t:|1634933771
+|switch|p1a: Chesnaught|Chesnaught, M|100\/100|[from]move: Baton Pass
+|-damage|p1a: Chesnaught|94\/100|[from] Stealth Rock
+|move|p2a: Taco Bell|Earthquake|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|89\/100
+|
+|upkeep
+|turn|8
+|
+|t:|1634933783
+|switch|p2a: Wendys|Nidoqueen, F|100\/100
+|-damage|p2a: Wendys|84\/100|[from] Spikes
+|move|p1a: Chesnaught|Spikes|p2a: Wendys
+|-sidestart|p2: wailingpen3115|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1634933800
+|move|p2a: Wendys|Earth Power|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|64\/100
+|move|p1a: Chesnaught|Earthquake|p2a: Wendys
+|-supereffective|p2a: Wendys
+|-damage|p2a: Wendys|22\/100
+|
+|upkeep
+|turn|10
+|
+|t:|1634933823
+|switch|p2a: K.F.C|Moltres, shiny|100\/100
+|move|p1a: Chesnaught|Earthquake|p2a: K.F.C
+|-immune|p2a: K.F.C
+|
+|upkeep
+|turn|11
+|
+|t:|1634933839
+|switch|p1a: Sylveon|Sylveon, F|95\/100
+|-damage|p1a: Sylveon|82\/100|[from] Stealth Rock
+|move|p2a: K.F.C|U-turn|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|76\/100
+|
+|t:|1634933846
+|switch|p2a: Wendys|Nidoqueen, F|22\/100|[from]move: U-turn
+|-damage|p2a: Wendys|0 fnt|[from] Spikes
+|faint|p2a: Wendys
+|
+|-heal|p1a: Sylveon|82\/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634933861
+|switch|p2a: Taco Bell|Bronzong, shiny|100\/100
+|turn|12
+|
+|t:|1634933873
+|switch|p2a: Subway|Audino, M|100\/100
+|-damage|p2a: Subway|76\/100|[from] Spikes
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|88\/100|[from] item: Leftovers
+|-heal|p2a: Subway|82\/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1634933881
+|move|p1a: Sylveon|Hyper Voice|p2a: Subway
+|-damage|p2a: Subway|50\/100
+|move|p2a: Subway|Toxic|p1a: Sylveon
+|-status|p1a: Sylveon|tox
+|
+|-heal|p1a: Sylveon|94\/100 tox|[from] item: Leftovers
+|-heal|p2a: Subway|56\/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|88\/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1634933889
+|move|p1a: Sylveon|Baton Pass|p1a: Sylveon
+|
+|t:|1634933901
+|switch|p1a: Toxtricity|Toxtricity, F|100\/100|[from]move: Baton Pass
+|-damage|p1a: Toxtricity|88\/100|[from] Stealth Rock
+|move|p2a: Subway|Knock Off|p1a: Toxtricity
+|-damage|p1a: Toxtricity|66\/100
+|-enditem|p1a: Toxtricity|Throat Spray|[from] move: Knock Off|[of] p2a: Subway
+|
+|-heal|p2a: Subway|62\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1634933910
+|move|p2a: Subway|Protect|p2a: Subway
+|-singleturn|p2a: Subway|Protect
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|
+|-heal|p2a: Subway|68\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1634933919
+|switch|p2a: Taco Bell|Bronzong, shiny|100\/100
+|move|p1a: Toxtricity|Boomburst|p2a: Taco Bell
+|-resisted|p2a: Taco Bell
+|-damage|p2a: Taco Bell|72\/100
+|
+|-heal|p2a: Taco Bell|78\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1634933949
+|switch|p1a: Chesnaught|Chesnaught, M|64\/100
+|-damage|p1a: Chesnaught|58\/100|[from] Stealth Rock
+|move|p2a: Taco Bell|Earthquake|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|52\/100
+|
+|-heal|p2a: Taco Bell|85\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1634933956
+|move|p2a: Taco Bell|Protect|p2a: Taco Bell
+|-singleturn|p2a: Taco Bell|Protect
+|move|p1a: Chesnaught|Synthesis|p1a: Chesnaught
+|-heal|p1a: Chesnaught|100\/100
+|
+|-heal|p2a: Taco Bell|91\/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1634933966
+|switch|p1a: Slowking|Slowking, F|100\/100
+|-damage|p1a: Slowking|88\/100|[from] Stealth Rock
+|switch|p2a: K.F.C|Moltres, shiny|100\/100
+|
+|upkeep
+|turn|20
+|
+|t:|1634933972
+|move|p2a: K.F.C|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|59\/100
+|
+|t:|1634933980
+|switch|p2a: Taco Bell|Bronzong, shiny|91\/100|[from]move: U-turn
+|move|p1a: Slowking|Toxic|p2a: Taco Bell
+|-immune|p2a: Taco Bell
+|
+|-heal|p2a: Taco Bell|97\/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1634933990
+|move|p2a: Taco Bell|Earthquake|p1a: Slowking
+|-damage|p1a: Slowking|39\/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|89\/100
+|
+|-heal|p2a: Taco Bell|100\/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1634933996
+|switch|p2a: Subway|Audino, M|100\/100
+|-damage|p2a: Subway|76\/100|[from] Spikes
+|move|p1a: Slowking|Scald|p2a: Subway
+|-damage|p2a: Subway|53\/100
+|-status|p2a: Subway|brn
+|
+|-heal|p2a: Subway|60\/100 brn|[from] item: Leftovers
+|-damage|p2a: Subway|53\/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1634934006
+|switch|p1a: Toxtricity|Toxtricity, F|66\/100
+|-damage|p1a: Toxtricity|53\/100|[from] Stealth Rock
+|move|p2a: Subway|Knock Off|p1a: Toxtricity
+|-damage|p1a: Toxtricity|45\/100
+|
+|-heal|p2a: Subway|60\/100 brn|[from] item: Leftovers
+|-damage|p2a: Subway|53\/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1634934015
+|switch|p2a: Taco Bell|Bronzong, shiny|100\/100
+|move|p1a: Toxtricity|Overdrive|p2a: Taco Bell
+|-crit|p2a: Taco Bell
+|-damage|p2a: Taco Bell|29\/100
+|
+|-heal|p2a: Taco Bell|35\/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1634934042
+|move|p2a: Taco Bell|Protect|p2a: Taco Bell
+|-singleturn|p2a: Taco Bell|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Taco Bell
+|-activate|p2a: Taco Bell|move: Protect
+|
+|-heal|p2a: Taco Bell|41\/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1634934051
+|switch|p2a: Subway|Audino, M|87\/100 brn
+|-damage|p2a: Subway|62\/100 brn|[from] Spikes
+|move|p1a: Toxtricity|Overdrive|p2a: Subway
+|-damage|p2a: Subway|20\/100 brn
+|
+|-heal|p2a: Subway|26\/100 brn|[from] item: Leftovers
+|-damage|p2a: Subway|20\/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1634934060
+|move|p2a: Subway|Protect|p2a: Subway
+|-singleturn|p2a: Subway|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Subway
+|-activate|p2a: Subway|move: Protect
+|
+|-heal|p2a: Subway|26\/100 brn|[from] item: Leftovers
+|-damage|p2a: Subway|20\/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1634934065
+|move|p1a: Toxtricity|Overdrive|p2a: Subway
+|-damage|p2a: Subway|0 fnt
+|faint|p2a: Subway
+|
+|upkeep
+|
+|t:|1634934070
+|switch|p2a: Mc Donalds|Weavile, F, shiny|100\/100
+|-ability|p2a: Mc Donalds|Pressure
+|turn|29
+|
+|t:|1634934096
+|move|p2a: Mc Donalds|Knock Off|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|t:|1634934101
+|switch|p1a: Slowking|Slowking, F|100\/100
+|-damage|p1a: Slowking|88\/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1634934105
+|move|p2a: Mc Donalds|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-enditem|p1a: Slowking|Colbur Berry|[eat]
+|-enditem|p1a: Slowking|Colbur Berry|[weaken]
+|-damage|p1a: Slowking|36\/100
+|move|p1a: Slowking|Counter|p2a: Mc Donalds
+|-damage|p2a: Mc Donalds|0 fnt
+|faint|p2a: Mc Donalds
+|
+|upkeep
+|
+|t:|1634934114
+|switch|p2a: Taco Bell|Bronzong, shiny|41\/100
+|turn|31
+|
+|t:|1634934122
+|move|p2a: Taco Bell|Protect|p2a: Taco Bell
+|-singleturn|p2a: Taco Bell|Protect
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|86\/100
+|
+|-heal|p2a: Taco Bell|47\/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1634934129
+|move|p2a: Taco Bell|Earthquake|p1a: Slowking
+|-damage|p1a: Slowking|64\/100
+|move|p1a: Slowking|Scald|p2a: Taco Bell
+|-damage|p2a: Taco Bell|22\/100
+|
+|-heal|p2a: Taco Bell|28\/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1634934139
+|move|p2a: Taco Bell|Earthquake|p1a: Slowking
+|-damage|p1a: Slowking|41\/100
+|move|p1a: Slowking|Scald|p2a: Taco Bell
+|-crit|p2a: Taco Bell
+|-damage|p2a: Taco Bell|0 fnt
+|faint|p2a: Taco Bell
+|
+|upkeep
+|
+|t:|1634934147
+|switch|p2a: K.F.C|Moltres, shiny|100\/100
+|turn|34
+|
+|t:|1634934153
+|move|p2a: K.F.C|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|18\/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|68\/100
+|
+|upkeep
+|turn|35
+|
+|t:|1634934160
+|move|p2a: K.F.C|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|45\/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|95\/100
+|
+|upkeep
+|turn|36
+|
+|t:|1634934165
+|move|p2a: K.F.C|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|69\/100
+|cant|p1a: Slowking|flinch
+|
+|upkeep
+|turn|37
+|
+|t:|1634934170
+|move|p2a: K.F.C|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|45\/100
+|cant|p1a: Slowking|flinch
+|
+|upkeep
+|turn|38
+|
+|t:|1634934174
+|move|p2a: K.F.C|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|20\/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|70\/100
+|
+|upkeep
+|turn|39
+|
+|t:|1634934179
+|move|p2a: K.F.C|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|44\/100
+|move|p1a: Slowking|Toxic|p2a: K.F.C
+|-status|p2a: K.F.C|tox
+|
+|-damage|p2a: K.F.C|94\/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1634934188
+|switch|p1a: Sylveon|Sylveon, F|88\/100 tox
+|-damage|p1a: Sylveon|76\/100 tox|[from] Stealth Rock
+|move|p2a: K.F.C|Air Slash|p1a: Sylveon
+|-damage|p1a: Sylveon|45\/100 tox
+|
+|-heal|p1a: Sylveon|51\/100 tox|[from] item: Leftovers
+|-damage|p2a: K.F.C|82\/100 tox|[from] psn
+|-damage|p1a: Sylveon|45\/100 tox|[from] psn
+|upkeep
+|turn|41
+|c|☆wailingpen3115|way to drag it out
+|
+|t:|1634934199
+|move|p2a: K.F.C|Flamethrower|p1a: Sylveon
+|-damage|p1a: Sylveon|10\/100 tox
+|move|p1a: Sylveon|Baton Pass|p1a: Sylveon
+|
+|t:|1634934202
+|switch|p1a: Glalie|Glalie, M|100\/100|[from]move: Baton Pass
+|-damage|p1a: Glalie|76\/100|[from] Stealth Rock
+|
+|-damage|p2a: K.F.C|64\/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1634934207
+|detailschange|p1a: Glalie|Glalie-Mega, M
+|-mega|p1a: Glalie|Glalie|Glalitite
+|move|p1a: Glalie|Body Slam|p2a: K.F.C
+|-damage|p2a: K.F.C|7\/100 tox
+|move|p2a: K.F.C|Flamethrower|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|-damage|p2a: K.F.C|0 fnt|[from] psn
+|faint|p2a: K.F.C
+|
+|win|clod9

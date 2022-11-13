@@ -1,0 +1,219 @@
+|init|battle
+|title|Auxotest4 vs. Auxotest3
+|j|☆Auxotest4
+|j|☆Auxotest3
+|t:|1666177744
+|gametype|doubles
+|player|p1|Auxotest4|hilbert|
+|player|p2|Auxotest3|hilbert|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex Leaks VGC
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Magearna, L50|
+|poke|p1|Magmar, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Toxicroak, L50, M|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Magearna, L50|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Toxicroak, L50, F|
+|teampreview|4
+|
+|t:|1666177757
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M|192\/192
+|switch|p1b: Toxicroak|Toxicroak, L50, M|158\/158
+|switch|p2a: Garchomp|Garchomp, L50, F|100\/100
+|switch|p2b: Toxicroak|Toxicroak, L50, F|100\/100
+|turn|1
+|
+|t:|1666177799
+|move|p1b: Toxicroak|Fake Out|p2a: Garchomp
+|-damage|p2a: Garchomp|89\/100
+|-damage|p1b: Toxicroak|139\/158|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2b: Toxicroak|Rock Smash|p1a: Garchomp
+|-damage|p1a: Garchomp|155\/192
+|-damage|p2b: Toxicroak|88\/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|cant|p2a: Garchomp|flinch
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-damage|p1b: Toxicroak|120\/158|[from] item: Sticky Barb
+|upkeep
+|turn|2
+|
+|t:|1666177834
+|move|p1b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Toxicroak
+|move|p2b: Toxicroak|Poison Sting|p1b: Toxicroak
+|-resisted|p1b: Toxicroak
+|-damage|p1b: Toxicroak|111\/158
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-damage|p1b: Toxicroak|92\/158|[from] item: Sticky Barb
+|upkeep
+|turn|3
+|
+|t:|1666177878
+|move|p1b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Toxicroak
+|move|p2b: Toxicroak|Bullet Punch|p1b: Toxicroak
+|-damage|p1b: Toxicroak|63\/158
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-damage|p2b: Toxicroak|76\/100|[from] item: Sticky Barb
+|upkeep
+|turn|4
+|
+|t:|1666177938
+|move|p2b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Toxicroak
+|move|p1b: Toxicroak|Rock Smash|p2a: Garchomp
+|-damage|p2a: Garchomp|72\/100
+|-unboost|p2a: Garchomp|def|1
+|-damage|p1b: Toxicroak|44\/158|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|0
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-damage|p2b: Toxicroak|64\/100|[from] item: Sticky Barb
+|upkeep
+|turn|5
+|j| ElevatedGodlyness
+|
+|t:|1666177969
+|move|p2b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Toxicroak
+|move|p1b: Toxicroak|Rock Smash|p2a: Garchomp
+|-damage|p2a: Garchomp|46\/100
+|-damage|p1b: Toxicroak|25\/158|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|0
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|0
+|
+|-damage|p2b: Toxicroak|52\/100|[from] item: Sticky Barb
+|upkeep
+|turn|6
+|
+|t:|1666177991
+|move|p2b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Toxicroak
+|move|p1b: Toxicroak|Rock Smash|p2a: Garchomp
+|-damage|p2a: Garchomp|18\/100
+|-damage|p1b: Toxicroak|6\/158|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|0
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|0
+|
+|-damage|p2b: Toxicroak|40\/100|[from] item: Sticky Barb
+|upkeep
+|turn|7
+|
+|t:|1666178015
+|move|p2b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Toxicroak
+|move|p1b: Toxicroak|Rock Smash|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1b: Toxicroak|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1b: Toxicroak
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|0
+|
+|-damage|p2b: Toxicroak|28\/100|[from] item: Sticky Barb
+|upkeep
+|
+|t:|1666178028
+|switch|p1b: Lunala|Lunala, L50|227\/227
+|switch|p2a: Lunala|Lunala, L50|100\/100
+|turn|8
+|
+|t:|1666178044
+|move|p2b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Toxicroak
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|0
+|move|p2a: Lunala|Moongeist Beam|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-enditem|p1b: Lunala|Kasib Berry|[eat]
+|-enditem|p1b: Lunala|Kasib Berry|[weaken]
+|-damage|p1b: Lunala|122\/227
+|move|p1b: Lunala|Moongeist Beam|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-enditem|p2a: Lunala|Kasib Berry|[eat]
+|-enditem|p2a: Lunala|Kasib Berry|[weaken]
+|-damage|p2a: Lunala|53\/100
+|
+|-damage|p2b: Toxicroak|16\/100|[from] item: Sticky Barb
+|upkeep
+|turn|9
+|l| ElevatedGodlyness
+|
+|t:|1666178065
+|move|p2b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Toxicroak
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|0
+|move|p1b: Lunala|Moongeist Beam|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-damage|p2b: Toxicroak|4\/100|[from] item: Sticky Barb
+|upkeep
+|
+|t:|1666178077
+|switch|p2a: Gyarados|Gyarados, L50, M|100\/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Lunala|atk|1
+|turn|10
+|
+|t:|1666178092
+|move|p2a: Gyarados|Protect|p2a: Gyarados
+|-singleturn|p2a: Gyarados|Protect
+|move|p2b: Toxicroak|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Toxicroak
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|1
+|move|p1b: Lunala|Moongeist Beam|p2a: Gyarados
+|-activate|p2a: Gyarados|move: Protect
+|
+|-damage|p2b: Toxicroak|0 fnt|[from] item: Sticky Barb
+|faint|p2b: Toxicroak
+|upkeep
+|turn|11
+|
+|t:|1666178111
+|move|p1a: Garchomp|Rock Slide|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|Auxotest4

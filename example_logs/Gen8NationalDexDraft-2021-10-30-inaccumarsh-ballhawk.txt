@@ -1,0 +1,91 @@
+|init|battle
+|title|inaccumarsh vs. BaLLHaWK
+|j|☆inaccumarsh
+|j|☆BaLLHaWK
+|t:|1635557330
+|gametype|singles
+|player|p1|inaccumarsh|170|
+|player|p2|BaLLHaWK|ballhawk.png|
+|teamsize|p1|3
+|teamsize|p2|2
+|gen|8
+|tier|[Gen 8] National Dex Draft
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Shedinja|
+|poke|p1|Shedinja|
+|poke|p1|Shedinja|
+|poke|p2|Hippowdon, M|
+|poke|p2|Toxapex, F|
+|teampreview
+|c|☆BaLLHaWK|okay i have sandstorm now
+|c|☆BaLLHaWK|lol
+|
+|t:|1635557338
+|start
+|switch|p1a: Shedinja|Shedinja|100\/100
+|switch|p2a: Hippowdon|Hippowdon, M|100\/100
+|turn|1
+|c|☆inaccumarsh|cool cool
+|
+|t:|1635557346
+|move|p2a: Hippowdon|Sandstorm|p2a: Hippowdon
+|-weather|Sandstorm
+|move|p1a: Shedinja|Sandstorm||[still]
+|-fail|p1a: Shedinja
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shedinja|0 fnt|[from] Sandstorm
+|faint|p1a: Shedinja
+|upkeep
+|
+|t:|1635557350
+|switch|p1a: Shedinja|Shedinja|100\/100
+|turn|2
+|
+|t:|1635557354
+|switch|p2a: Toxapex|Toxapex, F|100\/100
+|move|p1a: Shedinja|Sandstorm||[still]
+|-fail|p1a: Shedinja
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shedinja|0 fnt|[from] Sandstorm
+|-damage|p2a: Toxapex|94\/100|[from] Sandstorm
+|faint|p1a: Shedinja
+|-heal|p2a: Toxapex|100\/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1635557357
+|switch|p1a: Shedinja|Shedinja|100\/100
+|turn|3
+|c|☆BaLLHaWK|imma rain dance now
+|
+|t:|1635557363
+|move|p1a: Shedinja|Shadow Claw|p2a: Toxapex
+|-damage|p2a: Toxapex|87\/100
+|move|p2a: Toxapex|Rain Dance|p2a: Toxapex
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|93\/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1635557369
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Shedinja|Shadow Claw|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Shedinja|psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|99\/100|[from] item: Black Sludge
+|-damage|p1a: Shedinja|0 fnt|[from] psn
+|faint|p1a: Shedinja
+|
+|win|BaLLHaWK

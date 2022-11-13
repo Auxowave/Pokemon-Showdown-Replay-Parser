@@ -1,0 +1,199 @@
+|init|battle
+|title|Deltarak vs. OrangeVictorious
+|j|☆Deltarak
+|j|☆OrangeVictorious
+|t:|1635019216
+|gametype|singles
+|player|p1|Deltarak|deltarak.png|
+|player|p2|OrangeVictorious|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex Draft
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Scizor, F|
+|poke|p1|Zygarde|
+|poke|p1|Deoxys-Defense|
+|poke|p1|Azumarill, F|
+|poke|p1|Thundurus, M|
+|poke|p1|Umbreon, M|
+|poke|p2|Charizard, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Slowking, F|
+|poke|p2|Florges, F|
+|poke|p2|Tangrowth, F|
+|poke|p2|Zoroark, M|
+|teampreview
+|c|☆OrangeVictorious|Glhf!
+|c|☆Deltarak|u2
+|
+|t:|1635019287
+|start
+|switch|p1a: Kracko|Thundurus, M|100\/100
+|switch|p2a: Odyssey|Tornadus-Therian, M|100\/100
+|turn|1
+|
+|t:|1635019399
+|move|p1a: Kracko|Volt Switch|p2a: Odyssey
+|-damage|p2a: Odyssey|19\/100
+|replace|p2a: Shade|Zoroark, M
+|-end|p2a: Shade|Illusion
+|
+|t:|1635019413
+|switch|p1a: Nightwish|Umbreon, M|100\/100|[from]move: Volt Switch
+|move|p2a: Shade|Night Daze|p1a: Nightwish
+|-resisted|p1a: Nightwish
+|-damage|p1a: Nightwish|89\/100
+|-unboost|p1a: Nightwish|accuracy|1
+|
+|-heal|p1a: Nightwish|95\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| Fennel in France
+|
+|t:|1635019503
+|move|p2a: Shade|Toxic|p1a: Nightwish
+|-status|p1a: Nightwish|tox
+|-activate|p1a: Nightwish|ability: Synchronize
+|-status|p2a: Shade|tox
+|move|p1a: Nightwish|Wish|p1a: Nightwish
+|
+|-heal|p1a: Nightwish|100\/100 tox|[from] item: Leftovers
+|-damage|p2a: Shade|12\/100 tox|[from] psn
+|-damage|p1a: Nightwish|94\/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1635019516
+|switch|p2a: Odyssey|Tornadus-Therian, M|100\/100
+|move|p1a: Nightwish|Heal Bell|p1a: Nightwish
+|-activate|p1a: Nightwish|move: Heal Bell
+|-curestatus|p1a: Nightwish|tox|[msg]
+|
+|-heal|p1a: Nightwish|100\/100|[from] move: Wish|[wisher] Nightwish
+|upkeep
+|turn|4
+|
+|t:|1635019535
+|move|p1a: Nightwish|Protect|p1a: Nightwish
+|-singleturn|p1a: Nightwish|Protect
+|move|p2a: Odyssey|Knock Off|p1a: Nightwish
+|-activate|p1a: Nightwish|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1635019577
+|switch|p1a: Kracko|Thundurus, M|100\/100
+|move|p2a: Odyssey|U-turn|p1a: Kracko
+|-resisted|p1a: Kracko
+|-damage|p1a: Kracko|89\/100
+|
+|t:|1635019644
+|switch|p2a: Hellfire|Charizard, F|100\/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|t:|1635019686
+|detailschange|p2a: Hellfire|Charizard-Mega-X, F
+|-mega|p2a: Hellfire|Charizard|Charizardite X
+|move|p1a: Kracko|Thunder Wave|p2a: Hellfire
+|-status|p2a: Hellfire|par
+|move|p2a: Hellfire|Flare Blitz|p1a: Kracko
+|-damage|p1a: Kracko|0 fnt
+|faint|p1a: Kracko
+|-damage|p2a: Hellfire|70\/100 par|[from] Recoil
+|
+|upkeep
+|j| Diviniya
+|
+|t:|1635019709
+|switch|p1a: Usami|Azumarill, F|100\/100
+|turn|7
+|
+|t:|1635019804
+|switch|p2a: Hellfire|Charizard-Mega-X, F|12\/100 tox
+|move|p1a: Usami|Substitute|p1a: Usami
+|-start|p1a: Usami|Substitute
+|-damage|p1a: Usami|75\/100
+|
+|-damage|p2a: Hellfire|6\/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1635019817
+|move|p2a: Hellfire|Night Daze|p1a: Usami
+|-resisted|p1a: Usami
+|-activate|p1a: Usami|move: Substitute|[damage]
+|move|p1a: Usami|Belly Drum|p1a: Usami
+|-damage|p1a: Usami|25\/100
+|-setboost|p1a: Usami|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Usami|Sitrus Berry|[eat]
+|-heal|p1a: Usami|50\/100|[from] item: Sitrus Berry
+|
+|-damage|p2a: Hellfire|0 fnt|[from] psn
+|faint|p2a: Hellfire
+|upkeep
+|
+|t:|1635019873
+|switch|p2a: Odyssey|Tornadus-Therian, M|100\/100
+|turn|9
+|
+|t:|1635019886
+|move|p1a: Usami|Aqua Jet|p2a: Odyssey
+|-damage|p2a: Odyssey|0 fnt
+|faint|p2a: Odyssey
+|
+|upkeep
+|
+|t:|1635019892
+|switch|p2a: Viney McVine Face|Tangrowth, F|100\/100
+|turn|10
+|
+|t:|1635019900
+|move|p1a: Usami|Play Rough|p2a: Viney McVine Face
+|-damage|p2a: Viney McVine Face|0 fnt
+|faint|p2a: Viney McVine Face
+|
+|upkeep
+|c|☆OrangeVictorious|That’s gg
+|
+|t:|1635019911
+|switch|p2a: King Rôm|Slowking, F, shiny|100\/100
+|turn|11
+|
+|t:|1635019916
+|move|p1a: Usami|Play Rough|p2a: King Rôm
+|-damage|p2a: King Rôm|0 fnt
+|faint|p2a: King Rôm
+|
+|upkeep
+|
+|t:|1635019922
+|switch|p2a: Hellfire|Charizard-Mega-X, F|70\/100 par
+|turn|12
+|
+|t:|1635019925
+|move|p1a: Usami|Aqua Jet|p2a: Hellfire
+|-damage|p2a: Hellfire|0 fnt
+|faint|p2a: Hellfire
+|
+|upkeep
+|
+|t:|1635019930
+|switch|p2a: Fauna|Florges, F|100\/100
+|turn|13
+|
+|t:|1635019934
+|move|p1a: Usami|Aqua Jet|p2a: Fauna
+|-damage|p2a: Fauna|0 fnt
+|faint|p2a: Fauna
+|
+|win|Deltarak

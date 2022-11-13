@@ -1,0 +1,336 @@
+|init|battle
+|title|CrunchBunch vs. WexfordWarri0r
+|j|☆CrunchBunch
+|j|☆WexfordWarri0r
+|t:|1635210237
+|gametype|doubles
+|player|p1|CrunchBunch|hiker-gen4|
+|player|p2|WexfordWarri0r|blue|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] VGC 2021 Series 10
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Toxapex, L50, M|
+|poke|p1|Spectrier, L50|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Togedemaru, L50, M|
+|poke|p2|Mudsdale, L50, M|
+|poke|p2|Entei, L50|
+|poke|p2|Dracovish, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Mesprit, L50|
+|poke|p2|Unfezant, L50, M|
+|teampreview|4
+|j| kmilly132
+|j| CoolGummyBear
+|j| justincl19
+|c|☆WexfordWarri0r|whatever happens gg brother glhf <3
+|j| ishouldregister
+|j| NucleaRooster4
+|c|☆CrunchBunch|glhf~
+|j| elitherebel
+|c|☆CrunchBunch|game 3 hype
+|
+|t:|1635210339
+|start
+|switch|p1a: Over Here!|Indeedee-F, L50, F, shiny|100\/100
+|switch|p1b: Sebastian|Spectrier, L50|100\/100
+|switch|p2a: Twinkerbell|Whimsicott, L50, M|100\/100
+|switch|p2b: Kaji|Entei, L50|100\/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Over Here!
+|turn|1
+|
+|t:|1635210367
+|move|p2a: Twinkerbell|Protect|p2a: Twinkerbell
+|-singleturn|p2a: Twinkerbell|Protect
+|move|p1b: Sebastian|Shadow Ball|p2a: Twinkerbell
+|-activate|p2a: Twinkerbell|move: Protect
+|move|p2b: Kaji|Snarl|p1b: Sebastian|[spread] p1a,p1b
+|-supereffective|p1a: Over Here!
+|-supereffective|p1b: Sebastian
+|-damage|p1a: Over Here!|77\/100
+|-damage|p1b: Sebastian|69\/100
+|-unboost|p1a: Over Here!|spa|1
+|-unboost|p1b: Sebastian|spa|1
+|move|p1a: Over Here!|Expanding Force|p2a: Twinkerbell|[spread] p2b
+|-activate|p2a: Twinkerbell|move: Protect
+|-damage|p2b: Kaji|75\/100
+|
+|upkeep
+|turn|2
+|
+|t:|1635210436
+|move|p1b: Sebastian|Shadow Ball|p2a: Twinkerbell
+|-damage|p2a: Twinkerbell|52\/100
+|move|p2b: Kaji|Snarl|p1a: Over Here!|[spread] p1a,p1b
+|-supereffective|p1a: Over Here!
+|-supereffective|p1b: Sebastian
+|-damage|p1a: Over Here!|53\/100
+|-damage|p1b: Sebastian|43\/100
+|-unboost|p1a: Over Here!|spa|1
+|-unboost|p1b: Sebastian|spa|1
+|move|p1a: Over Here!|Expanding Force|p2a: Twinkerbell|[spread] p2a,p2b
+|-damage|p2a: Twinkerbell|23\/100
+|-damage|p2b: Kaji|55\/100
+|move|p2a: Twinkerbell|Trick Room|p2a: Twinkerbell
+|-fieldstart|move: Trick Room|[of] p2a: Twinkerbell
+|
+|upkeep
+|turn|3
+|j| Griffin07
+|
+|t:|1635210457
+|switch|p2a: mr . fish|Dracovish, L50|100\/100
+|switch|p1b: Mariah Carey|Sylveon, L50, M, shiny|100\/100
+|move|p1a: Over Here!|Reflect|p1a: Over Here!
+|-sidestart|p1: CrunchBunch|Reflect
+|move|p2b: Kaji|Snarl|p1b: Mariah Carey|[spread] p1a,p1b
+|-supereffective|p1a: Over Here!
+|-resisted|p1b: Mariah Carey
+|-damage|p1a: Over Here!|27\/100
+|-damage|p1b: Mariah Carey|97\/100
+|-unboost|p1a: Over Here!|spa|1
+|-unboost|p1b: Mariah Carey|spa|1
+|-enditem|p1a: Over Here!|Sitrus Berry|[eat]
+|-heal|p1a: Over Here!|52\/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|4
+|
+|t:|1635210473
+|move|p1a: Over Here!|Follow Me|p1a: Over Here!
+|-singleturn|p1a: Over Here!|move: Follow Me
+|move|p2a: mr . fish|Fishious Rend|p1a: Over Here!
+|-damage|p1a: Over Here!|13\/100
+|move|p1b: Mariah Carey|Hyper Voice|p2a: mr . fish|[spread] p2a,p2b
+|-supereffective|p2a: mr . fish
+|-resisted|p2b: Kaji
+|-damage|p2a: mr . fish|33\/100
+|-damage|p2b: Kaji|38\/100
+|move|p2b: Kaji|Snarl|p1a: Over Here!|[spread] p1a,p1b
+|-supereffective|p1a: Over Here!
+|-crit|p1a: Over Here!
+|-resisted|p1b: Mariah Carey
+|-damage|p1a: Over Here!|0 fnt
+|-damage|p1b: Mariah Carey|93\/100
+|-unboost|p1b: Mariah Carey|spa|1
+|faint|p1a: Over Here!
+|
+|upkeep
+|
+|t:|1635210482
+|switch|p1a: Critney Spears|Toxapex, L50, M, shiny|100\/100
+|turn|5
+|
+|t:|1635210492
+|move|p1b: Mariah Carey|Protect|p1b: Mariah Carey
+|-singleturn|p1b: Mariah Carey|Protect
+|move|p2a: mr . fish|Psychic Fangs|p1a: Critney Spears
+|-sideend|p1: CrunchBunch|Reflect
+|-supereffective|p1a: Critney Spears
+|-damage|p1a: Critney Spears|42\/100
+|move|p1a: Critney Spears|Sludge Bomb|p2a: mr . fish
+|-damage|p2a: mr . fish|15\/100
+|move|p2b: Kaji|Snarl|p1a: Critney Spears|[spread] p1a
+|-activate|p1b: Mariah Carey|move: Protect
+|-damage|p1a: Critney Spears|32\/100
+|-unboost|p1a: Critney Spears|spa|1
+|
+|-heal|p1a: Critney Spears|37\/100|[from] item: Black Sludge
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1635210514
+|switch|p1b: Sebastian|Spectrier, L50|43\/100
+|move|p1a: Critney Spears|Baneful Bunker|p1a: Critney Spears
+|-singleturn|p1a: Critney Spears|move: Protect
+|move|p2a: mr . fish|Fishious Rend|p1b: Sebastian
+|-damage|p1b: Sebastian|0 fnt
+|faint|p1b: Sebastian
+|move|p2b: Kaji|Snarl|p1a: Critney Spears
+|-activate|p1a: Critney Spears|move: Protect
+|
+|-heal|p1a: Critney Spears|43\/100|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1635210521
+|switch|p1b: Mariah Carey|Sylveon, L50, M, shiny|93\/100
+|turn|7
+|
+|t:|1635210532
+|move|p2a: mr . fish|Protect|p2a: mr . fish
+|-singleturn|p2a: mr . fish|Protect
+|move|p2b: Kaji|Snarl|p1b: Mariah Carey|[spread] p1a,p1b
+|-resisted|p1b: Mariah Carey
+|-damage|p1a: Critney Spears|32\/100
+|-damage|p1b: Mariah Carey|88\/100
+|-unboost|p1a: Critney Spears|spa|1
+|-unboost|p1b: Mariah Carey|spa|1
+|move|p1b: Mariah Carey|Hyper Voice|p2a: mr . fish|[spread] p2b
+|-activate|p2a: mr . fish|move: Protect
+|-resisted|p2b: Kaji
+|-damage|p2b: Kaji|21\/100
+|move|p1a: Critney Spears|Recover|p1a: Critney Spears
+|-heal|p1a: Critney Spears|82\/100
+|
+|-heal|p1a: Critney Spears|88\/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1635210566
+|move|p2b: Kaji|Snarl|p1a: Critney Spears|[spread] p1a,p1b
+|-resisted|p1b: Mariah Carey
+|-damage|p1a: Critney Spears|78\/100
+|-damage|p1b: Mariah Carey|84\/100
+|-unboost|p1a: Critney Spears|spa|1
+|-unboost|p1b: Mariah Carey|spa|1
+|move|p1b: Mariah Carey|Hyper Voice|p2a: mr . fish|[spread] p2a,p2b
+|-supereffective|p2a: mr . fish
+|-resisted|p2b: Kaji
+|-damage|p2a: mr . fish|0 fnt
+|-damage|p2b: Kaji|8\/100
+|faint|p2a: mr . fish
+|move|p1a: Critney Spears|Muddy Water|p2b: Kaji
+|-supereffective|p2b: Kaji
+|-damage|p2b: Kaji|0 fnt
+|faint|p2b: Kaji
+|
+|-heal|p1a: Critney Spears|83\/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1635210574
+|switch|p2b: Hapu|Mudsdale, L50, M|100\/100
+|switch|p2a: Twinkerbell|Whimsicott, L50, M|23\/100
+|turn|9
+|
+|t:|1635210604
+|move|p1b: Mariah Carey|Protect|p1b: Mariah Carey
+|-singleturn|p1b: Mariah Carey|Protect
+|move|p1a: Critney Spears|Baneful Bunker|p1a: Critney Spears
+|-singleturn|p1a: Critney Spears|move: Protect
+|move|p2a: Twinkerbell|Tailwind|p2a: Twinkerbell
+|-sidestart|p2: WexfordWarri0r|move: Tailwind
+|move|p2b: Hapu|High Horsepower|p1b: Mariah Carey
+|-activate|p1b: Mariah Carey|move: Protect
+|
+|-heal|p1a: Critney Spears|89\/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1635210619
+|move|p2a: Twinkerbell|Protect|p2a: Twinkerbell
+|-singleturn|p2a: Twinkerbell|Protect
+|move|p1b: Mariah Carey|Hyper Voice|p2b: Hapu|[spread] p2b
+|-activate|p2a: Twinkerbell|move: Protect
+|-crit|p2b: Hapu
+|-damage|p2b: Hapu|54\/100
+|move|p2b: Hapu|High Horsepower|p1a: Critney Spears|[miss]
+|-miss|p2b: Hapu|p1a: Critney Spears
+|move|p1a: Critney Spears|Muddy Water|p2a: Twinkerbell|[spread] p2b
+|-activate|p2a: Twinkerbell|move: Protect
+|-supereffective|p2b: Hapu
+|-damage|p2b: Hapu|47\/100
+|
+|-heal|p1a: Critney Spears|95\/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|c| kmilly132|OH MY
+|
+|t:|1635210683
+|move|p2a: Twinkerbell|Moonblast|p1b: Mariah Carey
+|-damage|p1b: Mariah Carey|60\/100
+|-unboost|p1b: Mariah Carey|spa|1
+|move|p1b: Mariah Carey|Moonblast|p2b: Hapu
+|-damage|p2b: Hapu|34\/100
+|-unboost|p2b: Hapu|spa|1
+|move|p2b: Hapu|High Horsepower|p1b: Mariah Carey
+|-damage|p1b: Mariah Carey|0 fnt
+|faint|p1b: Mariah Carey
+|move|p1a: Critney Spears|Sludge Bomb|p2a: Twinkerbell
+|-supereffective|p2a: Twinkerbell
+|-damage|p2a: Twinkerbell|0 fnt
+|faint|p2a: Twinkerbell
+|
+|-heal|p1a: Critney Spears|100\/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1635210709
+|move|p1a: Critney Spears|Baneful Bunker|p1a: Critney Spears
+|-singleturn|p1a: Critney Spears|move: Protect
+|move|p2b: Hapu|Rock Slide|p1a: Critney Spears
+|-activate|p1a: Critney Spears|move: Protect
+|
+|-sideend|p2: WexfordWarri0r|move: Tailwind
+|upkeep
+|turn|13
+|
+|t:|1635210720
+|move|p1a: Critney Spears|Recover||[still]
+|-fail|p1a: Critney Spears|heal
+|move|p2b: Hapu|High Horsepower|p1a: Critney Spears
+|-supereffective|p1a: Critney Spears
+|-damage|p1a: Critney Spears|43\/100
+|
+|-heal|p1a: Critney Spears|49\/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1635210738
+|move|p1a: Critney Spears|Baneful Bunker|p1a: Critney Spears
+|-singleturn|p1a: Critney Spears|move: Protect
+|move|p2b: Hapu|High Horsepower|p1a: Critney Spears
+|-activate|p1a: Critney Spears|move: Protect
+|-status|p2b: Hapu|psn
+|
+|-heal|p1a: Critney Spears|55\/100|[from] item: Black Sludge
+|-damage|p2b: Hapu|22\/100 psn|[from] psn
+|upkeep
+|turn|15
+|l|☆WexfordWarri0r
+|player|p2|
+|c| elitherebel|TIMER WIN?!?!?!?!
+|c| elitherebel|NANI?!?!?!?!
+|j|☆WexfordWarri0r
+|player|p2|WexfordWarri0r|blue
+|
+|t:|1635210813
+|move|p1a: Critney Spears|Recover|p1a: Critney Spears
+|-heal|p1a: Critney Spears|100\/100
+|move|p2b: Hapu|Rock Slide|p1a: Critney Spears
+|-damage|p1a: Critney Spears|83\/100
+|
+|-heal|p1a: Critney Spears|89\/100|[from] item: Black Sludge
+|-damage|p2b: Hapu|10\/100 psn|[from] psn
+|upkeep
+|turn|16
+|c|☆WexfordWarri0r|WHAT
+|c|☆WexfordWarri0r|NO
+|c| elitherebel|Misclick?
+|c|☆WexfordWarri0r|I DIDNT CLICK ANYTHING IT DID IT WHEN I WAS GONE
+|c|☆WexfordWarri0r|no
+|c|☆WexfordWarri0r|bro
+|c| justincl19|it wouldnt have mattered unless you crit
+|c| justincl19|if that makes you feel better
+|c| elitherebel|The Agency has seen enough
+|c|☆WexfordWarri0r|if i click hh does more than half, then this is a toss up
+|
+|t:|1635210909
+|move|p1a: Critney Spears|Baneful Bunker|p1a: Critney Spears
+|-singleturn|p1a: Critney Spears|move: Protect
+|move|p2b: Hapu|Rock Slide|p1a: Critney Spears
+|-activate|p1a: Critney Spears|move: Protect
+|
+|-heal|p1a: Critney Spears|95\/100|[from] item: Black Sludge
+|-damage|p2b: Hapu|0 fnt|[from] psn
+|faint|p2b: Hapu
+|
+|win|CrunchBunch

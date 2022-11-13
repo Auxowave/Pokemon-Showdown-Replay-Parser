@@ -1,0 +1,374 @@
+|init|battle
+|title|Auxotest3 vs. Auxotest4
+|j|☆Auxotest3
+|j|☆Auxotest4
+|t:|1666267394
+|gametype|doubles
+|player|p1|Auxotest3|hilbert|
+|player|p2|Auxotest4|hilbert|
+|teamsize|p1|4
+|teamsize|p2|4
+|gen|8
+|tier|[Gen 8] National Dex Leaks VGC
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Serperior, L50, F|
+|poke|p1|Barbaracle, L50, F|
+|poke|p1|Victini, L50|
+|poke|p1|Heatran, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Xurkitree, L50|
+|poke|p2|Groudon, L50|
+|teampreview|4
+|html|<button name="send" class="button" value="/timer ds"><i class="fa fa-hourglass-start"></i> DS Timer</button> <button name="send" class="button" value="/timer smogon"><i class="fa fa-hourglass-start"></i> Smogon Timer</button>
+|
+|t:|1666267414
+|start
+|switch|p1a: Serperior|Serperior, L50, F|100/100
+|switch|p1b: Barbaracle|Barbaracle, L50, F|100/100
+|switch|p2a: Excadrill|Excadrill, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|turn|1
+|j| DiegoNegro
+|j| SCDA-Magneton
+
+|c| SCDA-Magneton|Nail biter or one sided ass kicking, I wonder which it will be
+|
+|t:|1666267458
+|move|p1a: Serperior|Bind|p2b: Garchomp
+|-damage|p2b: Garchomp|97/100
+|-activate|p2b: Garchomp|move: Bind|[of] p1a: Serperior
+|move|p2b: Garchomp|Whirlpool|p1b: Barbaracle
+|-damage|p1b: Barbaracle|93/100
+|-activate|p1b: Barbaracle|move: Whirlpool|[of] p2b: Garchomp
+|move|p2a: Excadrill|Sand Tomb|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|90/100
+|-activate|p1a: Serperior|move: Sand Tomb|[of] p2a: Excadrill
+|move|p1b: Barbaracle|Clamp|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|42/100
+|-activate|p2a: Excadrill|move: Clamp|[of] p1b: Barbaracle
+|
+|-damage|p1a: Serperior|78/100|[from] move: Sand Tomb|[partiallytrapped]
+|-damage|p2b: Garchomp|85/100|[from] move: Bind|[partiallytrapped]
+|-damage|p2a: Excadrill|30/100|[from] move: Clamp|[partiallytrapped]
+|-damage|p1b: Barbaracle|80/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1666267485
+|move|p1a: Serperior|Calm Mind|p1a: Serperior
+|-unboost|p1a: Serperior|spa|1
+|-unboost|p1a: Serperior|spd|1
+|move|p2b: Garchomp|Swords Dance|p2b: Garchomp
+|-boost|p2b: Garchomp|atk|2
+|move|p2a: Excadrill|Iron Defense|p2a: Excadrill
+|-boost|p2a: Excadrill|def|2
+|move|p1b: Barbaracle|Bulk Up|p1b: Barbaracle
+|-boost|p1b: Barbaracle|atk|1
+|-boost|p1b: Barbaracle|def|1
+|
+|-damage|p1a: Serperior|66/100|[from] move: Sand Tomb|[partiallytrapped]
+|-damage|p2b: Garchomp|73/100|[from] move: Bind|[partiallytrapped]
+|-damage|p2a: Excadrill|18/100|[from] move: Clamp|[partiallytrapped]
+|-damage|p1b: Barbaracle|68/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1666267503
+|move|p1a: Serperior|Calm Mind|p1a: Serperior
+|-unboost|p1a: Serperior|spa|1
+|-unboost|p1a: Serperior|spd|1
+|move|p2b: Garchomp|Hone Claws|p2b: Garchomp
+|-boost|p2b: Garchomp|atk|1
+|-boost|p2b: Garchomp|accuracy|1
+|move|p2a: Excadrill|Hone Claws|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|1
+|-boost|p2a: Excadrill|accuracy|1
+|move|p1b: Barbaracle|Bulk Up|p1b: Barbaracle
+|-boost|p1b: Barbaracle|atk|1
+|-boost|p1b: Barbaracle|def|1
+|
+|-damage|p1a: Serperior|54/100|[from] move: Sand Tomb|[partiallytrapped]
+|-damage|p2b: Garchomp|60/100|[from] move: Bind|[partiallytrapped]
+|-damage|p2a: Excadrill|5/100|[from] move: Clamp|[partiallytrapped]
+|-damage|p1b: Barbaracle|56/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1666267534
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Serperior|Calm Mind|p1a: Serperior
+|-unboost|p1a: Serperior|spa|1
+|-unboost|p1a: Serperior|spd|1
+|move|p2a: Excadrill|Iron Defense|p2a: Excadrill
+|-boost|p2a: Excadrill|def|2
+|move|p1b: Barbaracle|Iron Defense|p1b: Barbaracle
+|-boost|p1b: Barbaracle|def|2
+|
+|-damage|p1a: Serperior|42/100|[from] move: Sand Tomb|[partiallytrapped]
+|-damage|p2b: Garchomp|48/100|[from] move: Bind|[partiallytrapped]
+|-damage|p2a: Excadrill|0 fnt|[from] move: Clamp|[partiallytrapped]
+|faint|p2a: Excadrill
+|-damage|p1b: Barbaracle|44/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|
+|t:|1666267550
+|switch|p2a: Xurkitree|Xurkitree, L50|100/100
+|turn|5
+|
+|t:|1666267566
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Serperior|Calm Mind|p1a: Serperior
+|-unboost|p1a: Serperior|spa|1
+|-unboost|p1a: Serperior|spd|1
+|move|p2a: Xurkitree|Reflect|p2a: Xurkitree
+|-sidestart|p2: Auxotest4|Reflect
+|move|p1b: Barbaracle|Iron Defense|p1b: Barbaracle
+|-boost|p1b: Barbaracle|def|2
+|
+|-end|p1a: Serperior|Sand Tomb|[partiallytrapped]|[silent]
+|-damage|p2b: Garchomp|36/100|[from] move: Bind|[partiallytrapped]
+|-damage|p1b: Barbaracle|31/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1666267588
+|move|p2b: Garchomp|Protect||[still]
+|-fail|p2b: Garchomp
+|move|p1a: Serperior|Calm Mind|p1a: Serperior
+|-unboost|p1a: Serperior|spa|1
+|-unboost|p1a: Serperior|spd|1
+|move|p2a: Xurkitree|Light Screen|p2a: Xurkitree
+|-sidestart|p2: Auxotest4|move: Light Screen
+|move|p1b: Barbaracle|Iron Defense|p1b: Barbaracle
+|-boost|p1b: Barbaracle|def|0
+|
+|-end|p2b: Garchomp|Bind|[partiallytrapped]
+|-end|p1b: Barbaracle|Whirlpool|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1666267622
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Serperior|Bind|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Protect
+|move|p2a: Xurkitree|Wrap|p1b: Barbaracle
+|-resisted|p1b: Barbaracle
+|-damage|p1b: Barbaracle|31/100
+|-activate|p1b: Barbaracle|move: Wrap|[of] p2a: Xurkitree
+|move|p1b: Barbaracle|Iron Defense|p1b: Barbaracle
+|-boost|p1b: Barbaracle|def|0
+|
+|-damage|p1b: Barbaracle|18/100|[from] move: Wrap|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1666267641
+|move|p2b: Garchomp|Protect||[still]
+|-fail|p2b: Garchomp
+|move|p1a: Serperior|Bind|p2b: Garchomp
+|-damage|p2b: Garchomp|34/100
+|-activate|p2b: Garchomp|move: Bind|[of] p1a: Serperior
+|move|p2a: Xurkitree|Wrap|p1b: Barbaracle
+|-resisted|p1b: Barbaracle
+|-damage|p1b: Barbaracle|18/100
+|move|p1b: Barbaracle|Iron Defense|p1b: Barbaracle
+|-boost|p1b: Barbaracle|def|0
+|
+|-damage|p2b: Garchomp|22/100|[from] move: Bind|[partiallytrapped]
+|-damage|p1b: Barbaracle|6/100|[from] move: Wrap|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1666267660
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Serperior|Calm Mind|p1a: Serperior
+|-unboost|p1a: Serperior|spa|1
+|-unboost|p1a: Serperior|spd|1
+|move|p2a: Xurkitree|Reflect||[still]
+|-fail|p2a: Xurkitree
+|move|p1b: Barbaracle|Iron Defense|p1b: Barbaracle
+|-boost|p1b: Barbaracle|def|0
+|
+|-damage|p2b: Garchomp|10/100|[from] move: Bind|[partiallytrapped]
+|-damage|p1b: Barbaracle|0 fnt|[from] move: Wrap|[partiallytrapped]
+|faint|p1b: Barbaracle
+|-sideend|p2: Auxotest4|Reflect
+|upkeep
+|
+|t:|1666267666
+|switch|p1b: Victini|Victini, L50|100/100
+|turn|10
+|
+|t:|1666267696
+|move|p1a: Serperior|Light Screen|p1a: Serperior
+|-sidestart|p1: Auxotest3|move: Light Screen
+|move|p2b: Garchomp|Whirlpool|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|32/100
+|-activate|p1a: Serperior|move: Whirlpool|[of] p2b: Garchomp
+|move|p1b: Victini|Fire Spin|p2a: Xurkitree
+|-damage|p2a: Xurkitree|89/100
+|-activate|p2a: Xurkitree|move: Fire Spin|[of] p1b: Victini
+|move|p2a: Xurkitree|Reflect|p2a: Xurkitree
+|-sidestart|p2: Auxotest4|Reflect
+|
+|-damage|p1a: Serperior|20/100|[from] move: Whirlpool|[partiallytrapped]
+|-damage|p2b: Garchomp|0 fnt|[from] move: Bind|[partiallytrapped]
+|faint|p2b: Garchomp
+|-damage|p2a: Xurkitree|77/100|[from] move: Fire Spin|[partiallytrapped]
+|-sideend|p2: Auxotest4|move: Light Screen
+|upkeep
+|-enditem|p1a: Serperior|Aguav Berry|[eat]
+|-heal|p1a: Serperior|53/100|[from] item: Aguav Berry
+|
+|t:|1666267711
+|switch|p2b: Groudon|Groudon, L50|100/100
+|detailschange|p2b: Groudon|Groudon-Primal, L50
+|-primal|p2b: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2b: Groudon
+|turn|11
+|
+|t:|1666267730
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1a: Serperior|Calm Mind|p1a: Serperior
+|-unboost|p1a: Serperior|spa|0
+|-unboost|p1a: Serperior|spd|0
+|move|p1b: Victini|Celebrate|p1b: Victini
+|-activate|p1b: Victini|move: Celebrate
+|move|p2a: Xurkitree|Light Screen|p2a: Xurkitree
+|-sidestart|p2: Auxotest4|move: Light Screen
+|
+|-weather|DesolateLand|[upkeep]
+|-end|p1a: Serperior|Whirlpool|[partiallytrapped]|[silent]
+|-damage|p2a: Xurkitree|65/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1666267747
+|move|p2b: Groudon|Protect||[still]
+|-fail|p2b: Groudon
+|move|p1a: Serperior|Light Screen||[still]
+|-fail|p1a: Serperior
+|move|p1b: Victini|Celebrate|p1b: Victini
+|-activate|p1b: Victini|move: Celebrate
+|move|p2a: Xurkitree|Reflect||[still]
+|-fail|p2a: Xurkitree
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Xurkitree|53/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1666267752
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1a: Serperior|Light Screen||[still]
+|-fail|p1a: Serperior
+|move|p1b: Victini|Safeguard|p1b: Victini
+|-sidestart|p1: Auxotest3|Safeguard
+|move|p2a: Xurkitree|Reflect||[still]
+|-fail|p2a: Xurkitree
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Xurkitree|41/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1666267770
+|move|p1a: Serperior|Light Screen||[still]
+|-fail|p1a: Serperior
+|move|p2b: Groudon|Fire Punch|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2a: Xurkitree|Reflect||[still]
+|-fail|p2a: Xurkitree
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Xurkitree|29/100|[from] move: Fire Spin|[partiallytrapped]
+|-sideend|p2: Auxotest4|Reflect
+|-sideend|p1: Auxotest3|move: Light Screen
+|upkeep
+|
+|t:|1666267782
+|switch|p1a: Heatran|Heatran, L50, F|100/100
+|turn|15
+|
+|t:|1666267794
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2a: Xurkitree|Reflect|p2a: Xurkitree
+|-sidestart|p2: Auxotest4|Reflect
+|move|p1a: Heatran|Magma Storm|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|
+|-weather|DesolateLand|[upkeep]
+|-end|p2a: Xurkitree|Fire Spin|[partiallytrapped]
+|-sideend|p2: Auxotest4|move: Light Screen
+|upkeep
+|turn|16
+|
+|t:|1666267804
+|move|p2b: Groudon|Protect||[still]
+|-fail|p2b: Groudon
+|move|p1b: Victini|Fire Spin|p2a: Xurkitree
+|-damage|p2a: Xurkitree|5/100
+|-activate|p2a: Xurkitree|move: Fire Spin|[of] p1b: Victini
+|move|p2a: Xurkitree|Reflect||[still]
+|-fail|p2a: Xurkitree
+|move|p1a: Heatran|Magma Storm|p2b: Groudon
+|-resisted|p2b: Groudon
+|-damage|p2b: Groudon|63/100
+|-activate|p2b: Groudon|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2b: Groudon|51/100|[from] move: Magma Storm|[partiallytrapped]
+|-damage|p2a: Xurkitree|0 fnt|[from] move: Fire Spin|[partiallytrapped]
+|faint|p2a: Xurkitree
+|upkeep
+|turn|17
+|
+|t:|1666267826
+|move|p2b: Groudon|Swords Dance|p2b: Groudon
+|-boost|p2b: Groudon|atk|2
+|move|p1b: Victini|Celebrate|p1b: Victini
+|-activate|p1b: Victini|move: Celebrate
+|move|p1a: Heatran|Magma Storm|p2b: Groudon
+|-resisted|p2b: Groudon
+|-damage|p2b: Groudon|17/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2b: Groudon|5/100|[from] move: Magma Storm|[partiallytrapped]
+|-sideend|p1: Auxotest3|Safeguard
+|upkeep
+|turn|18
+|
+|t:|1666267838
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Victini|Celebrate|p1b: Victini
+|-activate|p1b: Victini|move: Celebrate
+|move|p1a: Heatran|Iron Defense|p1a: Heatran
+|-boost|p1a: Heatran|def|2
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2b: Groudon|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2b: Groudon
+|-weather|none
+|
+|win|Auxotest3
+|upkeep

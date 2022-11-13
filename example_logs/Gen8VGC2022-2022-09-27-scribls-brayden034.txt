@@ -1,0 +1,219 @@
+|init|battle
+|title|Scribls vs. Brayden034
+|j|☆Scribls
+|j|☆Brayden034
+|t:|1664238042
+|gametype|doubles
+|player|p1|Scribls|palmer|
+|player|p2|Brayden034|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] VGC 2022
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Kingdra, L50, F|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Tapu Koko, L50|
+|poke|p1|Xerneas-*, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Klefki, L50, M|
+|poke|p2|Heliolisk, L50, F|
+|poke|p2|Terrakion, L50|
+|teampreview|4
+|c|☆Scribls|g3
+|c|☆Brayden034|glhf
+|c|☆Scribls|gl hf
+|j| Auxowave
+|j| SpadesHS
+|
+|t:|1664238857
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100\/100
+|switch|p1b: Kingdra|Kingdra, L50, F|100\/100
+|switch|p2a: Venusaur|Venusaur, L50, M|100\/100
+|switch|p2b: Klefki|Klefki, L50, M|100\/100
+|turn|1
+|
+|t:|1664238898
+|-start|p1b: Kingdra|Dynamax|
+|-heal|p1b: Kingdra|100\/100|[silent]
+|move|p1a: Gothitelle|Fake Out|p2a: Venusaur
+|-damage|p2a: Venusaur|94\/100
+|move|p2b: Klefki|Sunny Day|p2b: Klefki
+|-weather|SunnyDay
+|cant|p2a: Venusaur|flinch
+|move|p1b: Kingdra|Max Airstream|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|-boost|p1a: Gothitelle|spe|1
+|-boost|p1b: Kingdra|spe|1
+|faint|p2a: Venusaur
+|-damage|p1b: Kingdra|96\/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1664238917
+|switch|p2a: Heliolisk|Heliolisk, L50, F|100\/100
+|turn|2
+|
+|t:|1664238968
+|move|p1b: Kingdra|Max Guard|p1b: Kingdra
+|-singleturn|p1b: Kingdra|Max Guard
+|move|p2a: Heliolisk|Protect|p2a: Heliolisk
+|-singleturn|p2a: Heliolisk|Protect
+|move|p1a: Gothitelle|Psychic|p2a: Heliolisk
+|-activate|p2a: Heliolisk|move: Protect
+|move|p2b: Klefki|Dazzling Gleam|p1b: Kingdra|[spread] p1a
+|-activate|p1b: Kingdra|move: Max Guard
+|-damage|p1a: Gothitelle|84\/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Heliolisk|88\/100|[from] ability: Solar Power|[of] p2a: Heliolisk
+|upkeep
+|turn|3
+|
+|t:|1664238992
+|move|p2b: Klefki|Thunder Wave|p1b: Kingdra
+|-status|p1b: Kingdra|par
+|move|p2a: Heliolisk|Electroweb|p1a: Gothitelle|[spread] p1b
+|-miss|p2a: Heliolisk|p1a: Gothitelle
+|-damage|p1b: Kingdra|76\/100 par
+|-unboost|p1b: Kingdra|spe|1
+|move|p1a: Gothitelle|Psychic|p2b: Klefki
+|-resisted|p2b: Klefki
+|-damage|p2b: Klefki|85\/100
+|move|p1b: Kingdra|Max Wyrmwind|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|-unboost|p2b: Klefki|atk|1
+|faint|p2a: Heliolisk
+|-damage|p1b: Kingdra|71\/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Klefki|91\/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1664239009
+|switch|p2a: Groudon|Groudon, L50|100\/100
+|-end|p1b: Kingdra|Dynamax
+|-heal|p1b: Kingdra|72\/100 par|[silent]
+|turn|4
+|
+|t:|1664239021
+|move|p1b: Kingdra|Protect|p1b: Kingdra
+|-singleturn|p1b: Kingdra|Protect
+|move|p1a: Gothitelle|Charm|p2a: Groudon
+|-unboost|p2a: Groudon|atk|2
+|move|p2a: Groudon|Precipice Blades|p1a: Gothitelle|[spread] p1a
+|-activate|p1b: Kingdra|move: Protect
+|-damage|p1a: Gothitelle|56\/100
+|move|p2b: Klefki|Dazzling Gleam|p1a: Gothitelle|[spread] p1a
+|-activate|p1b: Kingdra|move: Protect
+|-damage|p1a: Gothitelle|39\/100
+|-enditem|p1a: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1a: Gothitelle|64\/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Klefki|97\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1664239046
+|switch|p1a: Politoed|Politoed, L50, M|100\/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Groudon|Precipice Blades|p1b: Kingdra|[spread] p1a,p1b
+|-damage|p1a: Politoed|78\/100
+|-damage|p1b: Kingdra|37\/100 par
+|move|p1b: Kingdra|Hydro Pump|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-damage|p1b: Kingdra|28\/100 par|[from] item: Life Orb
+|move|p2b: Klefki|Dazzling Gleam|p1b: Kingdra|[spread] p1a,p1b
+|-supereffective|p1b: Kingdra
+|-damage|p1a: Politoed|61\/100
+|-damage|p1b: Kingdra|0 fnt
+|faint|p1b: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Klefki|100\/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1664239049
+|switch|p1b: Gothitelle|Gothitelle, L50, M|64\/100
+|turn|6
+|
+|t:|1664239069
+|move|p1b: Gothitelle|Fake Out|p2b: Klefki
+|-resisted|p2b: Klefki
+|-damage|p2b: Klefki|97\/100
+|cant|p2b: Klefki|flinch
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2b: Klefki|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Klefki|100\/100|[from] item: Leftovers
+|-start|p1b: Gothitelle|perish3
+|-start|p2b: Klefki|perish3
+|-start|p1a: Politoed|perish3
+|upkeep
+|turn|7
+|
+|t:|1664239087
+|switch|p1b: Xerneas|Xerneas, L50|100\/100
+|-ability|p1b: Xerneas|Fairy Aura
+|-start|p2b: Klefki|Dynamax|
+|-heal|p2b: Klefki|100\/100|[silent]
+|move|p2b: Klefki|Max Starfall|p1b: Xerneas
+|-damage|p1b: Xerneas|72\/100
+|-fieldstart|move: Misty Terrain
+|move|p1a: Politoed|Scald|p2b: Klefki
+|-damage|p2b: Klefki|83\/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Klefki|86\/100|[from] item: Leftovers
+|-start|p2b: Klefki|perish2
+|-start|p1a: Politoed|perish2
+|upkeep
+|turn|8
+|
+|t:|1664239104
+|switch|p1b: Gothitelle|Gothitelle, L50, M|64\/100
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2b: Klefki|Max Steelspike|p1b: Gothitelle
+|-damage|p1b: Gothitelle|29\/100
+|-boost|p2b: Klefki|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Klefki|89\/100|[from] item: Leftovers
+|-start|p2b: Klefki|perish1
+|-start|p1a: Politoed|perish1
+|upkeep
+|turn|9
+|
+|t:|1664239120
+|switch|p1a: Xerneas|Xerneas, L50|72\/100
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p1b: Gothitelle|Psychic|p2b: Klefki
+|-resisted|p2b: Klefki
+|-damage|p2b: Klefki|80\/100
+|move|p2b: Klefki|Max Starfall|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|
+|-weather|none
+|-heal|p2b: Klefki|83\/100|[from] item: Leftovers
+|-start|p2b: Klefki|perish0
+|faint|p2b: Klefki
+|
+|win|Scribls

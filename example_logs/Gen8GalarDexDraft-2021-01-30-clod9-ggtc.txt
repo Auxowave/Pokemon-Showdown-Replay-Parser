@@ -1,0 +1,575 @@
+|init|battle|
+|title|clod9 vs. Ggtc
+|j|☆clod9
+|j|☆Ggtc
+|t:|1612030145
+|player|p1|clod9|ghetsis-gen5bw|
+|player|p2|Ggtc|scientist-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Galar Dex Draft
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Latios, M|
+|poke|p1|Terrakion|
+|poke|p1|Rotom-Wash|
+|poke|p1|Nidoqueen, F|
+|poke|p1|Snorlax, F|
+|poke|p1|Aromatisse, F|
+|poke|p2|Zeraora|
+|poke|p2|Buzzwole|
+|poke|p2|Goodra, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Swampert, F|
+|poke|p2|Kangaskhan, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Ggtc|gl hf!
+|c|☆clod9|you too
+|
+|t:|1612030227
+|start
+|switch|p1a: Warm Shoot|Rotom-Wash|100\/100
+|switch|p2a: Buzzwole|Buzzwole|100\/100
+|turn|1
+|
+|t:|1612030233
+|switch|p2a: Kangaskhan|Kangaskhan, F|100\/100
+|move|p1a: Warm Shoot|Trick|p2a: Kangaskhan
+|-activate|p1a: Warm Shoot|move: Trick|[of] p2a: Kangaskhan
+|-item|p2a: Kangaskhan|Sticky Barb|[from] move: Trick
+|-item|p1a: Warm Shoot|Choice Band|[from] move: Trick
+|
+|-damage|p2a: Kangaskhan|88\/100|[from] item: Sticky Barb
+|upkeep
+|turn|2
+|
+|t:|1612030259
+|move|p2a: Kangaskhan|Fake Out|p1a: Warm Shoot
+|-damage|p1a: Warm Shoot|85\/100
+|cant|p1a: Warm Shoot|flinch
+|
+|-damage|p2a: Kangaskhan|76\/100|[from] item: Sticky Barb
+|upkeep
+|turn|3
+|
+|t:|1612030269
+|move|p2a: Kangaskhan|Double-Edge|p1a: Warm Shoot
+|-damage|p1a: Warm Shoot|40\/100
+|-damage|p2a: Kangaskhan|63\/100|[from] Recoil
+|move|p1a: Warm Shoot|Will-O-Wisp|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|brn
+|
+|-damage|p2a: Kangaskhan|57\/100 brn|[from] brn
+|-damage|p2a: Kangaskhan|45\/100 brn|[from] item: Sticky Barb
+|upkeep
+|turn|4
+|
+|t:|1612030279
+|switch|p1a: Some Tiaras|Aromatisse, F|100\/100
+|move|p2a: Kangaskhan|Facade|p1a: Some Tiaras
+|-damage|p1a: Some Tiaras|49\/100
+|
+|-heal|p1a: Some Tiaras|55\/100|[from] item: Leftovers
+|-damage|p2a: Kangaskhan|39\/100 brn|[from] brn
+|-damage|p2a: Kangaskhan|27\/100 brn|[from] item: Sticky Barb
+|upkeep
+|turn|5
+|
+|t:|1612030301
+|switch|p2a: Swampert|Swampert, F|100\/100
+|move|p1a: Some Tiaras|Wish|p1a: Some Tiaras
+|
+|-heal|p1a: Some Tiaras|61\/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1612030323
+|switch|p1a: Warm Shoot|Rotom-Wash|40\/100
+|move|p2a: Swampert|Stealth Rock|p1a: Warm Shoot
+|-sidestart|p1: clod9|move: Stealth Rock
+|
+|-heal|p1a: Warm Shoot|100\/100|[from] move: Wish|[wisher] Some Tiaras
+|upkeep
+|turn|7
+|
+|t:|1612030355
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Warm Shoot|Hydro Pump|p2a: Swampert
+|-activate|p2a: Swampert|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1612030362
+|switch|p2a: Goodra|Goodra, M|100\/100
+|move|p1a: Warm Shoot|Hydro Pump|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|90\/100
+|
+|upkeep
+|turn|9
+|
+|t:|1612030433
+|switch|p1a: Ox Snarl|Snorlax, F|100\/100
+|-damage|p1a: Ox Snarl|88\/100|[from] Stealth Rock
+|move|p2a: Goodra|Power Whip|p1a: Ox Snarl|[miss]
+|-miss|p2a: Goodra|p1a: Ox Snarl
+|
+|upkeep
+|turn|10
+|
+|t:|1612030449
+|switch|p2a: Buzzwole|Buzzwole|100\/100
+|move|p1a: Ox Snarl|Body Slam|p2a: Buzzwole
+|-damage|p2a: Buzzwole|84\/100
+|
+|upkeep
+|turn|11
+|
+|t:|1612030505
+|switch|p1a: Warm Shoot|Rotom-Wash|100\/100
+|-damage|p1a: Warm Shoot|88\/100|[from] Stealth Rock
+|move|p2a: Buzzwole|Iron Head|p1a: Warm Shoot
+|-resisted|p1a: Warm Shoot
+|-damage|p1a: Warm Shoot|83\/100
+|
+|upkeep
+|turn|12
+|
+|t:|1612030554
+|switch|p2a: Swampert|Swampert, F|100\/100
+|move|p1a: Warm Shoot|Volt Switch|p2a: Swampert
+|-immune|p2a: Swampert
+|
+|upkeep
+|turn|13
+|
+|t:|1612030578
+|move|p1a: Warm Shoot|Volt Switch|p2a: Swampert
+|-immune|p2a: Swampert
+|move|p2a: Swampert|Flip Turn|p1a: Warm Shoot
+|-resisted|p1a: Warm Shoot
+|-damage|p1a: Warm Shoot|75\/100
+|
+|t:|1612030585
+|switch|p2a: Zeraora|Zeraora|100\/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|14
+|
+|t:|1612030627
+|switch|p1a: Don Esquine|Nidoqueen, F|100\/100
+|-damage|p1a: Don Esquine|94\/100|[from] Stealth Rock
+|move|p2a: Zeraora|Close Combat|p1a: Don Esquine
+|-resisted|p1a: Don Esquine
+|-damage|p1a: Don Esquine|73\/100
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1612030655
+|switch|p2a: Swampert|Swampert, F|100\/100
+|move|p1a: Don Esquine|Stealth Rock|p2a: Swampert
+|-sidestart|p2: Ggtc|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1612030682
+|switch|p1a: Warm Shoot|Rotom-Wash|75\/100
+|-damage|p1a: Warm Shoot|63\/100|[from] Stealth Rock
+|move|p2a: Swampert|Flip Turn|p1a: Warm Shoot
+|-resisted|p1a: Warm Shoot
+|-damage|p1a: Warm Shoot|54\/100
+|
+|t:|1612030716
+|switch|p2a: Sylveon|Sylveon, F|100\/100|[from]move: Flip Turn
+|-damage|p2a: Sylveon|88\/100|[from] Stealth Rock
+|
+|-heal|p2a: Sylveon|94\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1612030723
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Warm Shoot|Trick|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|99\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1612030742
+|switch|p1a: Some Tiaras|Aromatisse, F|61\/100
+|-damage|p1a: Some Tiaras|49\/100|[from] Stealth Rock
+|switch|p2a: Kangaskhan|Kangaskhan, F|27\/100 brn
+|-damage|p2a: Kangaskhan|14\/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Some Tiaras|55\/100|[from] item: Leftovers
+|-damage|p2a: Kangaskhan|8\/100 brn|[from] brn
+|-damage|p2a: Kangaskhan|0 fnt|[from] item: Sticky Barb
+|faint|p2a: Kangaskhan
+|upkeep
+|c|☆Ggtc|bad math lol
+|c|☆clod9|that was my goal to make it difficult
+|
+|t:|1612030788
+|switch|p2a: Goodra|Goodra, M|90\/100
+|-damage|p2a: Goodra|78\/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1612030792
+|move|p1a: Some Tiaras|Protect|p1a: Some Tiaras
+|-singleturn|p1a: Some Tiaras|Protect
+|move|p2a: Goodra|Sludge Wave|p1a: Some Tiaras
+|-activate|p1a: Some Tiaras|move: Protect
+|
+|-heal|p1a: Some Tiaras|61\/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1612030800
+|switch|p1a: Ox Snarl|Snorlax, F|88\/100
+|-damage|p1a: Ox Snarl|76\/100|[from] Stealth Rock
+|move|p2a: Goodra|Sludge Wave|p1a: Ox Snarl
+|-damage|p1a: Ox Snarl|60\/100
+|
+|upkeep
+|turn|21
+|
+|t:|1612030826
+|switch|p2a: Buzzwole|Buzzwole|84\/100
+|-damage|p2a: Buzzwole|71\/100|[from] Stealth Rock
+|move|p1a: Ox Snarl|Curse|p1a: Ox Snarl
+|-unboost|p1a: Ox Snarl|spe|1
+|-boost|p1a: Ox Snarl|atk|1
+|-boost|p1a: Ox Snarl|def|1
+|
+|upkeep
+|turn|22
+|
+|t:|1612030853
+|move|p2a: Buzzwole|Drain Punch|p1a: Ox Snarl
+|-supereffective|p1a: Ox Snarl
+|-damage|p1a: Ox Snarl|29\/100
+|-heal|p2a: Buzzwole|91\/100|[from] drain|[of] p1a: Ox Snarl
+|-enditem|p1a: Ox Snarl|Iapapa Berry|[eat]
+|-heal|p1a: Ox Snarl|62\/100|[from] item: Iapapa Berry
+|move|p1a: Ox Snarl|Curse|p1a: Ox Snarl
+|-unboost|p1a: Ox Snarl|spe|1
+|-boost|p1a: Ox Snarl|atk|1
+|-boost|p1a: Ox Snarl|def|1
+|
+|upkeep
+|turn|23
+|
+|t:|1612030872
+|move|p2a: Buzzwole|Bulk Up|p2a: Buzzwole
+|-boost|p2a: Buzzwole|atk|1
+|-boost|p2a: Buzzwole|def|1
+|move|p1a: Ox Snarl|Curse|p1a: Ox Snarl
+|-unboost|p1a: Ox Snarl|spe|1
+|-boost|p1a: Ox Snarl|atk|1
+|-boost|p1a: Ox Snarl|def|1
+|
+|upkeep
+|turn|24
+|
+|t:|1612030893
+|move|p2a: Buzzwole|Bulk Up|p2a: Buzzwole
+|-boost|p2a: Buzzwole|atk|1
+|-boost|p2a: Buzzwole|def|1
+|move|p1a: Ox Snarl|Body Slam|p2a: Buzzwole
+|-damage|p2a: Buzzwole|71\/100
+|
+|upkeep
+|turn|25
+|
+|t:|1612030936
+|switch|p1a: I Salto|Latios, M|100\/100
+|-damage|p1a: I Salto|88\/100|[from] Stealth Rock
+|move|p2a: Buzzwole|Drain Punch|p1a: I Salto
+|-resisted|p1a: I Salto
+|-damage|p1a: I Salto|44\/100
+|-heal|p2a: Buzzwole|88\/100|[from] drain|[of] p1a: I Salto
+|
+|upkeep
+|turn|26
+|
+|t:|1612030948
+|switch|p2a: Sylveon|Sylveon, F|99\/100
+|-damage|p2a: Sylveon|88\/100|[from] Stealth Rock
+|move|p1a: I Salto|Psychic|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|37\/100
+|
+|-heal|p2a: Sylveon|43\/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1612030986
+|move|p1a: I Salto|Psyshock|p2a: Sylveon
+|-damage|p2a: Sylveon|8\/100
+|move|p2a: Sylveon|Psyshock|p1a: I Salto
+|-resisted|p1a: I Salto
+|-damage|p1a: I Salto|32\/100
+|
+|-heal|p2a: Sylveon|14\/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1612030997
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: I Salto|Psychic|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|20\/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1612031014
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: I Salto|Psyshock|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|26\/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1612031023
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|move|p1a: I Salto|Psyshock|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+|
+|t:|1612031028
+|switch|p2a: Zeraora|Zeraora|100\/100
+|turn|31
+|
+|t:|1612031041
+|move|p2a: Zeraora|Knock Off|p1a: I Salto
+|-supereffective|p1a: I Salto
+|-damage|p1a: I Salto|0 fnt
+|-enditem|p1a: I Salto|Weakness Policy|[from] move: Knock Off|[of] p2a: Zeraora
+|faint|p1a: I Salto
+|
+|upkeep
+|
+|t:|1612031043
+|switch|p1a: Don Esquine|Nidoqueen, F|73\/100
+|-damage|p1a: Don Esquine|67\/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1612031049
+|switch|p2a: Swampert|Swampert, F|100\/100
+|-damage|p2a: Swampert|94\/100|[from] Stealth Rock
+|move|p1a: Don Esquine|Earth Power|p2a: Swampert
+|-damage|p2a: Swampert|38\/100
+|
+|upkeep
+|turn|33
+|
+|t:|1612031068
+|move|p1a: Don Esquine|Earth Power|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|
+|t:|1612031072
+|switch|p2a: Goodra|Goodra, M|78\/100
+|-damage|p2a: Goodra|65\/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1612031078
+|switch|p1a: Ox Snarl|Snorlax, F|62\/100
+|-damage|p1a: Ox Snarl|49\/100|[from] Stealth Rock
+|move|p2a: Goodra|Ice Beam|p1a: Ox Snarl
+|-damage|p1a: Ox Snarl|33\/100
+|
+|upkeep
+|turn|35
+|
+|t:|1612031089
+|switch|p2a: Buzzwole|Buzzwole|88\/100
+|-damage|p2a: Buzzwole|75\/100|[from] Stealth Rock
+|move|p1a: Ox Snarl|Recycle|p1a: Ox Snarl
+|-item|p1a: Ox Snarl|Iapapa Berry|[from] move: Recycle
+|-enditem|p1a: Ox Snarl|Iapapa Berry|[eat]
+|-heal|p1a: Ox Snarl|66\/100|[from] item: Iapapa Berry
+|
+|upkeep
+|turn|36
+|
+|t:|1612031103
+|switch|p1a: Warm Shoot|Rotom-Wash|54\/100
+|-damage|p1a: Warm Shoot|42\/100|[from] Stealth Rock
+|move|p2a: Buzzwole|Drain Punch|p1a: Warm Shoot
+|-damage|p1a: Warm Shoot|16\/100
+|-heal|p2a: Buzzwole|84\/100|[from] drain|[of] p1a: Warm Shoot
+|
+|upkeep
+|turn|37
+|
+|t:|1612031120
+|switch|p2a: Goodra|Goodra, M|65\/100
+|-damage|p2a: Goodra|53\/100|[from] Stealth Rock
+|move|p1a: Warm Shoot|Will-O-Wisp|p2a: Goodra
+|-status|p2a: Goodra|brn
+|
+|-damage|p2a: Goodra|47\/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1612031133
+|move|p2a: Goodra|Sludge Wave|p1a: Warm Shoot
+|-damage|p1a: Warm Shoot|0 fnt
+|faint|p1a: Warm Shoot
+|
+|-damage|p2a: Goodra|40\/100 brn|[from] brn
+|upkeep
+|
+|t:|1612031171
+|switch|p1a: Ox Snarl|Snorlax, F|66\/100
+|-damage|p1a: Ox Snarl|54\/100|[from] Stealth Rock
+|turn|39
+|
+|t:|1612031183
+|switch|p2a: Buzzwole|Buzzwole|84\/100
+|-damage|p2a: Buzzwole|72\/100|[from] Stealth Rock
+|move|p1a: Ox Snarl|Body Slam|p2a: Buzzwole
+|-damage|p2a: Buzzwole|56\/100
+|
+|upkeep
+|turn|40
+|
+|t:|1612031221
+|move|p2a: Buzzwole|Drain Punch|p1a: Ox Snarl
+|-supereffective|p1a: Ox Snarl
+|-damage|p1a: Ox Snarl|0 fnt
+|-heal|p2a: Buzzwole|89\/100|[from] drain|[of] p1a: Ox Snarl
+|faint|p1a: Ox Snarl
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|def|1
+|
+|upkeep
+|
+|t:|1612031244
+|switch|p1a: Some Tiaras|Aromatisse, F|61\/100
+|-damage|p1a: Some Tiaras|49\/100|[from] Stealth Rock
+|turn|41
+|
+|t:|1612031274
+|switch|p2a: Zeraora|Zeraora|100\/100
+|move|p1a: Some Tiaras|Wish|p1a: Some Tiaras
+|
+|-heal|p1a: Some Tiaras|55\/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1612031365
+|move|p2a: Zeraora|Bulk Up|p2a: Zeraora
+|-boost|p2a: Zeraora|atk|1
+|-boost|p2a: Zeraora|def|1
+|move|p1a: Some Tiaras|Moonblast|p2a: Zeraora
+|-damage|p2a: Zeraora|59\/100
+|-unboost|p2a: Zeraora|spa|1
+|
+|-heal|p1a: Some Tiaras|100\/100|[from] move: Wish|[wisher] Some Tiaras
+|upkeep
+|turn|43
+|
+|t:|1612031387
+|move|p2a: Zeraora|Knock Off|p1a: Some Tiaras
+|-resisted|p1a: Some Tiaras
+|-damage|p1a: Some Tiaras|82\/100
+|-enditem|p1a: Some Tiaras|Leftovers|[from] move: Knock Off|[of] p2a: Zeraora
+|move|p1a: Some Tiaras|Trick Room|p1a: Some Tiaras
+|-fieldstart|move: Trick Room|[of] p1a: Some Tiaras
+|
+|upkeep
+|turn|44
+|
+|t:|1612031396
+|move|p1a: Some Tiaras|Moonblast|p2a: Zeraora
+|-damage|p2a: Zeraora|23\/100
+|move|p2a: Zeraora|Plasma Fists|p1a: Some Tiaras
+|-crit|p1a: Some Tiaras
+|-damage|p1a: Some Tiaras|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Some Tiaras
+|
+|upkeep
+|
+|t:|1612031403
+|switch|p1a: Don Esquine|Nidoqueen, F|67\/100
+|-damage|p1a: Don Esquine|61\/100|[from] Stealth Rock
+|turn|45
+|c|☆Ggtc|bad crit bad criit!
+|c|☆clod9|it is what it is
+|
+|t:|1612031469
+|move|p1a: Don Esquine|Sludge Wave|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|upkeep
+|
+|t:|1612031479
+|switch|p2a: Goodra|Goodra, M|40\/100 brn
+|-damage|p2a: Goodra|28\/100 brn|[from] Stealth Rock
+|turn|46
+|
+|t:|1612031485
+|move|p1a: Don Esquine|Sludge Wave|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|c|☆Ggtc|gg
+|
+|t:|1612031493
+|switch|p2a: Buzzwole|Buzzwole|89\/100
+|-damage|p2a: Buzzwole|76\/100|[from] Stealth Rock
+|turn|47
+|
+|t:|1612031498
+|move|p2a: Buzzwole|Iron Head|p1a: Don Esquine
+|-damage|p1a: Don Esquine|34\/100
+|cant|p1a: Don Esquine|flinch
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|48
+|
+|t:|1612031503
+|move|p1a: Don Esquine|Sludge Wave|p2a: Buzzwole
+|-damage|p2a: Buzzwole|3\/100
+|move|p2a: Buzzwole|Iron Head|p1a: Don Esquine
+|-damage|p1a: Don Esquine|9\/100
+|
+|upkeep
+|turn|49
+|
+|t:|1612031508
+|move|p1a: Don Esquine|Sludge Wave|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|
+|win|clod9

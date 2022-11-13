@@ -1,0 +1,392 @@
+|init|battle
+|title|Auxotest4 vs. Auxotest3
+|j|☆Auxotest4
+|j|☆Auxotest3
+|t:|1666273514
+|gametype|doubles
+|player|p1|Auxotest4|hilbert|
+|player|p2|Auxotest3|hilbert|
+|teamsize|p1|4
+|teamsize|p2|4
+|gen|8
+|tier|[Gen 8] National Dex Leaks VGC
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Serperior, L50, M|
+|poke|p1|Victini, L50|
+|poke|p1|Heatran, L50, F|
+|poke|p1|Drifblim, L50, M|
+|poke|p2|Serperior, L50, M|
+|poke|p2|Barbaracle, L50, F|
+|poke|p2|Victini, L50|
+|poke|p2|Heatran, L50, F|
+|teampreview|4
+|html|<button name="send" class="button" value="/timer ds"><i class="fa fa-hourglass-start"></i> DS Timer</button> <button name="send" class="button" value="/timer smogon"><i class="fa fa-hourglass-start"></i> Smogon Timer</button>
+|
+|t:|1666273529
+|start
+|switch|p1a: Drifblim|Drifblim, L50, M|100/100
+|switch|p1b: Victini|Victini, L50|100/100
+|switch|p2a: Victini|Victini, L50|100/100
+|switch|p2b: Barbaracle|Barbaracle, L50, F|100/100
+|turn|1
+|
+|t:|1666273560
+|move|p1a: Drifblim|Facade|p2a: Victini
+|-damage|p2a: Victini|88/100
+|move|p2a: Victini|Bolt Strike|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|7/100
+|move|p1b: Victini|Celebrate|p1b: Victini
+|-activate|p1b: Victini|move: Celebrate
+|move|p2b: Barbaracle|Cross Chop|p1b: Victini
+|-resisted|p1b: Victini
+|-damage|p1b: Victini|81/100
+|
+|upkeep
+|turn|2
+|j| SCDA-Magneton
+
+|c| SCDA-Magneton|May your hits always be crits and focus blasts never miss
+|
+|t:|1666273603
+|move|p1a: Drifblim|Facade|p2a: Victini
+|-damage|p2a: Victini|77/100
+|move|p2a: Victini|Safeguard|p2a: Victini
+|-sidestart|p2: Auxotest3|Safeguard
+|move|p1b: Victini|Safeguard|p1b: Victini
+|-sidestart|p1: Auxotest4|Safeguard
+|move|p2b: Barbaracle|Iron Defense|p2b: Barbaracle
+|-boost|p2b: Barbaracle|def|2
+|
+|upkeep
+|turn|3
+|
+|t:|1666273617
+|move|p1a: Drifblim|Acrobatics|p2a: Victini
+|-damage|p2a: Victini|62/100
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2a: Victini|Safeguard||[still]
+|-fail|p2a: Victini
+|move|p2b: Barbaracle|Iron Defense|p2b: Barbaracle
+|-boost|p2b: Barbaracle|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1666273625
+|move|p1a: Drifblim|Acrobatics|p2a: Victini
+|-damage|p2a: Victini|47/100
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2a: Victini|Safeguard||[still]
+|-fail|p2a: Victini
+|move|p2b: Barbaracle|Iron Defense|p2b: Barbaracle
+|-boost|p2b: Barbaracle|def|2
+|
+|upkeep
+|turn|5
+|
+|t:|1666273632
+|move|p1a: Drifblim|Acrobatics|p2a: Victini
+|-damage|p2a: Victini|34/100
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2a: Victini|Safeguard||[still]
+|-fail|p2a: Victini
+|move|p2b: Barbaracle|Iron Defense|p2b: Barbaracle
+|-boost|p2b: Barbaracle|def|0
+|
+|upkeep
+|turn|6
+|
+|t:|1666273640
+|move|p1a: Drifblim|Facade|p2a: Victini
+|-damage|p2a: Victini|21/100
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2a: Victini|Safeguard||[still]
+|-fail|p2a: Victini
+|move|p2b: Barbaracle|Iron Defense|p2b: Barbaracle
+|-boost|p2b: Barbaracle|def|0
+|
+|-sideend|p1: Auxotest4|Safeguard
+|-sideend|p2: Auxotest3|Safeguard
+|upkeep
+|turn|7
+|
+|t:|1666273657
+|move|p1a: Drifblim|Facade|p2b: Barbaracle
+|-resisted|p2b: Barbaracle
+|-damage|p2b: Barbaracle|99/100
+|move|p1b: Victini|Safeguard|p1b: Victini
+|-sidestart|p1: Auxotest4|Safeguard
+|move|p2a: Victini|Bolt Strike|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|-damage|p2a: Victini|0 fnt|[from] ability: Aftermath|[of] p1a: Drifblim
+|faint|p1a: Drifblim
+|faint|p2a: Victini
+|move|p2b: Barbaracle|Iron Defense|p2b: Barbaracle
+|-boost|p2b: Barbaracle|def|0
+|
+|upkeep
+|
+|t:|1666273671
+|switch|p1a: Heatran|Heatran, L50, F|100/100
+|switch|p2a: Heatran|Heatran, L50, F|100/100
+|turn|8
+|
+|t:|1666273694
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2b: Barbaracle|Cross Chop|p1b: Victini
+|-resisted|p1b: Victini
+|-damage|p1b: Victini|63/100
+|
+|upkeep
+|turn|9
+|
+|t:|1666273702
+|move|p1a: Heatran|Protect||[still]
+|-fail|p1a: Heatran
+|move|p2a: Heatran|Protect||[still]
+|-fail|p2a: Heatran
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2b: Barbaracle|Cross Chop|p1b: Victini
+|-resisted|p1b: Victini
+|-damage|p1b: Victini|45/100
+|
+|upkeep
+|turn|10
+|
+|t:|1666273717
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2b: Barbaracle|Cross Chop|p1b: Victini
+|-resisted|p1b: Victini
+|-crit|p1b: Victini
+|-damage|p1b: Victini|19/100
+|
+|upkeep
+|turn|11
+|
+|t:|1666273728
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Heatran|Protect||[still]
+|-fail|p1a: Heatran
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2b: Barbaracle|Cross Chop|p1b: Victini|[miss]
+|-miss|p2b: Barbaracle|p1b: Victini
+|
+|-sideend|p1: Auxotest4|Safeguard
+|upkeep
+|turn|12
+|
+|t:|1666273741
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1b: Victini|Safeguard|p1b: Victini
+|-sidestart|p1: Auxotest4|Safeguard
+|move|p2b: Barbaracle|Cross Chop|p1b: Victini|[miss]
+|-miss|p2b: Barbaracle|p1b: Victini
+|
+|upkeep
+|turn|13
+|
+|t:|1666273752
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Heatran|Protect||[still]
+|-fail|p2a: Heatran
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2b: Barbaracle|Cross Chop|p1b: Victini
+|-resisted|p1b: Victini
+|-damage|p1b: Victini|1/100
+|
+|upkeep
+|turn|14
+|
+|t:|1666273778
+|move|p1b: Victini|Fire Spin|p2a: Heatran|[miss]
+|-miss|p1b: Victini|p2a: Heatran
+|move|p1a: Heatran|Iron Defense|p1a: Heatran
+|-boost|p1a: Heatran|def|2
+|move|p2a: Heatran|Iron Defense|p2a: Heatran
+|-boost|p2a: Heatran|def|2
+|move|p2b: Barbaracle|Iron Defense|p2b: Barbaracle
+|-boost|p2b: Barbaracle|def|0
+|
+|upkeep
+|turn|15
+|
+|t:|1666273787
+|move|p1b: Victini|Fire Spin|p2a: Heatran
+|-damage|p2a: Heatran|92/100
+|-activate|p2a: Heatran|move: Fire Spin|[of] p1b: Victini
+|move|p2a: Heatran|Iron Defense|p2a: Heatran
+|-boost|p2a: Heatran|def|2
+|move|p1a: Heatran|Iron Defense|p1a: Heatran
+|-boost|p1a: Heatran|def|2
+|move|p2b: Barbaracle|Hone Claws|p2b: Barbaracle
+|-boost|p2b: Barbaracle|atk|1
+|-boost|p2b: Barbaracle|accuracy|1
+|
+|-damage|p2a: Heatran|80/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1666273823
+|move|p1b: Victini|Fire Spin|p2b: Barbaracle
+|-resisted|p2b: Barbaracle
+|-damage|p2b: Barbaracle|95/100
+|-activate|p2b: Barbaracle|move: Fire Spin|[of] p1b: Victini
+|move|p1a: Heatran|Magma Storm|p2b: Barbaracle
+|-resisted|p2b: Barbaracle
+|-damage|p2b: Barbaracle|84/100
+|move|p2a: Heatran|Iron Defense|p2a: Heatran
+|-boost|p2a: Heatran|def|2
+|move|p2b: Barbaracle|Hone Claws|p2b: Barbaracle
+|-boost|p2b: Barbaracle|atk|1
+|-boost|p2b: Barbaracle|accuracy|1
+|
+|-damage|p2a: Heatran|68/100|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p2b: Barbaracle|72/100|[from] move: Fire Spin|[partiallytrapped]
+|-sideend|p1: Auxotest4|Safeguard
+|upkeep
+|turn|17
+|
+|t:|1666273845
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1b: Victini|Fire Spin|p2b: Barbaracle
+|-resisted|p2b: Barbaracle
+|-damage|p2b: Barbaracle|69/100
+|move|p1a: Heatran|Magma Storm|p2b: Barbaracle
+|-resisted|p2b: Barbaracle
+|-damage|p2b: Barbaracle|57/100
+|move|p2b: Barbaracle|Hone Claws|p2b: Barbaracle
+|-boost|p2b: Barbaracle|atk|1
+|-boost|p2b: Barbaracle|accuracy|1
+|
+|-damage|p2a: Heatran|56/100|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p2b: Barbaracle|45/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|t:|1666273858
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Heatran|Protect||[still]
+|-fail|p2a: Heatran
+|move|p1b: Victini|Safeguard|p1b: Victini
+|-sidestart|p1: Auxotest4|Safeguard
+|move|p2b: Barbaracle|Hone Claws|p2b: Barbaracle
+|-boost|p2b: Barbaracle|atk|1
+|-boost|p2b: Barbaracle|accuracy|1
+|
+|-damage|p2a: Heatran|44/100|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p2b: Barbaracle|32/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|19
+|
+|t:|1666273862
+|move|p1a: Heatran|Protect||[still]
+|-fail|p1a: Heatran
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2b: Barbaracle|Hone Claws|p2b: Barbaracle
+|-boost|p2b: Barbaracle|atk|1
+|-boost|p2b: Barbaracle|accuracy|1
+|
+|-end|p2a: Heatran|Fire Spin|[partiallytrapped]
+|-damage|p2b: Barbaracle|20/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1666273867
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Heatran|Protect||[still]
+|-fail|p2a: Heatran
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2b: Barbaracle|Hone Claws|p2b: Barbaracle
+|-boost|p2b: Barbaracle|atk|1
+|-boost|p2b: Barbaracle|accuracy|1
+|
+|-end|p2b: Barbaracle|Fire Spin|[partiallytrapped]
+|upkeep
+|turn|21
+|
+|t:|1666273883
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Heatran|Protect||[still]
+|-fail|p1a: Heatran
+|move|p1b: Victini|Fire Spin|p2b: Barbaracle
+|-resisted|p2b: Barbaracle
+|-damage|p2b: Barbaracle|17/100
+|-activate|p2b: Barbaracle|move: Fire Spin|[of] p1b: Victini
+|move|p2b: Barbaracle|Hone Claws|p2b: Barbaracle
+|-boost|p2b: Barbaracle|atk|0
+|-boost|p2b: Barbaracle|accuracy|0
+|
+|-damage|p2b: Barbaracle|4/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1666273903
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p1b: Victini|Safeguard||[still]
+|-fail|p1b: Victini
+|move|p2a: Heatran|Iron Defense|p2a: Heatran
+|-boost|p2a: Heatran|def|0
+|move|p2b: Barbaracle|Cross Chop|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Jaboca Berry|[eat]
+|-damage|p2b: Barbaracle|0 fnt|[from] item: Jaboca Berry|[of] p2a: Heatran
+|faint|p2a: Heatran
+|faint|p2b: Barbaracle
+|
+|-sideend|p1: Auxotest4|Safeguard
+|upkeep
+|
+|t:|1666273916
+|switch|p2b: Serperior|Serperior, L50, M|100/100
+|turn|23
+|
+|t:|1666273920
+|move|p2b: Serperior|Calm Mind|p2b: Serperior
+|-unboost|p2b: Serperior|spa|1
+|-unboost|p2b: Serperior|spd|1
+|move|p1b: Victini|Fire Spin|p2b: Serperior
+|-supereffective|p2b: Serperior
+|-damage|p2b: Serperior|55/100
+|-activate|p2b: Serperior|move: Fire Spin|[of] p1b: Victini
+|move|p1a: Heatran|Magma Storm|p2b: Serperior
+|-supereffective|p2b: Serperior
+|-damage|p2b: Serperior|0 fnt
+|faint|p2b: Serperior
+|
+|win|Auxotest4

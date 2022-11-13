@@ -1,0 +1,199 @@
+|init|battle
+|title|ThatWillKid vs. CrunchBunch
+|j|☆ThatWillKid
+|j|☆CrunchBunch
+|t:|1633314254
+|gametype|doubles
+|player|p1|ThatWillKid|palmer|
+|player|p2|CrunchBunch|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] VGC 2021 Series 10
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Weavile, L50, M|
+|poke|p1|Sigilyph, L50, M|
+|poke|p1|Salazzle, L50, F|
+|poke|p1|Tangela, L50, M|
+|poke|p1|Hippowdon, L50, F|
+|poke|p1|Drakloak, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Spectrier, L50|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Vullaby, L50, F|
+|poke|p2|Salamence, L50, M|
+|teampreview|4
+|c|☆CrunchBunch|glhf!
+|c|☆ThatWillKid|glhf!
+|c|☆CrunchBunch|game 3 hype!
+|j| ishouldregister
+|j| SATMaofever
+|
+|t:|1633314360
+|start
+|switch|p1a: GoodWillSniping|Sigilyph, L50, M|100\/100
+|switch|p1b: soup jr|Tangela, L50, M|100\/100
+|switch|p2a: Mariah Carey|Sylveon, L50, M, shiny|100\/100
+|switch|p2b: Over Here!|Indeedee-F, L50, F|100\/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Over Here!
+|turn|1
+|
+|t:|1633314391
+|move|p2b: Over Here!|Follow Me|p2b: Over Here!
+|-singleturn|p2b: Over Here!|move: Follow Me
+|move|p1a: GoodWillSniping|Light Screen|p1a: GoodWillSniping
+|-sidestart|p1: ThatWillKid|move: Light Screen
+|move|p2a: Mariah Carey|Hyper Voice|p1a: GoodWillSniping|[spread] p1a,p1b
+|-damage|p1a: GoodWillSniping|43\/100
+|-damage|p1b: soup jr|68\/100
+|move|p1b: soup jr|Sleep Powder|p2b: Over Here!|[miss]
+|-miss|p1b: soup jr|p2b: Over Here!
+|
+|upkeep
+|turn|2
+|
+|t:|1633314413
+|move|p2b: Over Here!|Follow Me|p2b: Over Here!
+|-singleturn|p2b: Over Here!|move: Follow Me
+|move|p1a: GoodWillSniping|Tailwind|p1a: GoodWillSniping
+|-sidestart|p1: ThatWillKid|move: Tailwind
+|move|p1b: soup jr|Sleep Powder|p2b: Over Here!|[miss]
+|-miss|p1b: soup jr|p2b: Over Here!
+|move|p2a: Mariah Carey|Hyper Voice|p1b: soup jr|[spread] p1a,p1b
+|-damage|p1a: GoodWillSniping|0 fnt
+|-damage|p1b: soup jr|34\/100
+|faint|p1a: GoodWillSniping
+|
+|upkeep
+|c|☆CrunchBunch|so sorry will
+|c|☆ThatWillKid|i love pokemon
+|
+|t:|1633314431
+|switch|p1a: Hungry Hungry|Hippowdon, L50, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hungry Hungry
+|turn|3
+|
+|t:|1633314441
+|move|p1b: soup jr|Knock Off|p2b: Over Here!
+|-supereffective|p2b: Over Here!
+|-damage|p2b: Over Here!|72\/100
+|-enditem|p2b: Over Here!|Eject Button|[from] move: Knock Off|[of] p1b: soup jr
+|move|p1a: Hungry Hungry|Heavy Slam|p2a: Mariah Carey
+|-supereffective|p2a: Mariah Carey
+|-damage|p2a: Mariah Carey|0 fnt
+|faint|p2a: Mariah Carey
+|move|p2b: Over Here!|Expanding Force|p1b: soup jr|[spread] p1a,p1b
+|-damage|p1a: Hungry Hungry|83\/100
+|-damage|p1b: soup jr|13\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: soup jr|8\/100|[from] Sandstorm
+|-damage|p2b: Over Here!|66\/100|[from] Sandstorm
+|upkeep
+|
+|t:|1633314449
+|switch|p2a: Sebastian|Spectrier, L50|100\/100
+|turn|4
+|c| ishouldregister|Yoooooo
+|
+|t:|1633314470
+|move|p1b: soup jr|Rage Powder|p1b: soup jr
+|-singleturn|p1b: soup jr|move: Rage Powder
+|move|p2b: Over Here!|Follow Me|p2b: Over Here!
+|-singleturn|p2b: Over Here!|move: Follow Me
+|move|p2a: Sebastian|Nasty Plot|p2a: Sebastian
+|-boost|p2a: Sebastian|spa|2
+|move|p1a: Hungry Hungry|High Horsepower|p2b: Over Here!
+|-damage|p2b: Over Here!|19\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sebastian|94\/100|[from] Sandstorm
+|-damage|p1b: soup jr|2\/100|[from] Sandstorm
+|-damage|p2b: Over Here!|12\/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1633314497
+|move|p2a: Sebastian|Protect|p2a: Sebastian
+|-singleturn|p2a: Sebastian|Protect
+|move|p2b: Over Here!|Protect|p2b: Over Here!
+|-singleturn|p2b: Over Here!|Protect
+|move|p1b: soup jr|Rage Powder|p1b: soup jr
+|-singleturn|p1b: soup jr|move: Rage Powder
+|move|p1a: Hungry Hungry|Rock Slide|p2b: Over Here!|[spread] 
+|-activate|p2a: Sebastian|move: Protect
+|-activate|p2b: Over Here!|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sebastian|88\/100|[from] Sandstorm
+|-damage|p1b: soup jr|0 fnt|[from] Sandstorm
+|-damage|p2b: Over Here!|6\/100|[from] Sandstorm
+|faint|p1b: soup jr
+|-sideend|p1: ThatWillKid|move: Light Screen
+|-sideend|p1: ThatWillKid|move: Tailwind
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1633314501
+|switch|p1b: Santa Claws|Weavile, L50, M|100\/100
+|-ability|p1b: Santa Claws|Pressure
+|turn|6
+|
+|t:|1633314525
+|move|p2b: Over Here!|Follow Me|p2b: Over Here!
+|-singleturn|p2b: Over Here!|move: Follow Me
+|move|p1b: Santa Claws|Ice Shard|p2b: Over Here!
+|-damage|p2b: Over Here!|0 fnt
+|faint|p2b: Over Here!
+|move|p2a: Sebastian|Shadow Ball|p1a: Hungry Hungry
+|-damage|p1a: Hungry Hungry|23\/100
+|-unboost|p1a: Hungry Hungry|spd|1
+|move|p1a: Hungry Hungry|Crunch|p2a: Sebastian
+|-supereffective|p2a: Sebastian
+|-enditem|p2a: Sebastian|Colbur Berry|[eat]
+|-enditem|p2a: Sebastian|Colbur Berry|[weaken]
+|-damage|p2a: Sebastian|48\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sebastian|42\/100|[from] Sandstorm
+|-damage|p1b: Santa Claws|95\/100|[from] Sandstorm
+|upkeep
+|
+|t:|1633314533
+|switch|p2b: Sir qwertz|Gallade, L50, M, shiny|100\/100
+|turn|7
+|
+|t:|1633314591
+|move|p2a: Sebastian|Protect|p2a: Sebastian
+|-singleturn|p2a: Sebastian|Protect
+|move|p1b: Santa Claws|Throat Chop|p2a: Sebastian
+|-activate|p2a: Sebastian|move: Protect
+|move|p2b: Sir qwertz|Leaf Blade|p1a: Hungry Hungry
+|-supereffective|p1a: Hungry Hungry
+|-damage|p1a: Hungry Hungry|0 fnt
+|faint|p1a: Hungry Hungry
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1633314603
+|move|p2a: Sebastian|Shadow Ball|p1b: Santa Claws
+|-resisted|p1b: Santa Claws
+|-damage|p1b: Santa Claws|32\/100
+|move|p1b: Santa Claws|Throat Chop|p2a: Sebastian
+|-supereffective|p2a: Sebastian
+|-damage|p2a: Sebastian|0 fnt
+|faint|p2a: Sebastian
+|move|p2b: Sir qwertz|Close Combat|p1b: Santa Claws
+|-supereffective|p1b: Santa Claws
+|-damage|p1b: Santa Claws|0 fnt
+|-unboost|p2b: Sir qwertz|def|1
+|-unboost|p2b: Sir qwertz|spd|1
+|faint|p1b: Santa Claws
+|
+|win|CrunchBunch

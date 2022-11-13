@@ -1,0 +1,203 @@
+|init|battle
+|title|oatey99 vs. Ciqarettan
+|j|☆oatey99
+|j|☆Ciqarettan
+|t:|1664229670
+|gametype|doubles
+|player|p1|oatey99|sabrina|
+|player|p2|Ciqarettan|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] VGC 2022
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Zekrom, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Entei, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Dusclops, L50, M|
+|poke|p2|Glastrier, L50|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Mewtwo, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by oatey99)
+|inactiveoff|Battle timer is now OFF.
+|c|☆oatey99|glhf
+|c|☆Ciqarettan|U2
+|
+|t:|1664229730
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100\/100
+|switch|p1b: Lunala|Lunala, L50|100\/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100\/100
+|switch|p2b: Dusclops|Dusclops, L50, M|100\/100
+|-item|p1a: Whimsicott|Lagging Tail|[from] ability: Frisk|[of] p2b: Dusclops|[identify]
+|-item|p1b: Lunala|Power Herb|[from] ability: Frisk|[of] p2b: Dusclops|[identify]
+|turn|1
+|
+|t:|1664229756
+|move|p2a: Grimmsnarl|Fake Out|p1a: Whimsicott
+|-damage|p1a: Whimsicott|83\/100
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|28\/100
+|cant|p1a: Whimsicott|flinch
+|move|p2b: Dusclops|Trick Room|p2b: Dusclops
+|-fieldstart|move: Trick Room|[of] p2b: Dusclops
+|
+|upkeep
+|turn|2
+|j| Auxowave
+|
+|t:|1664229810
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100\/100
+|move|p2b: Dusclops|Shadow Sneak|p1b: Urshifu
+|-damage|p1b: Urshifu|88\/100
+|move|p2a: Grimmsnarl|Taunt|p1a: Whimsicott
+|-start|p1a: Whimsicott|move: Taunt
+|move|p1a: Whimsicott|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1664229822
+|switch|p2a: Sylveon|Sylveon, L50, F|100\/100
+|turn|3
+|
+|t:|1664229846
+|switch|p2b: Glastrier|Glastrier, L50|100\/100
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2a: Sylveon|Hyper Voice|p1a: Whimsicott|[spread] p1a
+|-activate|p1b: Urshifu|move: Protect
+|-damage|p1a: Whimsicott|36\/100
+|move|p1a: Whimsicott|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|82\/100
+|
+|upkeep
+|turn|4
+|
+|t:|1664229869
+|move|p2b: Glastrier|Protect|p2b: Glastrier
+|-singleturn|p2b: Glastrier|Protect
+|move|p2a: Sylveon|Hyper Voice|p1a: Whimsicott|[spread] p1a,p1b
+|-supereffective|p1b: Urshifu
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1a: Whimsicott
+|faint|p1b: Urshifu
+|
+|upkeep
+|
+|t:|1664229876
+|switch|p1a: Lunala|Lunala, L50|100\/100
+|switch|p1b: Zekrom|Zekrom, L50|100\/100
+|-ability|p1b: Zekrom|Teravolt
+|turn|5
+|
+|t:|1664229914
+|-start|p2b: Glastrier|Dynamax|
+|-heal|p2b: Glastrier|100\/100|[silent]
+|-start|p1b: Zekrom|Dynamax|
+|-heal|p1b: Zekrom|100\/100|[silent]
+|move|p2a: Sylveon|Helping Hand|p2b: Glastrier
+|-singleturn|p2b: Glastrier|Helping Hand|[of] p2a: Sylveon
+|move|p2b: Glastrier|Max Hailstorm|p1b: Zekrom
+|-supereffective|p1b: Zekrom
+|-damage|p1b: Zekrom|14\/100
+|-weather|Hail
+|-enditem|p1b: Zekrom|Weakness Policy
+|-boost|p1b: Zekrom|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Zekrom|spa|2|[from] item: Weakness Policy
+|move|p1b: Zekrom|Max Steelspike|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-boost|p1a: Lunala|def|1
+|-boost|p1b: Zekrom|def|1
+|faint|p2a: Sylveon
+|move|p1a: Lunala|Moongeist Beam|p2b: Glastrier
+|-damage|p2b: Glastrier|78\/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1b: Zekrom|11\/100|[from] Hail
+|-damage|p1a: Lunala|94\/100|[from] Hail
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1664229935
+|switch|p2a: Dusclops|Dusclops, L50, M|100\/100
+|turn|6
+|
+|t:|1664229966
+|move|p1b: Zekrom|Max Guard|p1b: Zekrom
+|-singleturn|p1b: Zekrom|Max Guard
+|move|p2b: Glastrier|Max Guard|p2b: Glastrier
+|-singleturn|p2b: Glastrier|Max Guard
+|move|p2a: Dusclops|Shadow Sneak|p1b: Zekrom
+|-activate|p1b: Zekrom|move: Max Guard
+|move|p1a: Lunala|Moongeist Beam|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|35\/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lunala|88\/100|[from] Hail
+|-damage|p1b: Zekrom|8\/100|[from] Hail
+|-damage|p2a: Dusclops|29\/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1664229985
+|move|p2a: Dusclops|Shadow Sneak|p1b: Zekrom
+|-damage|p1b: Zekrom|5\/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|faint|p2a: Dusclops
+|move|p1b: Zekrom|Max Steelspike|p2b: Glastrier
+|-supereffective|p2b: Glastrier
+|-damage|p2b: Glastrier|13\/100
+|-boost|p1a: Lunala|def|1
+|-boost|p1b: Zekrom|def|1
+|-enditem|p2b: Glastrier|Weakness Policy
+|-boost|p2b: Glastrier|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Glastrier|spa|2|[from] item: Weakness Policy
+|move|p2b: Glastrier|Max Hailstorm|p1a: Lunala
+|-damage|p1a: Lunala|9\/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lunala|2\/100|[from] Hail
+|-damage|p1b: Zekrom|2\/100|[from] Hail
+|upkeep
+|-end|p1b: Zekrom|Dynamax
+|-heal|p1b: Zekrom|2\/100|[silent]
+|-end|p2b: Glastrier|Dynamax
+|-heal|p2b: Glastrier|13\/100|[silent]
+|turn|8
+|c|☆Ciqarettan|Gg
+|
+|t:|1664230009
+|move|p2b: Glastrier|Protect|p2b: Glastrier
+|-singleturn|p2b: Glastrier|Protect
+|move|p1a: Lunala|Moongeist Beam|p2b: Glastrier
+|-activate|p2b: Glastrier|move: Protect
+|move|p1b: Zekrom|Dragon Claw|p2b: Glastrier
+|-activate|p2b: Glastrier|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lunala|0 fnt|[from] Hail
+|-damage|p1b: Zekrom|0 fnt|[from] Hail
+|faint|p1a: Lunala
+|faint|p1b: Zekrom
+|
+|win|Ciqarettan

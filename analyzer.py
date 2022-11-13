@@ -37,12 +37,7 @@ class Analyzer:
         for line in data:
             if "|faint|" in line:
                 faints.append(line)
-        if singles:
-            p1 = 6
-            p2 = 6
-        else:
-            p1 = 4
-            p2 = 4
+        p1, p2 = (6, 6) if singles else (4, 4)
         for faint in faints:
             player = faint.split("|")[2]
             player = self.check_player(player)
@@ -50,7 +45,10 @@ class Analyzer:
                 p1 -= 1
             else:
                 p2 -= 1
+        return self.winner_string(players, faints, p1, p2)
 
+    @staticmethod
+    def winner_string(players, faints, p1, p2):
         if p1 == 0:
             return players[1] + " won " + str(p2) + "-" + str(p1)
         elif p1 == 0 and p2 == 0:
@@ -68,6 +66,16 @@ class Analyzer:
         kd = {}
         for nickname in nicknames.keys():
             kd[nickname] = [0, 0, 0]
+        return kd
+
+    @staticmethod
+    def add_kill(kd, nickname_search, direct=False):
+        mon_kd = kd[nickname_search]
+        if direct:
+            mon_kd[0] += 1
+        else:
+            mon_kd[1] += 1
+        kd[nickname_search] = mon_kd
         return kd
 
     @staticmethod
@@ -117,12 +125,12 @@ class Analyzer:
         summary = summary + "**" + players[0] + "**:\n||"
         for mon in p1_mons:
             summary = summary + nicknames[mon[0]] + " has " + str(mon[1][0]) + " direct kills, " + str(
-                mon[1][1]) + " passive kills, and " + str(mon[1][2]) + " deaths.\n"
+                mon[1][1]) + " passive kills, and " + str(mon[1][2]) + " deaths. \n"
         summary = summary + "||\n"
         summary = summary + "**" + players[1] + "**:\n||"
         for mon in p2_mons:
             summary = summary + nicknames[mon[0]] + " has " + str(mon[1][0]) + " direct kills, " + str(
-                mon[1][1]) + " passive kills, and " + str(mon[1][2]) + " deaths.\n"
+                mon[1][1]) + " passive kills, and " + str(mon[1][2]) + " deaths. \n"
         summary = summary + "||\n"
         summary = summary + "**Match Report:** \n||"
         for kill in kills:
@@ -132,10 +140,12 @@ class Analyzer:
 
     def search_cause(self, data, faint, mon, pokemon, nicknames, kd, kills):
         n = faint[1]
-        kd, kills = self.check_direct(data, mon, pokemon, n, nicknames, kd, kills)
+        searching = True
+        player = self.check_player(mon)
+        kd, kills = self.check_direct(data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_direct(self, data, mon, pokemon, n, nicknames, kd, kills):
+    def check_direct(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         marker = "|-damage|" + mon + "|0 fnt"
         if marker in data[:n]:
             for i in range(len(data[:n])):
@@ -146,9 +156,7 @@ class Analyzer:
 
                     if not mon.split(":")[0][:-1] == nickname_search.split(":")[0]:
                         # add kill count
-                        mon_kd = kd[nickname_search]
-                        mon_kd[0] += 1
-                        kd[nickname_search] = mon_kd
+                        kd = self.add_kill(kd, nickname_search, True)
 
                         # add kill cause
                         move = data[n - i].split("|")[3]
@@ -156,10 +164,10 @@ class Analyzer:
                                      killer + " using " + move)
                     break
         else:
-            kd, kills = self.check_indirect(data, mon, pokemon, n, nicknames, kd, kills)
+            kd, kills = self.check_indirect(data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_indirect(self, data, mon, pokemon, n, nicknames, kd, kills):
+    def check_indirect(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         # gmax residuals
         residuals = ["G-Max Volcalith", "G-Max Vine Lash",
                      "G-Max Cannonade", "G-Max Wildire"]
@@ -171,8 +179,6 @@ class Analyzer:
         trapmarker = "|-damage|" + mon + "|0 fnt|[from] move: "
         for trap_residual in trap_residuals:
             residual_markers.append(trapmarker + trap_residual + "|[partiallytrapped]")
-        searching = True
-        player = self.check_player(mon)
         for residual_marker in residual_markers:
             if residual_marker in data[:n]:
                 effect = residual_marker.split("]")[1][1:]
@@ -189,27 +195,23 @@ class Analyzer:
                             killer = nicknames[nickname_search]
 
                             # add kill count
-                            mon_kd = kd[nickname_search]
-                            mon_kd[1] += 1
-                            kd[nickname_search] = mon_kd
+                            kd = self.add_kill(kd, nickname_search)
 
                             # add kill cause
                             kills.append(pokemon + " was ko'd by " +
                                          killer + "'s Gmax move residual effect")
                             break
         if searching:
-            kd, kills = self.check_weather(data, mon, pokemon, n, nicknames, kd, kills)
+            kd, kills = self.check_weather(data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_weather(self, data, mon, pokemon, n, nicknames, kd, kills):
+    def check_weather(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         # damaging weathers
         weathers = ["Hail", "Sandstorm"]
         weather_markers = []
         marker = "|-damage|" + mon + "|0 fnt|[from] "
         for weather in weathers:
             weather_markers.append(marker + weather)
-        searching = True
-        player = self.check_player(mon)
         for weather_marker in weather_markers:
             if weather_marker in data[:n]:
                 effect = weather_marker.split("]")[1][1:]
@@ -223,9 +225,7 @@ class Analyzer:
                             killer = nicknames[nickname_search]
 
                             # add kill count
-                            mon_kd = kd[nickname_search]
-                            mon_kd[1] += 1
-                            kd[nickname_search] = mon_kd
+                            kd = self.add_kill(kd, nickname_search)
 
                             # add kill cause
                             kills.append(pokemon + " was ko'd by " +
@@ -243,9 +243,7 @@ class Analyzer:
                                     killer = nicknames[nickname_search]
 
                                     # add kill count
-                                    mon_kd = kd[nickname_search]
-                                    mon_kd[1] += 1
-                                    kd[nickname_search] = mon_kd
+                                    kd = self.add_kill(kd, nickname_search)
 
                                     # add kill cause
                                     kills.append(pokemon + " was ko'd by " +
@@ -253,13 +251,12 @@ class Analyzer:
                                     break
         if searching:
             kd, kills = self.check_perish(
-                data, mon, pokemon, n, nicknames, kd, kills)
+                data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_perish(self, data, mon, pokemon, n, nicknames, kd, kills):
+    def check_perish(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         # Perish Song Marker
         marker = "|-start|" + mon + "|perish0"
-        player = self.check_player(mon)
         if marker in data[:n]:
             for i in range(len(data[:n])):
                 if "|move|" in data[n - i] and "Perish Song" in data[n - i]:
@@ -270,9 +267,7 @@ class Analyzer:
 
                     if opp != player:
                         # add kill count
-                        mon_kd = kd[nickname_search]
-                        mon_kd[1] += 1
-                        kd[nickname_search] = mon_kd
+                        kd = self.add_kill(kd, nickname_search)
 
                         # add kill cause
                         move = data[n - i].split("|")[3]
@@ -281,11 +276,10 @@ class Analyzer:
                     break
         else:
             kd, kills = self.check_destiny_bond(
-                data, mon, pokemon, n, nicknames, kd, kills)
+                data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_destiny_bond(self, data, mon, pokemon, n, nicknames, kd, kills):
-        player = self.check_player(mon)
+    def check_destiny_bond(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         if "|-activate|" in data[n - 1] and "move: Destiny Bond" in data[n - 1]:
             killer = data[n - 1].split("|")[2]
             opp = self.check_player(killer)
@@ -294,9 +288,7 @@ class Analyzer:
 
             if opp != player:
                 # add kill count
-                mon_kd = kd[nickname_search]
-                mon_kd[0] += 1
-                kd[nickname_search] = mon_kd
+                kd = self.add_kill(kd, nickname_search, True)
 
                 # add kill cause
                 move = data[n - 1].split("|")[3].split(":")[1][1:]
@@ -304,17 +296,15 @@ class Analyzer:
                              killer + " using " + move)
         else:
             kd, kills = self.check_status(
-                data, mon, pokemon, n, nicknames, kd, kills)
+                data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_status(self, data, mon, pokemon, n, nicknames, kd, kills):
+    def check_status(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         statuses = ["brn", "psn"]
         status_markers = []
         marker = "|-damage|" + mon + "|0 fnt|[from] "
         for status in statuses:
             status_markers.append(marker + status)
-        searching = True
-        player = self.check_player(mon)
         for status_marker in status_markers:
             if status_marker in data[:n]:
                 effect = status_marker.split("]")[1][1:]
@@ -328,9 +318,7 @@ class Analyzer:
                             killer = nicknames[nickname_search]
 
                             # add kill count
-                            mon_kd = kd[nickname_search]
-                            mon_kd[1] += 1
-                            kd[nickname_search] = mon_kd
+                            kd = self.add_kill(kd, nickname_search)
 
                             # add kill cause
                             kills.append(pokemon + " was ko'd by status from " +
@@ -348,9 +336,7 @@ class Analyzer:
                                 killer = nicknames[nickname_search]
 
                                 # add kill count
-                                mon_kd = kd[nickname_search]
-                                mon_kd[1] += 1
-                                kd[nickname_search] = mon_kd
+                                kd = self.add_kill(kd, nickname_search)
 
                                 # add kill cause
                                 move = data[n - i - 1].split("|")[3]
@@ -368,9 +354,7 @@ class Analyzer:
                                         killer = nicknames[nickname_search]
 
                                         # add kill count
-                                        mon_kd = kd[nickname_search]
-                                        mon_kd[1] += 1
-                                        kd[nickname_search] = mon_kd
+                                        kd = self.add_kill(kd, nickname_search)
 
                                         # add kill cause
                                         move = data[n - i - j].split("|")[3]
@@ -387,9 +371,7 @@ class Analyzer:
                                 killer = nicknames[nickname_search]
 
                                 # add kill count
-                                mon_kd = kd[nickname_search]
-                                mon_kd[1] += 1
-                                kd[nickname_search] = mon_kd
+                                kd = self.add_kill(kd, nickname_search)
 
                                 # add kill cause
                                 kills.append(pokemon + " was ko'd by status from interaction with " +
@@ -406,9 +388,7 @@ class Analyzer:
                                         killer = nicknames[nickname_search]
 
                                         # add kill count
-                                        mon_kd = kd[nickname_search]
-                                        mon_kd[1] += 1
-                                        kd[nickname_search] = mon_kd
+                                        kd = self.add_kill(kd, nickname_search)
 
                                         # add kill cause
                                         move = data[n - i - j].split("|")[3]
@@ -417,18 +397,16 @@ class Analyzer:
                                         break
         if searching:
             kd, kills = self.check_hazards(
-                data, mon, pokemon, n, nicknames, kd, kills)
+                data, mon, pokemon, n, nicknames, kd, kills, searching, player)
 
         return kd, kills
 
-    def check_hazards(self, data, mon, pokemon, n, nicknames, kd, kills):
+    def check_hazards(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         hazards = ["Spikes", "Stealth Rock"]
         hazard_markers = []
         marker = "|-damage|" + mon + "|0 fnt|[from] "
         for hazard in hazards:
             hazard_markers.append(marker + hazard)
-        searching = True
-        player = self.check_player(mon)
         for hazard_marker in hazard_markers:
             if hazard_marker in data[:n]:
                 effect = hazard_marker.split("]")[1][1:]
@@ -445,9 +423,7 @@ class Analyzer:
                                     searching = False
 
                                     # add kill count
-                                    mon_kd = kd[nickname_search]
-                                    mon_kd[1] += 1
-                                    kd[nickname_search] = mon_kd
+                                    kd = self.add_kill(kd, nickname_search)
 
                                     # add kill cause
                                     move = data[n-i-j].split("|")[3]
@@ -455,18 +431,16 @@ class Analyzer:
                                                  killer + "'s entry hazard " + move)
                                 break
         if searching:
-            kd, kills = self.check_items(data, mon, pokemon, n, nicknames, kd, kills)
+            kd, kills = self.check_items(data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_items(self, data, mon, pokemon, n, nicknames, kd, kills):
+    def check_items(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         # Including Rough Skin ability because it is so similar to the Rocky Helmet effect
         items = ["item: Rocky Helmet", "item: Sticky Barb", "ability: Rough Skin"]
         item_markers = []
         marker = "|-damage|" + mon + "|0 fnt|[from] "
         for item in items:
             item_markers.append(marker + item)
-        searching = True
-        player = self.check_player(mon)
         for item_marker in item_markers:
             if any(item_marker in line for line in data[:n]):
                 effect = item_marker.split("]")[1][1:].split("|")[0]
@@ -481,9 +455,7 @@ class Analyzer:
                                 killer = nicknames[nickname_search]
 
                                 # add kill count
-                                mon_kd = kd[nickname_search]
-                                mon_kd[1] += 1
-                                kd[nickname_search] = mon_kd
+                                kd = self.add_kill(kd, nickname_search)
 
                                 # add kill cause
                                 kills.append(pokemon + " was ko'd by recoil from " +
@@ -503,9 +475,7 @@ class Analyzer:
                                             killer = nicknames[nickname_search]
 
                                             # add kill count
-                                            mon_kd = kd[nickname_search]
-                                            mon_kd[1] += 1
-                                            kd[nickname_search] = mon_kd
+                                            kd = self.add_kill(kd, nickname_search)
 
                                             # add kill cause
                                             kills.append(pokemon + " was ko'd by damage from " +
@@ -519,15 +489,13 @@ class Analyzer:
                                               "Indirect Kill should be awarded to the original holder.")
         if searching:
             kd, kills = self.check_traps(
-                data, mon, pokemon, n, nicknames, kd, kills)
+                data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_traps(self, data, mon, pokemon, n, nicknames, kd, kills):
+    def check_traps(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
         residual_markers = []
         trapmarker = "|-damage|" + mon + "|0 fnt|[from] move: "
         trap_residuals = ["Bind", "Clamp", "Fire Spin", "Magma Storm", "Sand Tomb", "Whirlpool", "Wrap"]
-        searching = True
-        player = self.check_player(mon)
         for trap_residual in trap_residuals:
             residual_markers.append(trapmarker + trap_residual + "|[partiallytrapped]")
         for residual_marker in residual_markers:
@@ -546,9 +514,7 @@ class Analyzer:
                             killer = nicknames[nickname_search]
 
                             # add kill count
-                            mon_kd = kd[nickname_search]
-                            mon_kd[1] += 1
-                            kd[nickname_search] = mon_kd
+                            kd = self.add_kill(kd, nickname_search)
 
                             # add kill cause
                             kills.append(pokemon + " was ko'd by " +
@@ -556,17 +522,18 @@ class Analyzer:
                             break
         if searching:
             kd, kills = self.check_misc(
-                data, mon, pokemon, n, nicknames, kd, kills)
+                data, mon, pokemon, n, nicknames, kd, kills, searching, player)
         return kd, kills
 
-    def check_misc(self, data, mon, pokemon, n, nicknames, kd, kills):
-        miscs = ["Curse", "Leech Seed", "ability: Aftermath", "item: Jaboca Berry", "item: Rowap Berry"]
+    def check_misc(self, data, mon, pokemon, n, nicknames, kd, kills, searching, player):
+        miscs = ["Curse", "Leech Seed", "Nightmare", "ability: Bad Dreams", "pokemon: Mimikyu-Busted",
+                 "ability: Liquid Ooze", "ability: Aftermath",
+                 "item: Jaboca Berry", "item: Rowap Berry", "Fire Pledge", "Grass Pledge", "ability: Innards Out",
+                 "ability: Gulp Missile"]
         misc_markers = []
         marker = "|-damage|" + mon + "|0 fnt|[from] "
         for misc in miscs:
             misc_markers.append(marker + misc)
-        searching = True
-        player = self.check_player(mon)
         for misc_marker in misc_markers:
             if any(misc_marker in line for line in data[:n]):
                 effect = misc_marker.split("]")[1][1:].split("|")[0]
@@ -583,16 +550,30 @@ class Analyzer:
                                         killer = nicknames[nickname_search]
 
                                         # add kill count
-                                        mon_kd = kd[nickname_search]
-                                        mon_kd[1] += 1
-                                        kd[nickname_search] = mon_kd
+                                        kd = self.add_kill(kd, nickname_search)
 
                                         # add kill cause
                                         kills.append(pokemon + " was ko'd by nightmare from " +
                                                      killer + "'s Curse")
                                         break
-                        elif (searching and effect == "Leech Seed" or effect == "ability: Aftermath" or
-                                effect == "item: Jaboca Berry" or effect == "item: Rowap Berry"):
+                        elif searching and effect == "Leech Seed":
+                            for j in range(len(data[:n - i])):
+                                if searching and "|-start|" in data[n - i - j] and "Leech Seed" in data[n - i - j]:
+                                    killer = data[n - i - j - 1].split("|")[2]
+                                    opp = self.check_player(killer)
+                                    if opp != player:
+                                        searching = False
+                                        nickname_search = self.nickname_marker(killer)
+                                        killer = nicknames[nickname_search]
+
+                                        # add kill count
+                                        kd = self.add_kill(kd, nickname_search)
+
+                                        # add kill cause
+                                        kills.append(pokemon + " was ko'd by leeching from " +
+                                                     killer + "'s Leech Seed")
+                                        break
+                        elif searching and "item" in effect or "ability" in effect:
                             killer = data[n - i].split("]")[2][1:]
                             opp = self.check_player(killer)
                             if opp != player:
@@ -601,19 +582,47 @@ class Analyzer:
                                 killer = nicknames[nickname_search]
 
                                 # add kill count
-                                mon_kd = kd[nickname_search]
-                                mon_kd[1] += 1
-                                kd[nickname_search] = mon_kd
+                                kd = self.add_kill(kd, nickname_search)
 
                                 # add kill cause
-                                if effect == "ability: Aftermath":
-                                    kills.append(pokemon + " was ko'd by recoil from " +
-                                                 killer + "'s Aftermath")
-                                elif effect == "item: Jaboca Berry" or effect == "item: Rowap Berry":
+                                if "ability" in effect:
+                                    kills.append(pokemon + " was ko'd by damage from " +
+                                                 killer + "'s ability")
+                                else:
                                     kills.append(pokemon + " was ko'd by recoil from " +
                                                  killer + "'s Berry")
-                                else:
-                                    kills.append(pokemon + " was ko'd by leeching from " +
-                                                 killer + "'s Leech Seed")
                                 break
+                        elif (searching and effect == "Nightmare" or effect == "Fire Pledge" or
+                                effect == "pokemon: Mimikyu-Busted"):
+                            for j in range(len(data[:n - i])):
+                                if searching and "|move|" in data[n - i - j] and effect in data[n - i - j]:
+                                    killer = data[n - i - j].split("|")[2]
+                                    opp = self.check_player(killer)
+                                    if opp != player:
+                                        searching = False
+                                        nickname_search = self.nickname_marker(killer)
+                                        killer = nicknames[nickname_search]
+
+                                        # add kill count
+                                        kd = self.add_kill(kd, nickname_search)
+
+                                        # add kill cause
+                                        kills.append(pokemon + " was ko'd by residual from " +
+                                                     killer + "'s " + effect)
+                                        break
+                                elif searching and "|move|" in data[n - i - j] and effect == "pokemon: Mimikyu-Busted":
+                                    killer = data[n - i - j].split("|")[2]
+                                    opp = self.check_player(killer)
+                                    if opp != player:
+                                        searching = False
+                                        nickname_search = self.nickname_marker(killer)
+                                        killer = nicknames[nickname_search]
+
+                                        # add kill count
+                                        kd = self.add_kill(kd, nickname_search, True)
+
+                                        # add kill cause
+                                        kills.append(pokemon + " was ko'd by Disguise bust from " +
+                                                     killer + "'s move")
+                                        break
         return kd, kills

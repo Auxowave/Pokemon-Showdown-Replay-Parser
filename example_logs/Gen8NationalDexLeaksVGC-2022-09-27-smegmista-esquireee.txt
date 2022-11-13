@@ -1,0 +1,187 @@
+|init|battle
+|title|SmegMista vs. esquireee
+|j|☆SmegMista
+|j|☆esquireee
+|t:|1664291369
+|gametype|doubles
+|player|p1|SmegMista|roxie|
+|player|p2|esquireee|blaine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex Leaks VGC
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Coalossal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Celesteela, L50|
+|poke|p1|Centiskorch, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Volcanion, L50|
+|poke|p2|Mesprit, L50|
+|poke|p2|Guzzlord, L50|
+|poke|p2|Floatzel, L50, M|
+|teampreview|4
+|c|☆SmegMista|g3
+|c|☆SmegMista|gl hf
+|c|☆esquireee|gl hf
+|
+|t:|1664291864
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100\/100
+|switch|p1b: Centiskorch|Centiskorch, L50, M|100\/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100\/100
+|switch|p2b: Volcanion|Volcanion, L50|100\/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1664291891
+|-start|p1b: Centiskorch|Dynamax
+|-formechange|p1b: Centiskorch|Centiskorch-Gmax
+|-heal|p1b: Centiskorch|100\/100|[silent]
+|move|p1a: Smeargle|Spiky Shield|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Smeargle
+|-activate|p1a: Smeargle|move: Protect
+|-damage|p2a: Rillaboom|88\/100|[from] Spiky Shield|[of] p1a: Smeargle
+|move|p2b: Volcanion|Steam Eruption|p1a: Smeargle
+|-activate|p1a: Smeargle|move: Protect
+|move|p1b: Centiskorch|Max Flutterby|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p2b: Volcanion|spa|1
+|faint|p2a: Rillaboom
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spd|2
+|-unboost|p1a: Smeargle|atk|1
+|upkeep
+|
+|t:|1664291918
+|switch|p2a: Guzzlord|Guzzlord, L50|100\/100
+|turn|2
+|
+|t:|1664291927
+|switch|p2b: Mesprit|Mesprit, L50|100\/100
+|move|p2a: Guzzlord|Protect|p2a: Guzzlord
+|-singleturn|p2a: Guzzlord|Protect
+|move|p1a: Smeargle|Spore|p2b: Mesprit
+|-status|p2b: Mesprit|slp|[from] move: Spore
+|move|p1b: Centiskorch|Max Flutterby|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-crit|p2a: Guzzlord
+|-zbroken|p2a: Guzzlord
+|-damage|p2a: Guzzlord|55\/100
+|-unboost|p2a: Guzzlord|spa|1
+|-unboost|p2b: Mesprit|spa|1
+|-enditem|p2a: Guzzlord|Weakness Policy
+|-boost|p2a: Guzzlord|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Guzzlord|spa|2|[from] item: Weakness Policy
+|
+|-heal|p2a: Guzzlord|61\/100|[from] Grassy Terrain
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|3
+|
+|t:|1664291971
+|move|p1a: Smeargle|Spore|p2a: Guzzlord
+|-status|p2a: Guzzlord|slp|[from] move: Spore
+|move|p1b: Centiskorch|G-Max Centiferno|p2b: Mesprit
+|-damage|p2b: Mesprit|34\/100 slp
+|-activate|p2a: Guzzlord|move: G-Max Centiferno|[of] p1b: Centiskorch
+|-activate|p2b: Mesprit|move: G-Max Centiferno|[of] p1b: Centiskorch
+|cant|p2b: Mesprit|slp
+|cant|p2a: Guzzlord|slp
+|
+|-heal|p2a: Guzzlord|67\/100 slp|[from] Grassy Terrain
+|-damage|p2b: Mesprit|22\/100 slp|[from] move: G-Max Centiferno|[partiallytrapped]
+|-damage|p2a: Guzzlord|55\/100 slp|[from] move: G-Max Centiferno|[partiallytrapped]
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|spd|1
+|-end|p1b: Centiskorch|Dynamax
+|-formechange|p1b: Centiskorch|Centiskorch
+|-heal|p1b: Centiskorch|100\/100|[silent]
+|upkeep
+|turn|4
+|c|☆esquireee|ahhhh smeargle lol
+|
+|t:|1664292001
+|switch|p1a: Porygon2|Porygon2, L50, shiny|100\/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|move|p1b: Centiskorch|Leech Life|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|-curestatus|p2b: Mesprit|slp|[msg]
+|move|p2b: Mesprit|Psychic|p1b: Centiskorch
+|-damage|p1b: Centiskorch|85\/100
+|
+|-heal|p1b: Centiskorch|91\/100|[from] Grassy Terrain
+|-damage|p2b: Mesprit|10\/100|[from] move: G-Max Centiferno|[partiallytrapped]
+|upkeep
+|
+|t:|1664292014
+|switch|p2a: Volcanion|Volcanion, L50|100\/100
+|turn|5
+|
+|t:|1664292029
+|-start|p2a: Volcanion|Dynamax
+|-heal|p2a: Volcanion|100\/100|[silent]
+|move|p2a: Volcanion|Max Geyser|p1b: Centiskorch
+|-supereffective|p1b: Centiskorch
+|-damage|p1b: Centiskorch|6\/100
+|-weather|RainDance
+|move|p1b: Centiskorch|Power Whip|p2a: Volcanion
+|-damage|p2a: Volcanion|79\/100
+|move|p1a: Porygon2|Thunderbolt|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|53\/100
+|move|p2b: Mesprit|Imprison|p2b: Mesprit
+|-start|p2b: Mesprit|move: Imprison
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcanion|56\/100|[from] Grassy Terrain
+|-heal|p1b: Centiskorch|12\/100|[from] Grassy Terrain
+|-damage|p2b: Mesprit|0 fnt|[from] move: G-Max Centiferno|[partiallytrapped]
+|faint|p2b: Mesprit
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|c|☆SmegMista|gg
+|
+|t:|1664292064
+|switch|p1b: Smeargle|Smeargle, L50, M|100\/100
+|move|p2a: Volcanion|Max Ooze|p1b: Smeargle
+|-damage|p1b: Smeargle|34\/100
+|-boost|p2a: Volcanion|spa|1
+|move|p1a: Porygon2|Thunderbolt|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|31\/100
+|-status|p2a: Volcanion|par
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|7
+|c|☆esquireee|gg
+|
+|t:|1664292088
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p1a: Porygon2|Thunderbolt|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-crit|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|win|SmegMista

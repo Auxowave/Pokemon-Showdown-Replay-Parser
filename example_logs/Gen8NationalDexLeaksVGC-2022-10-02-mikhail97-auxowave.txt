@@ -1,0 +1,277 @@
+|init|battle
+|title|Mikhail97 vs. Auxowave
+|j|☆Mikhail97
+|j|☆Auxowave
+|t:|1664719348
+|gametype|doubles
+|player|p1|Mikhail97|gentleman-gen2|
+|player|p2|Auxowave|hilbert|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex Leaks VGC
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Metagross, L50|
+|poke|p1|Purrloin, L50, M|
+|poke|p1|Marshadow, L50|
+|poke|p2|Gyarados, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Magearna, L50|
+|poke|p2|Illumise, L50, F|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|c|☆Auxowave|g2
+|c|☆Auxowave|glhf
+|
+|t:|1664719658
+|start
+|switch|p1a: Venusaur|Venusaur, L50, F|100\/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100\/100
+|switch|p2a: Lunala|Lunala, L50|100\/100
+|switch|p2b: Gyarados|Gyarados, L50, F|100\/100
+|-ability|p2b: Gyarados|Intimidate|boost
+|-unboost|p1a: Venusaur|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-enditem|p1b: Torkoal|Eject Pack
+|c|☆Auxowave|now there's an interaction you don't see every day
+|c|☆Mikhail97|yes
+|
+|t:|1664719698
+|switch|p1b: Marshadow|Marshadow, L50|100\/100
+|turn|1
+|c|☆Mikhail97|quite tragic actually
+|
+|t:|1664719740
+|switch|p1a: Torkoal|Torkoal, L50, M|100\/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-start|p1b: Marshadow|Dynamax
+|-heal|p1b: Marshadow|100\/100|[silent]
+|-start|p2b: Gyarados|Dynamax
+|-heal|p2b: Gyarados|100\/100|[silent]
+|move|p1b: Marshadow|Max Phantasm|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-enditem|p2a: Lunala|Kasib Berry|[eat]
+|-enditem|p2a: Lunala|Kasib Berry|[weaken]
+|-damage|p2a: Lunala|35\/100
+|-unboost|p2a: Lunala|def|1
+|-unboost|p2b: Gyarados|def|1
+|move|p2a: Lunala|Moongeist Beam|p1b: Marshadow
+|-supereffective|p1b: Marshadow
+|-damage|p1b: Marshadow|27\/100
+|move|p2b: Gyarados|Max Airstream|p1a: Torkoal
+|-damage|p1a: Torkoal|66\/100
+|-boost|p2a: Lunala|spe|1
+|-boost|p2b: Gyarados|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1664719789
+|move|p1b: Marshadow|Max Guard|p1b: Marshadow
+|-singleturn|p1b: Marshadow|Max Guard
+|move|p2a: Lunala|Moongeist Beam|p1b: Marshadow
+|-activate|p1b: Marshadow|move: Max Guard
+|move|p2b: Gyarados|Max Airstream|p1a: Torkoal
+|-damage|p1a: Torkoal|28\/100
+|-boost|p2a: Lunala|spe|1
+|-boost|p2b: Gyarados|spe|1
+|move|p1a: Torkoal|Burning Jealousy|p2a: Lunala|[spread] p2a,p2b
+|-resisted|p2b: Gyarados
+|-damage|p2a: Lunala|16\/100
+|-damage|p2b: Gyarados|95\/100
+|-status|p2a: Lunala|brn
+|-status|p2b: Gyarados|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lunala|10\/100 brn|[from] brn
+|-damage|p2b: Gyarados|92\/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1664719826
+|-end|p1b: Marshadow|Dynamax
+|-heal|p1b: Marshadow|27\/100|[silent]
+|switch|p1b: Purrloin|Purrloin, L50, M|100\/100
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Lunala|Psychic|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p2b: Gyarados|Max Airstream|p1b: Purrloin
+|-damage|p1b: Purrloin|21\/100
+|-boost|p2a: Lunala|spe|1
+|-boost|p2b: Gyarados|spe|1
+|-enditem|p1b: Purrloin|Eject Button
+|
+|t:|1664719846
+|switch|p1b: Marshadow|Marshadow, L50|27\/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lunala|4\/100 brn|[from] brn
+|-damage|p2b: Gyarados|89\/100 brn|[from] brn
+|-end|p2b: Gyarados|Dynamax
+|-heal|p2b: Gyarados|89\/100 brn|[silent]
+|upkeep
+|turn|4
+|
+|t:|1664719901
+|switch|p1a: Purrloin|Purrloin, L50, M|21\/100
+|move|p2a: Lunala|Protect|p2a: Lunala
+|-singleturn|p2a: Lunala|Protect
+|move|p1b: Marshadow|Protect|p1b: Marshadow
+|-singleturn|p1b: Marshadow|Protect
+|move|p2b: Gyarados|Bounce||[still]
+|-prepare|p2b: Gyarados|Bounce
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lunala|0 fnt|[from] brn
+|faint|p2a: Lunala
+|-damage|p2b: Gyarados|83\/100 brn|[from] brn
+|upkeep
+|
+|t:|1664719918
+|switch|p2a: Magearna|Magearna, L50|100\/100
+|turn|5
+|
+|t:|1664719939
+|move|p2a: Magearna|Protect|p2a: Magearna
+|-singleturn|p2a: Magearna|Protect
+|move|p1a: Purrloin|Fake Out|p2a: Magearna
+|-activate|p2a: Magearna|move: Protect
+|move|p1b: Marshadow|Shadow Sneak|p2a: Magearna
+|-activate|p2a: Magearna|move: Protect
+|move|p2b: Gyarados|Bounce|p1b: Marshadow|[from]lockedmove
+|-supereffective|p1b: Marshadow
+|-damage|p1b: Marshadow|0 fnt
+|faint|p1b: Marshadow
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|none
+|-damage|p2b: Gyarados|77\/100 brn|[from] brn
+|upkeep
+|
+|t:|1664719948
+|switch|p1b: Venusaur|Venusaur, L50, F|100\/100
+|turn|6
+|
+|t:|1664719984
+|switch|p1a: Torkoal|Torkoal, L50, M|28\/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2b: Gyarados|Waterfall|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|18\/100
+|move|p1b: Venusaur|Weather Ball|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-enditem|p2a: Magearna|Occa Berry|[eat]
+|-enditem|p2a: Magearna|Occa Berry|[weaken]
+|-damage|p2a: Magearna|49\/100
+|-damage|p1b: Venusaur|91\/100|[from] item: Life Orb
+|move|p2a: Magearna|Flash Cannon|p1b: Venusaur
+|-damage|p1b: Venusaur|21\/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Gyarados|71\/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1664720023
+|move|p2a: Magearna|Protect|p2a: Magearna
+|-singleturn|p2a: Magearna|Protect
+|move|p2b: Gyarados|Waterfall|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|7\/100
+|move|p1b: Venusaur|Leaf Storm|p2b: Gyarados
+|-damage|p2b: Gyarados|0 fnt
+|-unboost|p1b: Venusaur|spa|2
+|faint|p2b: Gyarados
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-damage|p1b: Venusaur|12\/100|[from] item: Life Orb
+|move|p1a: Torkoal|Burning Jealousy|p2a: Magearna
+|-activate|p2a: Magearna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1664720035
+|switch|p2b: Garchomp|Garchomp, L50, M|100\/100
+|turn|8
+|
+|t:|1664720056
+|move|p1b: Venusaur|Weather Ball|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-damage|p1b: Venusaur|2\/100|[from] item: Life Orb
+|move|p2b: Garchomp|Stomping Tantrum|p1b: Venusaur
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|move|p1a: Torkoal|Yawn|p2b: Garchomp
+|-start|p2b: Garchomp|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1664720062
+|switch|p1b: Purrloin|Purrloin, L50, M|21\/100
+|turn|9
+|
+|t:|1664720074
+|move|p1b: Purrloin|Fake Out|p2b: Garchomp
+|-damage|p2b: Garchomp|95\/100
+|-damage|p1b: Purrloin|9\/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|cant|p2b: Garchomp|flinch
+|move|p1a: Torkoal|Burning Jealousy|p2b: Garchomp
+|-resisted|p2b: Garchomp
+|-damage|p2b: Garchomp|78\/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2b: Garchomp|move: Yawn|[silent]
+|-status|p2b: Garchomp|slp
+|upkeep
+|turn|10
+|
+|t:|1664720087
+|cant|p2b: Garchomp|slp
+|move|p1b: Purrloin|Snarl|p2b: Garchomp
+|-damage|p2b: Garchomp|64\/100 slp
+|-unboost|p2b: Garchomp|spa|1
+|move|p1a: Torkoal|Burning Jealousy|p2b: Garchomp
+|-resisted|p2b: Garchomp
+|-damage|p2b: Garchomp|47\/100 slp
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1664720117
+|cant|p2b: Garchomp|slp
+|move|p1b: Purrloin|Snarl|p2b: Garchomp
+|-damage|p2b: Garchomp|34\/100 slp
+|-unboost|p2b: Garchomp|spa|1
+|move|p1a: Torkoal|Burning Jealousy|p2b: Garchomp
+|-resisted|p2b: Garchomp
+|-damage|p2b: Garchomp|22\/100 slp
+|
+|upkeep
+|turn|12
+|
+|t:|1664720126
+|cant|p2b: Garchomp|slp
+|move|p1b: Purrloin|Snarl|p2b: Garchomp
+|-damage|p2b: Garchomp|8\/100 slp
+|-unboost|p2b: Garchomp|spa|1
+|move|p1a: Torkoal|Overheat|p2b: Garchomp
+|-resisted|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|-unboost|p1a: Torkoal|spa|2
+|faint|p2b: Garchomp
+|
+|win|Mikhail97

@@ -1,0 +1,306 @@
+|init|battle
+|title|hdm_2000 vs. Prof. Snag
+|j|☆hdm_2000
+|j|☆Prof. Snag
+|t:|1618625920
+|player|p1|hdm_2000|colress|
+|player|p2|Prof. Snag|palmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Galar Dex Draft
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Celesteela|
+|poke|p1|Nidoqueen, F|
+|poke|p1|Silvally-*|
+|poke|p1|Decidueye, M|
+|poke|p1|Flareon, M|
+|poke|p1|Lanturn, F|
+|poke|p2|Latios, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Krookodile, M|
+|poke|p2|Morpeko, F|
+|poke|p2|Araquanid, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆hdm_2000|glhf
+|c|☆Prof. Snag|yes! GLHF!
+|c|☆hdm_2000|I wonder what that "yes!" was about, lol
+|
+|t:|1618626020
+|start
+|switch|p1a: P. Sherman 42|Lanturn, F|100\/100
+|switch|p2a: Captain America|Cinderace, M|100\/100
+|turn|1
+|
+|t:|1618626060
+|switch|p2a: Wanda|Sylveon, F|100\/100
+|move|p1a: P. Sherman 42|Agility|p1a: P. Sherman 42
+|-boost|p1a: P. Sherman 42|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1618626077
+|move|p1a: P. Sherman 42|Volt Switch|p2a: Wanda
+|-crit|p2a: Wanda
+|-damage|p2a: Wanda|65\/100
+|-damage|p1a: P. Sherman 42|91\/100|[from] item: Life Orb
+|
+|t:|1618626092
+|switch|p1a: Nido Mcqueen|Nidoqueen, F|100\/100|[from]move: Volt Switch
+|move|p2a: Wanda|Moonblast|p1a: Nido Mcqueen
+|-resisted|p1a: Nido Mcqueen
+|-damage|p1a: Nido Mcqueen|83\/100
+|-unboost|p1a: Nido Mcqueen|spa|1
+|
+|-heal|p2a: Wanda|71\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1618626103
+|move|p2a: Wanda|Protect|p2a: Wanda
+|-singleturn|p2a: Wanda|Protect
+|move|p1a: Nido Mcqueen|Toxic Spikes|p2a: Wanda
+|-sidestart|p2: Prof. Snag|move: Toxic Spikes
+|
+|-heal|p2a: Wanda|78\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1618626133
+|switch|p2a: Hawkeye|Krookodile, M|100\/100
+|-status|p2a: Hawkeye|psn
+|move|p1a: Nido Mcqueen|Ice Beam|p2a: Hawkeye
+|-supereffective|p2a: Hawkeye
+|-damage|p2a: Hawkeye|26\/100 psn
+|
+|-damage|p2a: Hawkeye|14\/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1618626185
+|switch|p1a: Bamboozled|Celesteela|100\/100
+|move|p2a: Hawkeye|Knock Off|p1a: Bamboozled
+|-damage|p1a: Bamboozled|70\/100
+|-enditem|p1a: Bamboozled|Leftovers|[from] move: Knock Off|[of] p2a: Hawkeye
+|
+|-damage|p2a: Hawkeye|1\/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1618626279
+|move|p2a: Hawkeye|Knock Off|p1a: Bamboozled
+|-damage|p1a: Bamboozled|47\/100
+|move|p1a: Bamboozled|Megahorn|p2a: Hawkeye|[miss]
+|-miss|p1a: Bamboozled|p2a: Hawkeye
+|
+|-damage|p2a: Hawkeye|0 fnt|[from] psn
+|faint|p2a: Hawkeye
+|upkeep
+|
+|t:|1618626316
+|switch|p2a: Vision|Latios, M|100\/100
+|turn|7
+|
+|t:|1618626336
+|move|p2a: Vision|Mystical Fire|p1a: Bamboozled
+|-supereffective|p1a: Bamboozled
+|-damage|p1a: Bamboozled|0 fnt
+|faint|p1a: Bamboozled
+|
+|upkeep
+|
+|t:|1618626351
+|switch|p1a: Dr. Hoo|Decidueye, M|100\/100
+|turn|8
+|
+|t:|1618626458
+|switch|p2a: Pheonix|Morpeko, F|100\/100
+|-status|p2a: Pheonix|psn
+|move|p1a: Dr. Hoo|Poltergeist|p2a: Pheonix
+|-activate|p2a: Pheonix|move: Poltergeist|Life Orb
+|-resisted|p2a: Pheonix
+|-damage|p2a: Pheonix|51\/100 psn
+|
+|-damage|p2a: Pheonix|38\/100 psn|[from] psn
+|-formechange|p2a: Pheonix|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|9
+|
+|t:|1618626498
+|move|p1a: Dr. Hoo|Poltergeist|p2a: Pheonix
+|-activate|p2a: Pheonix|move: Poltergeist|Life Orb
+|-resisted|p2a: Pheonix
+|-damage|p2a: Pheonix|0 fnt
+|faint|p2a: Pheonix
+|
+|upkeep
+|
+|t:|1618626569
+|switch|p2a: Captain America|Cinderace, M|100\/100
+|-status|p2a: Captain America|psn
+|turn|10
+|
+|t:|1618626580
+|switch|p1a: P. Sherman 42|Lanturn, F|91\/100
+|move|p2a: Captain America|Pyro Ball|p1a: P. Sherman 42
+|-resisted|p1a: P. Sherman 42
+|-damage|p1a: P. Sherman 42|45\/100
+|
+|-damage|p2a: Captain America|88\/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1618626640
+|move|p2a: Captain America|High Jump Kick|p1a: P. Sherman 42|[miss]
+|-miss|p2a: Captain America|p1a: P. Sherman 42
+|-damage|p2a: Captain America|38\/100 psn|[from] highjumpkick
+|move|p1a: P. Sherman 42|Agility|p1a: P. Sherman 42
+|-boost|p1a: P. Sherman 42|spe|2
+|
+|-damage|p2a: Captain America|26\/100 psn|[from] psn
+|upkeep
+|turn|12
+|c|☆hdm_2000|I'm very sorry about that miss
+|c|☆Prof. Snag|Ill show you the set later... smh
+|
+|t:|1618626714
+|switch|p2a: Wanda|Sylveon, F|78\/100
+|-status|p2a: Wanda|psn
+|move|p1a: P. Sherman 42|Scald|p2a: Wanda
+|-damage|p2a: Wanda|51\/100 psn
+|-damage|p1a: P. Sherman 42|35\/100|[from] item: Life Orb
+|
+|-heal|p2a: Wanda|57\/100 psn|[from] item: Leftovers
+|-damage|p2a: Wanda|45\/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1618626741
+|switch|p1a: Brûlée|Flareon, M|100\/100
+|move|p2a: Wanda|Wish|p2a: Wanda
+|
+|-heal|p2a: Wanda|51\/100 psn|[from] item: Leftovers
+|-damage|p2a: Wanda|38\/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1618626766
+|move|p2a: Wanda|Protect|p2a: Wanda
+|-singleturn|p2a: Wanda|Protect
+|move|p1a: Brûlée|Double-Edge|p2a: Wanda
+|-activate|p2a: Wanda|move: Protect
+|
+|-heal|p2a: Wanda|88\/100 psn|[from] move: Wish|[wisher] Wanda
+|-heal|p2a: Wanda|94\/100 psn|[from] item: Leftovers
+|-damage|p2a: Wanda|82\/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1618626812
+|move|p1a: Brûlée|Double-Edge|p2a: Wanda
+|-damage|p2a: Wanda|11\/100 psn
+|-start|p1a: Brûlée|Attract|[from] ability: Cute Charm|[of] p2a: Wanda
+|-damage|p1a: Brûlée|73\/100|[from] Recoil
+|move|p2a: Wanda|Wish|p2a: Wanda
+|
+|-heal|p2a: Wanda|17\/100 psn|[from] item: Leftovers
+|-damage|p2a: Wanda|4\/100 psn|[from] psn
+|upkeep
+|turn|16
+|c|☆Prof. Snag|cant believe that procced
+|
+|t:|1618626914
+|switch|p2a: Captain America|Cinderace, M|26\/100 psn
+|-end|p1a: Brûlée|Attract|[silent]
+|move|p1a: Brûlée|Double-Edge|p2a: Captain America
+|-damage|p2a: Captain America|0 fnt
+|-damage|p1a: Brûlée|65\/100|[from] Recoil
+|faint|p2a: Captain America
+|
+|upkeep
+|
+|t:|1618626981
+|switch|p2a: Black Widow|Araquanid, M, shiny|100\/100
+|-status|p2a: Black Widow|psn
+|turn|17
+|
+|t:|1618626994
+|switch|p1a: Arseus|Silvally-Fairy|100\/100
+|move|p2a: Black Widow|Sticky Web|p1a: Arseus
+|-sidestart|p1: hdm_2000|move: Sticky Web
+|
+|-damage|p2a: Black Widow|88\/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1618627050
+|move|p1a: Arseus|Defog|p2a: Black Widow
+|-unboost|p2a: Black Widow|evasion|1
+|-sideend|p2: Prof. Snag|Toxic Spikes|[from] move: Defog|[of] p1a: Arseus
+|-sideend|p1: hdm_2000|Sticky Web|[from] move: Defog|[of] p1a: Arseus
+|move|p2a: Black Widow|Liquidation|p1a: Arseus
+|-damage|p1a: Arseus|37\/100
+|
+|-heal|p2a: Black Widow|94\/100 psn|[from] item: Leftovers
+|-damage|p2a: Black Widow|82\/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1618627098
+|move|p1a: Arseus|Multi-Attack|p2a: Black Widow
+|-damage|p2a: Black Widow|37\/100 psn
+|move|p2a: Black Widow|Liquidation|p1a: Arseus
+|-damage|p1a: Arseus|0 fnt
+|faint|p1a: Arseus
+|
+|-heal|p2a: Black Widow|43\/100 psn|[from] item: Leftovers
+|-damage|p2a: Black Widow|31\/100 psn|[from] psn
+|upkeep
+|
+|t:|1618627107
+|switch|p1a: Dr. Hoo|Decidueye, M|100\/100
+|turn|20
+|
+|t:|1618627114
+|move|p1a: Dr. Hoo|Poltergeist|p2a: Black Widow
+|-activate|p2a: Black Widow|move: Poltergeist|Leftovers
+|-damage|p2a: Black Widow|0 fnt
+|faint|p2a: Black Widow
+|
+|upkeep
+|c|☆Prof. Snag|gg
+|
+|t:|1618627120
+|switch|p2a: Vision|Latios, M|100\/100
+|turn|21
+|
+|t:|1618627129
+|move|p1a: Dr. Hoo|Poltergeist|p2a: Vision
+|-activate|p2a: Vision|move: Poltergeist|Choice Specs
+|-supereffective|p2a: Vision
+|-damage|p2a: Vision|0 fnt
+|faint|p2a: Vision
+|
+|upkeep
+|
+|t:|1618627134
+|switch|p2a: Wanda|Sylveon, F|4\/100 psn
+|turn|22
+|c|☆hdm_2000|gg
+|
+|t:|1618627137
+|move|p1a: Dr. Hoo|Poltergeist|p2a: Wanda
+|-activate|p2a: Wanda|move: Poltergeist|Leftovers
+|-damage|p2a: Wanda|0 fnt
+|faint|p2a: Wanda
+|
+|win|hdm_2000

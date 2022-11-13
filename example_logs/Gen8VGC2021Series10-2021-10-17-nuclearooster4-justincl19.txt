@@ -1,0 +1,242 @@
+|init|battle
+|title|NucleaRooster4 vs. justincl19
+|j|☆NucleaRooster4
+|j|☆justincl19
+|t:|1634495886
+|gametype|doubles
+|player|p1|NucleaRooster4|clay|
+|player|p2|justincl19|red|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] VGC 2021 Series 10
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit one of each item
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Celesteela, L50|
+|poke|p1|Krookodile, L50, M|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Butterfree, L50, F|
+|poke|p1|Slowking-Galar, L50, M|
+|poke|p2|Dusclops, L50, F|
+|poke|p2|Tangrowth, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Copperajah, L50, M|
+|poke|p2|Abomasnow, L50, F|
+|poke|p2|Arctozolt, L50|
+|teampreview|4
+|c|☆justincl19|glhf
+|c|☆NucleaRooster4|glhf
+|j| CoolGummyBear
+|
+|t:|1634495938
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100\/100
+|switch|p1b: Raichu|Raichu, L50, M|100\/100
+|switch|p2a: One sniff|Tangrowth, L50, F|100\/100
+|switch|p2b: Incinrawr xD|Incineroar, L50, M, shiny|100\/100
+|-ability|p2b: Incinrawr xD|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|-unboost|p1b: Raichu|atk|1
+|turn|1
+|
+|t:|1634495966
+|switch|p2b: duffclomps|Dusclops, L50, F|100\/100
+|-item|p1a: Urshifu|Choice Scarf|[from] ability: Frisk|[of] p2b: duffclomps|[identify]
+|-item|p1b: Raichu|Focus Sash|[from] ability: Frisk|[of] p2b: duffclomps|[identify]
+|move|p2a: One sniff|Protect|p2a: One sniff
+|-singleturn|p2a: One sniff|Protect
+|move|p1b: Raichu|Fake Out|p2a: One sniff
+|-activate|p2a: One sniff|move: Protect
+|move|p1a: Urshifu|Surging Strikes|p2b: duffclomps
+|-crit|p2b: duffclomps
+|-damage|p2b: duffclomps|90\/100
+|-crit|p2b: duffclomps
+|-damage|p2b: duffclomps|79\/100
+|-crit|p2b: duffclomps
+|-damage|p2b: duffclomps|69\/100
+|-hitcount|p2b: duffclomps|3
+|
+|upkeep
+|turn|2
+|
+|t:|1634495997
+|switch|p1a: Celesteela|Celesteela, L50|100\/100
+|move|p2a: One sniff|Rage Powder|p2a: One sniff
+|-singleturn|p2a: One sniff|move: Rage Powder
+|move|p1b: Raichu|Volt Switch|p2a: One sniff
+|-resisted|p2a: One sniff
+|-damage|p2a: One sniff|80\/100
+|
+|t:|1634496003
+|switch|p1b: Slowking|Slowking-Galar, L50, M|100\/100|[from]move: Volt Switch
+|move|p2b: duffclomps|Trick Room|p2b: duffclomps
+|-fieldstart|move: Trick Room|[of] p2b: duffclomps
+|
+|upkeep
+|turn|3
+|
+|t:|1634496048
+|switch|p2a: Incinrawr xD|Incineroar, L50, M, shiny|100\/100
+|-ability|p2a: Incinrawr xD|Intimidate|boost
+|-unboost|p1a: Celesteela|atk|1
+|-unboost|p1b: Slowking|atk|1
+|move|p2b: duffclomps|Will-O-Wisp|p1a: Celesteela
+|-status|p1a: Celesteela|brn
+|move|p1b: Slowking|Flamethrower|p2a: Incinrawr xD
+|-resisted|p2a: Incinrawr xD
+|-damage|p2a: Incinrawr xD|83\/100
+|move|p1a: Celesteela|Flamethrower|p2a: Incinrawr xD
+|-resisted|p2a: Incinrawr xD
+|-damage|p2a: Incinrawr xD|68\/100
+|
+|-damage|p1a: Celesteela|95\/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1634496102
+|move|p2a: Incinrawr xD|Protect|p2a: Incinrawr xD
+|-singleturn|p2a: Incinrawr xD|Protect
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2b: duffclomps|Night Shade|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|move|p1b: Slowking|Hydro Pump|p2a: Incinrawr xD
+|-activate|p2a: Incinrawr xD|move: Protect
+|
+|-damage|p1a: Celesteela|89\/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1634496188
+|switch|p2a: cooper|Copperajah, L50, M|100\/100
+|move|p2b: duffclomps|Night Shade|p1a: Celesteela
+|-damage|p1a: Celesteela|64\/100 brn
+|move|p1b: Slowking|Hydro Pump|p2a: cooper
+|-damage|p2a: cooper|61\/100
+|move|p1a: Celesteela|Meteor Beam||[still]
+|-prepare|p1a: Celesteela|Meteor Beam
+|-boost|p1a: Celesteela|spa|1
+|-enditem|p1a: Celesteela|Power Herb
+|-anim|p1a: Celesteela|Meteor Beam|p2a: cooper
+|-resisted|p2a: cooper
+|-damage|p2a: cooper|24\/100
+|
+|-damage|p1a: Celesteela|58\/100 brn|[from] brn
+|upkeep
+|turn|6
+|c|☆NucleaRooster4|I misclicked one of those moves rip
+|c|☆justincl19|and im running the wrong item on one of my mons lmao
+|
+|t:|1634496286
+|move|p2b: duffclomps|Night Shade|p1b: Slowking
+|-damage|p1b: Slowking|76\/100
+|move|p2a: cooper|Iron Head|p1b: Slowking
+|-damage|p1b: Slowking|4\/100
+|move|p1b: Slowking|Flamethrower|p2a: cooper
+|-supereffective|p2a: cooper
+|-damage|p2a: cooper|0 fnt
+|faint|p2a: cooper
+|move|p1a: Celesteela|Flash Cannon|p2b: duffclomps
+|-damage|p2b: duffclomps|34\/100
+|
+|-damage|p1a: Celesteela|52\/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|j| Kmilly134
+|
+|t:|1634496295
+|switch|p2a: Incinrawr xD|Incineroar, L50, M, shiny|68\/100
+|-ability|p2a: Incinrawr xD|Intimidate|boost
+|-unboost|p1a: Celesteela|atk|1
+|-unboost|p1b: Slowking|atk|1
+|turn|7
+|c|☆justincl19|fake kevin is here
+|c|☆NucleaRooster4|Yeah
+|
+|t:|1634496354
+|move|p2b: duffclomps|Shadow Sneak|p1b: Slowking
+|-supereffective|p1b: Slowking
+|-damage|p1b: Slowking|0 fnt
+|faint|p1b: Slowking
+|move|p1a: Celesteela|Flash Cannon|p2b: duffclomps
+|-damage|p2b: duffclomps|0 fnt
+|faint|p2b: duffclomps
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|move|p2a: Incinrawr xD|Heat Wave|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-crit|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|
+|upkeep
+|
+|t:|1634496364
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100\/100
+|switch|p1b: Raichu|Raichu, L50, M|100\/100
+|switch|p2b: One sniff|Tangrowth, L50, F|100\/100
+|turn|8
+|
+|t:|1634496389
+|move|p1b: Raichu|Fake Out|p2b: One sniff
+|-damage|p2b: One sniff|95\/100
+|-damage|p1b: Raichu|84\/100|[from] item: Rocky Helmet|[of] p2b: One sniff
+|cant|p2b: One sniff|flinch
+|move|p1a: Urshifu|Close Combat|p2a: Incinrawr xD
+|-supereffective|p2a: Incinrawr xD
+|-damage|p2a: Incinrawr xD|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Incinrawr xD
+|
+|upkeep
+|turn|9
+|c|☆NucleaRooster4|GGs whatever happens
+|
+|t:|1634496421
+|move|p1b: Raichu|Helping Hand|p1a: Urshifu
+|-singleturn|p1a: Urshifu|Helping Hand|[of] p1b: Raichu
+|move|p1a: Urshifu|Close Combat|p2b: One sniff
+|-damage|p2b: One sniff|40\/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|84\/100|[from] item: Rocky Helmet|[of] p2b: One sniff
+|move|p2b: One sniff|Giga Drain|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-heal|p2b: One sniff|77\/100|[from] drain|[of] p1a: Urshifu
+|faint|p1a: Urshifu
+|
+|upkeep
+|turn|10
+|
+|t:|1634496434
+|move|p1b: Raichu|Nuzzle|p2b: One sniff
+|-resisted|p2b: One sniff
+|-damage|p2b: One sniff|75\/100
+|-status|p2b: One sniff|par
+|-damage|p1b: Raichu|67\/100|[from] item: Rocky Helmet|[of] p2b: One sniff
+|move|p2b: One sniff|Leech Seed|p1b: Raichu
+|-start|p1b: Raichu|move: Leech Seed
+|
+|-damage|p1b: Raichu|55\/100|[from] Leech Seed|[of] p2b: One sniff
+|-heal|p2b: One sniff|83\/100 par|[silent]
+|upkeep
+|turn|11
+|
+|t:|1634496469
+|move|p1b: Raichu|Volt Switch|p2b: One sniff
+|-resisted|p2b: One sniff
+|-damage|p2b: One sniff|62\/100 par
+|move|p2b: One sniff|Giga Drain|p1b: Raichu
+|-damage|p1b: Raichu|10\/100
+|-heal|p2b: One sniff|77\/100 par|[from] drain|[of] p1b: Raichu
+|
+|-damage|p1b: Raichu|0 fnt|[from] Leech Seed|[of] p2b: One sniff
+|-heal|p2b: One sniff|84\/100 par|[silent]
+|faint|p1b: Raichu
+|
+|win|justincl19

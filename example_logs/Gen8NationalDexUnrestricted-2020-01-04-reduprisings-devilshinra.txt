@@ -1,0 +1,545 @@
+|init|battle
+|title|Red Uprisings vs. Devilshinra
+|j|☆Red Uprisings
+|j|☆DevilShinra
+|player|p1|Red Uprisings|n|
+|player|p2|DevilShinra|lucy-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex Unrestricted
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Necrozma|
+|poke|p1|Seismitoad, M|
+|poke|p1|Honchkrow, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Accelgor, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Mesprit|
+|poke|p2|Obstagoon, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Melmetal|
+|poke|p2|Hydreigon, M|
+|teampreview
+|j| Blackxlotus
+|j| Seattle Alcremie
+|j| Brockdahotranier
+|j| HarrisIsAwesome
+|c|☆DevilShinra|hf my guy
+|j| MinnesotaEonTwins
+|j| Papa Kyurem
+|c| Blackxlotus|Lets get this bread
+|c|☆Red Uprisings|u2 fren
+|j| The Paralyzer210
+|c| Brockdahotranier|I want a good game boys 
+|c| MinnesotaEonTwins|i want to see murder and bloodshed
+|c|☆Red Uprisings|before we start this is the frist wifi battle ive done in like 2 months....
+|l|seattlealcremie
+|j| Murder n Bloodshed
+|c| Blackxlotus|But do you have good nicknames
+|c| Papa Kyurem|he really did earn johnner huh
+|
+|start
+|switch|p1a: Hoteye|Rotom-Heat|100\/100
+|switch|p2a: Bong|Weezing-Galar, F|100\/100
+|turn|1
+|c| Murder n Bloodshed|Murder and Bloodshed it is.
+|c| The Paralyzer210|This isnt a wifi battle lol
+|c| Papa Kyurem|^
+|c| MinnesotaEonTwins|ayy
+|
+|move|p1a: Hoteye|Will-O-Wisp|p2a: Bong
+|-status|p2a: Bong|brn
+|move|p2a: Bong|Toxic Spikes|p1a: Hoteye
+|-sidestart|p1: Red Uprisings|move: Toxic Spikes
+|
+|-damage|p2a: Bong|94\/100 brn|[from] brn
+|upkeep
+|turn|2
+|l| HarrisIsAwesome
+|
+|move|p1a: Hoteye|Defog|p2a: Bong
+|-unboost|p2a: Bong|evasion|1
+|-sideend|p1: Red Uprisings|Toxic Spikes|[from] move: Defog|[of] p1a: Hoteye
+|move|p2a: Bong|Taunt|p1a: Hoteye
+|-start|p1a: Hoteye|move: Taunt
+|
+|-heal|p2a: Bong|100\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Bong|94\/100 brn|[from] brn
+|upkeep
+|turn|3
+|j| HarrisIsAwesome
+|
+|move|p1a: Hoteye|Volt Switch|p2a: Bong
+|-damage|p2a: Bong|68\/100 brn
+|
+|switch|p1a: Ryan|Seismitoad, M|100\/100|[from]move: Volt Switch
+|move|p2a: Bong|Toxic Spikes|p1a: Ryan
+|-sidestart|p1: Red Uprisings|move: Toxic Spikes
+|
+|-heal|p2a: Bong|74\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Bong|68\/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Bong|Taunt|p1a: Ryan
+|-start|p1a: Ryan|move: Taunt
+|cant|p1a: Ryan|move: Taunt|Toxic
+|
+|-heal|p2a: Bong|74\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Bong|68\/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Mimosa|Mesprit|100\/100
+|move|p1a: Ryan|Scald|p2a: Mimosa
+|-damage|p2a: Mimosa|77\/100
+|-status|p2a: Mimosa|brn
+|
+|-heal|p2a: Mimosa|83\/100 brn|[from] item: Leftovers
+|-damage|p2a: Mimosa|77\/100 brn|[from] brn
+|upkeep
+|turn|6
+|j| KiwiTM
+|
+|switch|p1a: Hoteye|Rotom-Heat|100\/100
+|move|p2a: Mimosa|U-turn|p1a: Hoteye
+|-resisted|p1a: Hoteye
+|-damage|p1a: Hoteye|98\/100
+|
+|switch|p2a: Final Tenshō|Obstagoon, M|100\/100|[from]move: U-turn
+|
+|-heal|p1a: Hoteye|100\/100|[from] item: Leftovers
+|-status|p2a: Final Tenshō|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|c| HarrisIsAwesome|agency
+|c| Papa Kyurem|agency agency
+|c| KiwiTM|agency agency
+|c| Papa Kyurem|goon in sight
+|
+|move|p2a: Final Tenshō|Knock Off|p1a: Hoteye
+|-damage|p1a: Hoteye|52\/100
+|-enditem|p1a: Hoteye|Leftovers|[from] move: Knock Off|[of] p2a: Final Tenshō
+|move|p1a: Hoteye|Volt Switch|p2a: Final Tenshō
+|-damage|p2a: Final Tenshō|69\/100 brn
+|c| Blackxlotus|But... seismitoad was also agency
+|
+|switch|p1a: Ingrid|Accelgor, F, shiny|100\/100|[from]move: Volt Switch
+|-status|p1a: Ingrid|psn
+|
+|-damage|p1a: Ingrid|88\/100 psn|[from] psn
+|-damage|p2a: Final Tenshō|63\/100 brn|[from] brn
+|upkeep
+|turn|8
+|c|☆DevilShinra|agency battle 
+|l| Blackxlotus
+|j| Blackxlotus
+|j| Cyllage Mobile
+|
+|switch|p2a: Sandaime|Melmetal|100\/100
+|move|p1a: Ingrid|Bug Buzz|p2a: Sandaime
+|-resisted|p2a: Sandaime
+|-damage|p2a: Sandaime|81\/100
+|
+|-heal|p2a: Sandaime|87\/100|[from] item: Leftovers
+|-damage|p1a: Ingrid|76\/100 psn|[from] psn
+|upkeep
+|turn|9
+|l| Cyllage Mobile
+|
+|switch|p1a: Hoteye|Rotom-Heat|52\/100
+|move|p2a: Sandaime|Double Iron Bash|p1a: Hoteye
+|-resisted|p1a: Hoteye
+|-damage|p1a: Hoteye|44\/100
+|-resisted|p1a: Hoteye
+|-damage|p1a: Hoteye|36\/100
+|-hitcount|p1a: Hoteye|2
+|
+|-heal|p2a: Sandaime|93\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|j| Cyllage Mobile
+|c| Blackxlotus|Oh my
+|
+|move|p1a: Hoteye|Pain Split|p2a: Sandaime
+|-sethp|p2a: Sandaime|58\/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Hoteye|90\/100|[from] move: Pain Split
+|move|p2a: Sandaime|Rock Slide|p1a: Hoteye|[miss]
+|-miss|p2a: Sandaime|p1a: Hoteye
+|
+|-heal|p2a: Sandaime|64\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Hydranoid|Hydreigon, M|100\/100
+|move|p1a: Hoteye|Will-O-Wisp|p2a: Hydranoid|[miss]
+|-miss|p1a: Hoteye|p2a: Hydranoid
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Hydranoid|Dragon Pulse|p1a: Hoteye
+|-damage|p1a: Hoteye|44\/100
+|move|p1a: Hoteye|Defog|p2a: Hydranoid
+|-unboost|p2a: Hydranoid|evasion|1
+|-sideend|p1: Red Uprisings|Toxic Spikes|[from] move: Defog|[of] p1a: Hoteye
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Hydranoid|Dragon Pulse|p1a: Hoteye
+|-damage|p1a: Hoteye|0 fnt
+|faint|p1a: Hoteye
+|
+|upkeep
+|
+|switch|p1a: Pimpkrow|Honchkrow, F, shiny|100\/100
+|turn|14
+|
+|switch|p2a: Mimosa|Mesprit|77\/100 brn
+|move|p1a: Pimpkrow|Mean Look|p2a: Mimosa
+|-activate|p2a: Mimosa|trapped
+|
+|-heal|p2a: Mimosa|83\/100 brn|[from] item: Leftovers
+|-damage|p2a: Mimosa|77\/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Pimpkrow|Protect|p1a: Pimpkrow
+|-singleturn|p1a: Pimpkrow|Protect
+|move|p2a: Mimosa|Stealth Rock|p1a: Pimpkrow
+|-sidestart|p1: Red Uprisings|move: Stealth Rock
+|
+|-heal|p2a: Mimosa|83\/100 brn|[from] item: Leftovers
+|-damage|p2a: Mimosa|77\/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Ryan|Seismitoad, M|100\/100
+|-damage|p1a: Ryan|94\/100|[from] Stealth Rock
+|move|p2a: Mimosa|U-turn|p1a: Ryan
+|-damage|p1a: Ryan|89\/100
+|
+|switch|p2a: Bong|Weezing-Galar, F|68\/100 brn|[from]move: U-turn
+|
+|-heal|p2a: Bong|74\/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ryan|95\/100|[from] item: Leftovers
+|-damage|p2a: Bong|68\/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Bong|Taunt|p1a: Ryan
+|-start|p1a: Ryan|move: Taunt
+|move|p1a: Ryan|Earth Power|p2a: Bong
+|-immune|p2a: Bong|[from] ability: Levitate
+|
+|-heal|p2a: Bong|74\/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ryan|100\/100|[from] item: Leftovers
+|-damage|p2a: Bong|68\/100 brn|[from] brn
+|upkeep
+|turn|18
+|c|☆Red Uprisings|lel
+|c|☆DevilShinra|u good lol
+|c|☆Red Uprisings|for some reason i thought it told you it levitated when it entered field god damn.
+|
+|move|p2a: Bong|Toxic Spikes|p1a: Ryan
+|-sidestart|p1: Red Uprisings|move: Toxic Spikes
+|move|p1a: Ryan|Scald|p2a: Bong
+|-damage|p2a: Bong|41\/100 brn
+|
+|-heal|p2a: Bong|47\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Bong|41\/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Bong|Strange Steam|p1a: Ryan
+|-damage|p1a: Ryan|77\/100
+|move|p1a: Ryan|Scald|p2a: Bong
+|-damage|p2a: Bong|16\/100 brn
+|
+|-heal|p2a: Bong|22\/100 brn|[from] item: Black Sludge
+|-heal|p1a: Ryan|83\/100|[from] item: Leftovers
+|-damage|p2a: Bong|16\/100 brn|[from] brn
+|-end|p1a: Ryan|move: Taunt
+|upkeep
+|turn|20
+|
+|switch|p2a: Mimosa|Mesprit|77\/100 brn
+|move|p1a: Ryan|Scald|p2a: Mimosa
+|-damage|p2a: Mimosa|54\/100 brn
+|
+|-heal|p2a: Mimosa|60\/100 brn|[from] item: Leftovers
+|-heal|p1a: Ryan|89\/100|[from] item: Leftovers
+|-damage|p2a: Mimosa|54\/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Mimosa|Healing Wish|p2a: Mimosa
+|faint|p2a: Mimosa
+|move|p1a: Ryan|Stealth Rock|p2: Mimosa
+|-sidestart|p2: DevilShinra|move: Stealth Rock
+|
+|-heal|p1a: Ryan|95\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bong|Weezing-Galar, F|16\/100 brn
+|-heal|p2a: Bong|100\/100|[from] move: Healing Wish
+|-damage|p2a: Bong|88\/100|[from] Stealth Rock
+|turn|22
+|c|☆Red Uprisings|not a 6-0 pog
+|c|☆Red Uprisings|i have won
+|c|☆Red Uprisings|gg
+|c| The Paralyzer210|forfeit rn you wont
+|
+|switch|p2a: Hydranoid|Hydreigon, M|100\/100
+|-damage|p2a: Hydranoid|88\/100|[from] Stealth Rock
+|move|p1a: Ryan|Scald|p2a: Hydranoid
+|-resisted|p2a: Hydranoid
+|-damage|p2a: Hydranoid|75\/100
+|-status|p2a: Hydranoid|brn
+|
+|-heal|p1a: Ryan|100\/100|[from] item: Leftovers
+|-damage|p2a: Hydranoid|69\/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Pimpkrow|Honchkrow, F, shiny|100\/100
+|-damage|p1a: Pimpkrow|76\/100|[from] Stealth Rock
+|move|p2a: Hydranoid|Dragon Pulse|p1a: Pimpkrow
+|-damage|p1a: Pimpkrow|35\/100
+|
+|-heal|p1a: Pimpkrow|42\/100|[from] item: Leftovers
+|-damage|p2a: Hydranoid|63\/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Hydranoid|Dragon Pulse|p1a: Pimpkrow
+|-damage|p1a: Pimpkrow|5\/100
+|move|p1a: Pimpkrow|Roost|p1a: Pimpkrow
+|-heal|p1a: Pimpkrow|55\/100
+|-singleturn|p1a: Pimpkrow|move: Roost
+|
+|-heal|p1a: Pimpkrow|62\/100|[from] item: Leftovers
+|-damage|p2a: Hydranoid|57\/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Bong|Weezing-Galar, F|88\/100
+|-damage|p2a: Bong|76\/100|[from] Stealth Rock
+|move|p1a: Pimpkrow|Roost|p1a: Pimpkrow
+|-heal|p1a: Pimpkrow|100\/100
+|-singleturn|p1a: Pimpkrow|move: Roost
+|
+|-heal|p2a: Bong|82\/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p2a: Bong|Strange Steam|p1a: Pimpkrow
+|-supereffective|p1a: Pimpkrow
+|-damage|p1a: Pimpkrow|54\/100
+|move|p1a: Pimpkrow|Mean Look|p2a: Bong
+|-activate|p2a: Bong|trapped
+|
+|-heal|p2a: Bong|88\/100|[from] item: Black Sludge
+|-heal|p1a: Pimpkrow|60\/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Pimpkrow|Protect|p1a: Pimpkrow
+|-singleturn|p1a: Pimpkrow|Protect
+|move|p2a: Bong|Taunt|p1a: Pimpkrow
+|-activate|p1a: Pimpkrow|move: Protect
+|
+|-heal|p2a: Bong|94\/100|[from] item: Black Sludge
+|-heal|p1a: Pimpkrow|66\/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Bong|Strange Steam|p1a: Pimpkrow
+|-supereffective|p1a: Pimpkrow
+|-damage|p1a: Pimpkrow|20\/100
+|move|p1a: Pimpkrow|Perish Song|p1a: Pimpkrow
+|-start|p1a: Pimpkrow|perish3|[silent]
+|-start|p2a: Bong|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Bong|99\/100|[from] item: Black Sludge
+|-heal|p1a: Pimpkrow|26\/100|[from] item: Leftovers
+|-start|p2a: Bong|perish3
+|-start|p1a: Pimpkrow|perish3
+|upkeep
+|turn|29
+|
+|move|p1a: Pimpkrow|Protect|p1a: Pimpkrow
+|-singleturn|p1a: Pimpkrow|Protect
+|move|p2a: Bong|Strange Steam|p1a: Pimpkrow
+|-activate|p1a: Pimpkrow|move: Protect
+|
+|-heal|p2a: Bong|100\/100|[from] item: Black Sludge
+|-heal|p1a: Pimpkrow|32\/100|[from] item: Leftovers
+|-start|p2a: Bong|perish2
+|-start|p1a: Pimpkrow|perish2
+|upkeep
+|turn|30
+|
+|move|p2a: Bong|Strange Steam|p1a: Pimpkrow
+|-supereffective|p1a: Pimpkrow
+|-damage|p1a: Pimpkrow|0 fnt
+|faint|p1a: Pimpkrow
+|
+|-start|p2a: Bong|perish1
+|upkeep
+|
+|switch|p1a: Koa|Kommo-o, M|100\/100
+|-status|p1a: Koa|psn
+|-damage|p1a: Koa|94\/100 psn|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Koa|Clangorous Soul|p1a: Koa
+|-boost|p1a: Koa|atk|1
+|-boost|p1a: Koa|def|1
+|-boost|p1a: Koa|spa|1
+|-boost|p1a: Koa|spd|1
+|-boost|p1a: Koa|spe|1
+|-damage|p1a: Koa|61\/100 psn
+|-enditem|p1a: Koa|Throat Spray
+|-boost|p1a: Koa|spa|1
+|move|p2a: Bong|Strange Steam|p1a: Koa
+|-supereffective|p1a: Koa
+|-damage|p1a: Koa|0 fnt
+|faint|p1a: Koa
+|
+|-start|p2a: Bong|perish0
+|upkeep
+|faint|p2a: Bong
+|c|☆Red Uprisings|lel
+|c| The Paralyzer210|....
+|c| The Paralyzer210|.............
+|
+|switch|p1a: Ingrid|Accelgor, F, shiny|76\/100 psn
+|switch|p2a: Ryuko|Cinderace, F|100\/100
+|-damage|p1a: Ingrid|51\/100 psn|[from] Stealth Rock
+|turn|32
+|c| The Paralyzer210|....................
+|c| Papa Kyurem|maybe kyle will chip in on the insurance bill
+|
+|switch|p2a: Sandaime|Melmetal|64\/100
+|-damage|p2a: Sandaime|58\/100|[from] Stealth Rock
+|move|p1a: Ingrid|Focus Blast|p2a: Sandaime|[miss]
+|-miss|p1a: Ingrid|p2a: Sandaime
+|
+|-heal|p2a: Sandaime|64\/100|[from] item: Leftovers
+|-damage|p1a: Ingrid|39\/100 psn|[from] psn
+|upkeep
+|turn|33
+|c|☆Red Uprisings|I-
+|
+|move|p2a: Sandaime|Protect|p2a: Sandaime
+|-singleturn|p2a: Sandaime|Protect
+|move|p1a: Ingrid|Focus Blast|p2a: Sandaime
+|-activate|p2a: Sandaime|move: Protect
+|
+|-heal|p2a: Sandaime|70\/100|[from] item: Leftovers
+|-damage|p1a: Ingrid|27\/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|move|p1a: Ingrid|Focus Blast|p2a: Sandaime|[miss]
+|-miss|p1a: Ingrid|p2a: Sandaime
+|move|p2a: Sandaime|Double Iron Bash|p1a: Ingrid
+|-damage|p1a: Ingrid|0 fnt
+|-hitcount|p1a: Ingrid|1
+|faint|p1a: Ingrid
+|
+|-heal|p2a: Sandaime|76\/100|[from] item: Leftovers
+|upkeep
+|c| KiwiTM|ompf
+|c|☆DevilShinra|yikes
+|c|☆Red Uprisings|this game hate me
+|
+|switch|p1a: Pitch Black|Necrozma|100\/100
+|-status|p1a: Pitch Black|psn
+|-damage|p1a: Pitch Black|88\/100 psn|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: Pitch Black|Dragon Dance|p1a: Pitch Black
+|-boost|p1a: Pitch Black|atk|1
+|-boost|p1a: Pitch Black|spe|1
+|move|p2a: Sandaime|Double Iron Bash|p1a: Pitch Black
+|-damage|p1a: Pitch Black|56\/100 psn
+|-damage|p1a: Pitch Black|21\/100 psn
+|-hitcount|p1a: Pitch Black|2
+|
+|-heal|p2a: Sandaime|83\/100|[from] item: Leftovers
+|-damage|p1a: Pitch Black|8\/100 psn|[from] psn
+|upkeep
+|turn|36
+|c|☆Red Uprisings|this is me not caring btw
+|
+|move|p2a: Sandaime|Protect|p2a: Sandaime
+|-singleturn|p2a: Sandaime|Protect
+|move|p1a: Pitch Black|Earthquake|p2a: Sandaime
+|-activate|p2a: Sandaime|move: Protect
+|
+|-heal|p2a: Sandaime|89\/100|[from] item: Leftovers
+|-damage|p1a: Pitch Black|0 fnt|[from] psn
+|faint|p1a: Pitch Black
+|upkeep
+|
+|switch|p1a: Ryan|Seismitoad, M|100\/100
+|-damage|p1a: Ryan|94\/100|[from] Stealth Rock
+|-status|p1a: Ryan|psn
+|turn|37
+|c| KiwiTM|ahh yes 
+|c| KiwiTM|the classic
+|
+|switch|p2a: Hydranoid|Hydreigon, M|57\/100 brn
+|-damage|p2a: Hydranoid|44\/100 brn|[from] Stealth Rock
+|move|p1a: Ryan|Earth Power|p2a: Hydranoid
+|-immune|p2a: Hydranoid|[from] ability: Levitate
+|
+|-heal|p1a: Ryan|100\/100 psn|[from] item: Leftovers
+|-damage|p2a: Hydranoid|38\/100 brn|[from] brn
+|-damage|p1a: Ryan|88\/100 psn|[from] psn
+|upkeep
+|turn|38
+|c|☆Red Uprisings|what its not like i could do anything lel
+|c| Papa Kyurem|the true classic
+|
+|move|p2a: Hydranoid|Dragon Pulse|p1a: Ryan
+|-damage|p1a: Ryan|45\/100 psn
+|move|p1a: Ryan|Scald|p2a: Hydranoid
+|-resisted|p2a: Hydranoid
+|-damage|p2a: Hydranoid|24\/100 brn
+|
+|-heal|p1a: Ryan|51\/100 psn|[from] item: Leftovers
+|-damage|p2a: Hydranoid|18\/100 brn|[from] brn
+|-damage|p1a: Ryan|38\/100 psn|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p2a: Final Tenshō|Obstagoon, M|63\/100 brn
+|-damage|p2a: Final Tenshō|50\/100 brn|[from] Stealth Rock
+|move|p1a: Ryan|Scald|p2a: Final Tenshō
+|-damage|p2a: Final Tenshō|23\/100 brn
+|
+|-heal|p1a: Ryan|44\/100 psn|[from] item: Leftovers
+|-damage|p2a: Final Tenshō|16\/100 brn|[from] brn
+|-damage|p1a: Ryan|32\/100 psn|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Final Tenshō|Facade|p1a: Ryan
+|-damage|p1a: Ryan|0 fnt
+|faint|p1a: Ryan
+|
+|win|DevilShinra

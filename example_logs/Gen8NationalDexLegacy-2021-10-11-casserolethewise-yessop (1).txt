@@ -1,0 +1,484 @@
+|init|battle
+|title|CasseroleTheWise vs. Yessop
+|j|☆CasseroleTheWise
+|j|☆Yessop
+|t:|1633986796
+|gametype|singles
+|player|p1|CasseroleTheWise|casserolethewise.png|
+|player|p2|Yessop|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex Legacy
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Pikachu, F|
+|poke|p1|Scizor, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Latias, F|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Umbreon, M|
+|poke|p2|Donphan, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Gallade, M|
+|teampreview
+|c|☆Yessop|hf hf
+|c|☆CasseroleTheWise|U2
+|
+|t:|1633986859
+|start
+|switch|p1a: Did ya know?|Vaporeon, F|100\/100
+|switch|p2a: Jacko|Gourgeist-Super, M|100\/100
+|-item|p1a: Did ya know?|Rocky Helmet|[from] ability: Frisk|[of] p2a: Jacko|[identify]
+|turn|1
+|
+|t:|1633986869
+|move|p2a: Jacko|Seed Bomb|p1a: Did ya know?
+|-supereffective|p1a: Did ya know?
+|-damage|p1a: Did ya know?|60\/100
+|move|p1a: Did ya know?|Toxic|p2a: Jacko
+|-status|p2a: Jacko|tox
+|
+|-damage|p2a: Jacko|94\/100 tox|[from] psn
+|upkeep
+|turn|2
+|j| ImCrazyUwU
+|
+|t:|1633986929
+|move|p1a: Did ya know?|Protect|p1a: Did ya know?
+|-singleturn|p1a: Did ya know?|Protect
+|move|p2a: Jacko|Seed Bomb|p1a: Did ya know?
+|-activate|p1a: Did ya know?|move: Protect
+|
+|-damage|p2a: Jacko|82\/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1633986944
+|switch|p2a: Luna Lovegood|Umbreon, M|100\/100
+|move|p1a: Did ya know?|Wish|p1a: Did ya know?
+|
+|upkeep
+|turn|4
+|
+|t:|1633986958
+|move|p2a: Luna Lovegood|Wish|p2a: Luna Lovegood
+|move|p1a: Did ya know?|Flip Turn|p2a: Luna Lovegood
+|-damage|p2a: Luna Lovegood|88\/100
+|
+|t:|1633986967
+|switch|p1a: Femboy|Cinderace, F|100\/100|[from]move: Flip Turn
+|
+|-heal|p2a: Luna Lovegood|94\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1633986975
+|switch|p2a: Lin Wang|Donphan, M|100\/100
+|move|p1a: Femboy|Bulk Up|p1a: Femboy
+|-start|p1a: Femboy|typechange|Fighting|[from] ability: Libero
+|-boost|p1a: Femboy|atk|1
+|-boost|p1a: Femboy|def|1
+|
+|upkeep
+|turn|6
+|
+|t:|1633987047
+|move|p1a: Femboy|Iron Head|p2a: Lin Wang
+|-start|p1a: Femboy|typechange|Steel|[from] ability: Libero
+|-damage|p2a: Lin Wang|65\/100
+|cant|p2a: Lin Wang|flinch
+|
+|-heal|p2a: Lin Wang|72\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1633987056
+|move|p1a: Femboy|Bulk Up|p1a: Femboy
+|-start|p1a: Femboy|typechange|Fighting|[from] ability: Libero
+|-boost|p1a: Femboy|atk|1
+|-boost|p1a: Femboy|def|1
+|move|p2a: Lin Wang|Earthquake|p1a: Femboy
+|-damage|p1a: Femboy|74\/100
+|
+|-heal|p2a: Lin Wang|78\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆CasseroleTheWise|Oof
+|
+|t:|1633987086
+|move|p1a: Femboy|Bulk Up|p1a: Femboy
+|-boost|p1a: Femboy|atk|1
+|-boost|p1a: Femboy|def|1
+|move|p2a: Lin Wang|Earthquake|p1a: Femboy
+|-damage|p1a: Femboy|52\/100
+|
+|-heal|p2a: Lin Wang|84\/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1633987103
+|move|p1a: Femboy|Pyro Ball|p2a: Lin Wang
+|-start|p1a: Femboy|typechange|Fire|[from] ability: Libero
+|-damage|p2a: Lin Wang|0 fnt
+|faint|p2a: Lin Wang
+|
+|upkeep
+|
+|t:|1633987108
+|switch|p2a: Moana|Tapu Fini|100\/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Moana
+|turn|10
+|
+|t:|1633987124
+|move|p2a: Moana|Hydro Pump|p1a: Femboy
+|-supereffective|p1a: Femboy
+|-damage|p1a: Femboy|0 fnt
+|faint|p1a: Femboy
+|
+|upkeep
+|
+|t:|1633987134
+|switch|p1a: Did ya know?|Vaporeon, F|60\/100
+|turn|11
+|
+|t:|1633987141
+|switch|p2a: Luna Lovegood|Umbreon, M|94\/100
+|move|p1a: Did ya know?|Flip Turn|p2a: Luna Lovegood
+|-damage|p2a: Luna Lovegood|82\/100
+|
+|t:|1633987144
+|switch|p1a: Edward|Scizor, F|100\/100|[from]move: Flip Turn
+|
+|-heal|p2a: Luna Lovegood|88\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1633987151
+|switch|p2a: Larvae|Volcarona, F|100\/100
+|detailschange|p1a: Edward|Scizor-Mega, F
+|-mega|p1a: Edward|Scizor|Scizorite
+|move|p1a: Edward|U-turn|p2a: Larvae
+|-resisted|p2a: Larvae
+|-damage|p2a: Larvae|70\/100
+|
+|t:|1633987158
+|switch|p1a: Crush Card|Landorus-Therian, M|100\/100|[from]move: U-turn
+|-ability|p1a: Crush Card|Intimidate|boost
+|-unboost|p2a: Larvae|atk|1
+|
+|upkeep
+|turn|13
+|
+|t:|1633987168
+|switch|p2a: Luna Lovegood|Umbreon, M|88\/100
+|move|p1a: Crush Card|Stealth Rock|p2a: Luna Lovegood
+|-sidestart|p2: Yessop|move: Stealth Rock
+|
+|-heal|p2a: Luna Lovegood|94\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1633987186
+|switch|p1a: Special Attacker|Latias, F|100\/100
+|switch|p2a: Jacko|Gourgeist-Super, M|82\/100 tox
+|-damage|p2a: Jacko|70\/100 tox|[from] Stealth Rock
+|-item|p1a: Special Attacker|Tanga Berry|[from] ability: Frisk|[of] p2a: Jacko|[identify]
+|
+|-damage|p2a: Jacko|64\/100 tox|[from] psn
+|-fieldend|Misty Terrain
+|upkeep
+|turn|15
+|
+|t:|1633987194
+|switch|p1a: Edward|Scizor-Mega, F|100\/100
+|move|p2a: Jacko|Synthesis|p2a: Jacko
+|-heal|p2a: Jacko|100\/100 tox
+|
+|-damage|p2a: Jacko|88\/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1633987198
+|move|p2a: Jacko|Will-O-Wisp|p1a: Edward
+|-status|p1a: Edward|brn
+|move|p1a: Edward|Dual Wingbeat|p2a: Jacko
+|-supereffective|p2a: Jacko
+|-damage|p2a: Jacko|75\/100 tox
+|-supereffective|p2a: Jacko
+|-damage|p2a: Jacko|61\/100 tox
+|-hitcount|p2a: Jacko|2
+|
+|-damage|p2a: Jacko|42\/100 tox|[from] psn
+|-damage|p1a: Edward|94\/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1633987218
+|switch|p2a: Luna Lovegood|Umbreon, M|94\/100
+|-damage|p2a: Luna Lovegood|82\/100|[from] Stealth Rock
+|move|p1a: Edward|U-turn|p2a: Luna Lovegood
+|-supereffective|p2a: Luna Lovegood
+|-damage|p2a: Luna Lovegood|45\/100
+|
+|t:|1633987221
+|switch|p1a: Water Killer|Pikachu, F|100\/100|[from]move: U-turn
+|
+|-heal|p2a: Luna Lovegood|51\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1633987225
+|switch|p2a: Jacko|Gourgeist-Super, M|42\/100 tox
+|-damage|p2a: Jacko|30\/100 tox|[from] Stealth Rock
+|-item|p1a: Water Killer|Light Ball|[from] ability: Frisk|[of] p2a: Jacko|[identify]
+|move|p1a: Water Killer|Volt Tackle|p2a: Jacko
+|-resisted|p2a: Jacko
+|-damage|p2a: Jacko|7\/100 tox
+|-damage|p1a: Water Killer|87\/100|[from] Recoil
+|
+|-damage|p2a: Jacko|0 fnt|[from] psn
+|faint|p2a: Jacko
+|upkeep
+|
+|t:|1633987234
+|switch|p2a: Moana|Tapu Fini|100\/100
+|-damage|p2a: Moana|88\/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Moana
+|turn|19
+|
+|t:|1633987262
+|switch|p1a: Edward|Scizor-Mega, F|94\/100 brn
+|move|p2a: Moana|Hydro Pump|p1a: Edward
+|-damage|p1a: Edward|46\/100 brn
+|
+|-damage|p1a: Edward|40\/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1633987279
+|switch|p2a: Larvae|Volcarona, F|70\/100
+|-damage|p2a: Larvae|20\/100|[from] Stealth Rock
+|move|p1a: Edward|U-turn|p2a: Larvae
+|-resisted|p2a: Larvae
+|-damage|p2a: Larvae|5\/100
+|
+|t:|1633987293
+|switch|p1a: Water Killer|Pikachu, F|87\/100|[from]move: U-turn
+|
+|upkeep
+|turn|21
+|
+|t:|1633987300
+|move|p1a: Water Killer|Extreme Speed|p2a: Larvae
+|-damage|p2a: Larvae|0 fnt
+|faint|p2a: Larvae
+|
+|upkeep
+|j| Blitzburgh
+|
+|t:|1633987341
+|switch|p2a: Excelsior|Gallade, M|100\/100
+|-damage|p2a: Excelsior|95\/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1633987352
+|switch|p1a: Edward|Scizor-Mega, F|40\/100 brn
+|detailschange|p2a: Excelsior|Gallade-Mega, M
+|-mega|p2a: Excelsior|Gallade|Galladite
+|move|p2a: Excelsior|Drain Punch|p1a: Edward
+|-damage|p1a: Edward|6\/100 brn
+|-heal|p2a: Excelsior|100\/100|[from] drain|[of] p1a: Edward
+|
+|-damage|p1a: Edward|0 fnt|[from] brn
+|faint|p1a: Edward
+|upkeep
+|
+|t:|1633987376
+|switch|p1a: Did ya know?|Vaporeon, F|60\/100
+|turn|23
+|
+|t:|1633987385
+|move|p2a: Excelsior|Bulk Up|p2a: Excelsior
+|-boost|p2a: Excelsior|atk|1
+|-boost|p2a: Excelsior|def|1
+|move|p1a: Did ya know?|Flip Turn|p2a: Excelsior
+|-damage|p2a: Excelsior|89\/100
+|
+|t:|1633987387
+|switch|p1a: Special Attacker|Latias, F|100\/100|[from]move: Flip Turn
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|24
+|
+|t:|1633987434
+|move|p1a: Special Attacker|Thunder Wave|p2a: Excelsior
+|-status|p2a: Excelsior|par
+|move|p2a: Excelsior|Ice Punch|p1a: Special Attacker
+|-supereffective|p1a: Special Attacker
+|-damage|p1a: Special Attacker|2\/100
+|
+|upkeep
+|turn|25
+|
+|t:|1633987458
+|switch|p2a: Luna Lovegood|Umbreon, M|51\/100
+|-damage|p2a: Luna Lovegood|39\/100|[from] Stealth Rock
+|move|p1a: Special Attacker|Mystical Fire|p2a: Luna Lovegood
+|-damage|p2a: Luna Lovegood|29\/100
+|-unboost|p2a: Luna Lovegood|spa|1
+|
+|-heal|p2a: Luna Lovegood|36\/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1633987466
+|move|p1a: Special Attacker|Thunder Wave|p2a: Luna Lovegood
+|-status|p2a: Luna Lovegood|par
+|-activate|p2a: Luna Lovegood|ability: Synchronize
+|-status|p1a: Special Attacker|par
+|move|p2a: Luna Lovegood|Wish|p2a: Luna Lovegood
+|
+|-heal|p2a: Luna Lovegood|42\/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1633987477
+|switch|p1a: Did ya know?|Vaporeon, F|60\/100
+|move|p2a: Luna Lovegood|Toxic|p1a: Did ya know?
+|-status|p1a: Did ya know?|tox
+|
+|-heal|p2a: Luna Lovegood|92\/100 par|[from] move: Wish|[wisher] Luna Lovegood
+|-heal|p2a: Luna Lovegood|98\/100 par|[from] item: Leftovers
+|-damage|p1a: Did ya know?|54\/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1633987493
+|switch|p2a: Excelsior|Gallade-Mega, M|89\/100 par
+|-damage|p2a: Excelsior|83\/100 par|[from] Stealth Rock
+|move|p1a: Did ya know?|Wish|p1a: Did ya know?
+|
+|-damage|p1a: Did ya know?|42\/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1633987520
+|move|p1a: Did ya know?|Protect|p1a: Did ya know?
+|-singleturn|p1a: Did ya know?|Protect
+|move|p2a: Excelsior|Bulk Up|p2a: Excelsior
+|-boost|p2a: Excelsior|atk|1
+|-boost|p2a: Excelsior|def|1
+|
+|-heal|p1a: Did ya know?|92\/100 tox|[from] move: Wish|[wisher] Did ya know?
+|-damage|p1a: Did ya know?|74\/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1633987535
+|switch|p1a: Special Attacker|Latias, F|2\/100 par
+|move|p2a: Excelsior|Drain Punch|p1a: Special Attacker
+|-resisted|p1a: Special Attacker
+|-damage|p1a: Special Attacker|0 fnt
+|-heal|p2a: Excelsior|84\/100 par|[from] drain|[of] p1a: Special Attacker
+|faint|p1a: Special Attacker
+|
+|upkeep
+|
+|t:|1633987538
+|switch|p1a: Crush Card|Landorus-Therian, M|100\/100
+|-ability|p1a: Crush Card|Intimidate|boost
+|-fail|p2a: Excelsior|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Excelsior
+|turn|31
+|
+|t:|1633987542
+|move|p1a: Crush Card|Earthquake|p2a: Excelsior
+|-crit|p2a: Excelsior
+|-damage|p2a: Excelsior|0 fnt
+|faint|p2a: Excelsior
+|
+|upkeep
+|c|☆Yessop|Shit game this
+|c|☆Yessop|lol
+|c|☆CasseroleTheWise|I was yache anyway but yeah still sucks
+|c|☆CasseroleTheWise|Cuz you could wish it up
+|
+|t:|1633987576
+|switch|p2a: Moana|Tapu Fini|88\/100
+|-damage|p2a: Moana|76\/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Moana
+|turn|32
+|
+|t:|1633987591
+|move|p2a: Moana|Moonblast|p1a: Crush Card
+|-damage|p1a: Crush Card|68\/100
+|move|p1a: Crush Card|Knock Off|p2a: Moana
+|-resisted|p2a: Moana
+|-damage|p2a: Moana|62\/100
+|-enditem|p2a: Moana|Choice Scarf|[from] move: Knock Off|[of] p1a: Crush Card
+|
+|upkeep
+|turn|33
+|
+|t:|1633987615
+|move|p2a: Moana|Hydro Pump|p1a: Crush Card
+|-supereffective|p1a: Crush Card
+|-damage|p1a: Crush Card|0 fnt
+|faint|p1a: Crush Card
+|
+|upkeep
+|
+|t:|1633987617
+|switch|p1a: Water Killer|Pikachu, F|87\/100
+|turn|34
+|
+|t:|1633987627
+|move|p1a: Water Killer|Fake Out|p2a: Moana
+|-damage|p2a: Moana|43\/100
+|cant|p2a: Moana|flinch
+|
+|upkeep
+|turn|35
+|
+|t:|1633987630
+|move|p1a: Water Killer|Volt Tackle|p2a: Moana
+|-supereffective|p2a: Moana
+|-damage|p2a: Moana|0 fnt
+|faint|p2a: Moana
+|-damage|p1a: Water Killer|68\/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1633987633
+|switch|p2a: Luna Lovegood|Umbreon, M|98\/100 par
+|-damage|p2a: Luna Lovegood|85\/100 par|[from] Stealth Rock
+|turn|36
+|
+|t:|1633987655
+|move|p1a: Water Killer|Volt Tackle|p2a: Luna Lovegood
+|-damage|p2a: Luna Lovegood|16\/100 par
+|-damage|p1a: Water Killer|28\/100|[from] Recoil
+|move|p2a: Luna Lovegood|Wish|p2a: Luna Lovegood
+|
+|-heal|p2a: Luna Lovegood|23\/100 par|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|37
+|
+|t:|1633987662
+|cant|p2a: Luna Lovegood|par
+|move|p1a: Water Killer|Volt Tackle|p2a: Luna Lovegood
+|-damage|p2a: Luna Lovegood|0 fnt
+|faint|p2a: Luna Lovegood
+|-damage|p1a: Water Killer|15\/100|[from] Recoil
+|
+|win|CasseroleTheWise

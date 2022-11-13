@@ -1,0 +1,282 @@
+|init|battle
+|title|Auxotes4 vs. Auxotest3
+|j|☆Auxotes4
+|j|☆Auxotest3
+|t:|1665079650
+|gametype|doubles
+|player|p1|Auxotes4|hilbert|
+|player|p2|Auxotest3|hilbert|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex Leaks VGC
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Magearna, L50|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Toxicroak, L50, F|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Magearna, L50|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Toxicroak, L50, F|
+|teampreview|4
+|
+|t:|1665079655
+|start
+|switch|p1a: Gyarados|Gyarados, L50, M|202\/202
+|switch|p1b: Toxicroak|Toxicroak, L50, F|158\/158
+|switch|p2a: Gyarados|Gyarados, L50, M|100\/100
+|switch|p2b: Toxicroak|Toxicroak, L50, F|100\/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|-unboost|p2b: Toxicroak|atk|1
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|-unboost|p1b: Toxicroak|atk|1
+|turn|1
+|
+|t:|1665079679
+|move|p2b: Toxicroak|Fake Out|p1a: Gyarados
+|-damage|p1a: Gyarados|183\/202
+|move|p1b: Toxicroak|Fake Out|p2a: Gyarados
+|-damage|p2a: Gyarados|91\/100
+|cant|p1a: Gyarados|flinch
+|cant|p2a: Gyarados|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1665079721
+|move|p2b: Toxicroak|Bullet Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|162\/202
+|move|p1b: Toxicroak|Poison Sting|p2a: Gyarados
+|-damage|p2a: Gyarados|86\/100
+|move|p1a: Gyarados|Tackle|p2b: Toxicroak
+|-damage|p2b: Toxicroak|88\/100
+|move|p2a: Gyarados|Waterfall|p1b: Toxicroak
+|-immune|p1b: Toxicroak|[from] ability: Dry Skin
+|
+|upkeep
+|turn|3
+|
+|t:|1665079746
+|move|p2b: Toxicroak|Bullet Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|154\/202
+|move|p1b: Toxicroak|Poison Sting|p2a: Gyarados
+|-damage|p2a: Gyarados|80\/100
+|move|p1a: Gyarados|Tackle|p2b: Toxicroak
+|-damage|p2b: Toxicroak|74\/100
+|move|p2a: Gyarados|Waterfall|p1b: Toxicroak
+|-immune|p1b: Toxicroak|[from] ability: Dry Skin
+|
+|upkeep
+|turn|4
+|
+|t:|1665079763
+|move|p2b: Toxicroak|Bullet Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|146\/202
+|move|p1b: Toxicroak|Poison Sting|p2a: Gyarados
+|-damage|p2a: Gyarados|75\/100
+|-status|p2a: Gyarados|psn
+|move|p1a: Gyarados|Tackle|p2b: Toxicroak
+|-damage|p2b: Toxicroak|59\/100
+|move|p2a: Gyarados|Waterfall|p1b: Toxicroak
+|-immune|p1b: Toxicroak|[from] ability: Dry Skin
+|
+|-damage|p2a: Gyarados|62\/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1665079805
+|move|p2b: Toxicroak|Bullet Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|137\/202
+|move|p1b: Toxicroak|Poison Sting|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|50\/100 psn
+|move|p1a: Gyarados|Tackle|p2a: Gyarados
+|-damage|p2a: Gyarados|41\/100 psn
+|move|p2a: Gyarados|Waterfall|p1b: Toxicroak
+|-immune|p1b: Toxicroak|[from] ability: Dry Skin
+|
+|-damage|p2a: Gyarados|28\/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1665079847
+|move|p2b: Toxicroak|Bullet Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|128\/202
+|move|p1b: Toxicroak|Poison Sting|p2a: Gyarados
+|-damage|p2a: Gyarados|23\/100 psn
+|move|p2a: Gyarados|Waterfall|p1b: Toxicroak
+|-immune|p1b: Toxicroak|[from] ability: Dry Skin
+|move|p1a: Gyarados|Tackle|p2a: Gyarados
+|-damage|p2a: Gyarados|13\/100 psn
+|
+|-damage|p2a: Gyarados|1\/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1665079871
+|switch|p1b: Magearna|Magearna, L50|187\/187
+|move|p1a: Gyarados|Protect|p1a: Gyarados
+|-singleturn|p1a: Gyarados|Protect
+|move|p2a: Gyarados|Protect|p2a: Gyarados
+|-singleturn|p2a: Gyarados|Protect
+|move|p2b: Toxicroak|Bullet Punch|p1a: Gyarados
+|-activate|p1a: Gyarados|move: Protect
+|
+|-damage|p2a: Gyarados|0 fnt|[from] psn
+|faint|p2a: Gyarados
+|-ability|p1b: Magearna|Soul-Heart|boost
+|-boost|p1b: Magearna|spa|1
+|upkeep
+|
+|t:|1665079876
+|switch|p2a: Magearna|Magearna, L50|100\/100
+|turn|8
+|
+|t:|1665079887
+|move|p2a: Magearna|Protect|p2a: Magearna
+|-singleturn|p2a: Magearna|Protect
+|move|p1b: Magearna|Protect|p1b: Magearna
+|-singleturn|p1b: Magearna|Protect
+|move|p2b: Toxicroak|Bullet Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|119\/202
+|-status|p1a: Gyarados|psn|[from] ability: Poison Touch|[of] p2b: Toxicroak
+|move|p1a: Gyarados|Tackle|p2a: Magearna
+|-activate|p2a: Magearna|move: Protect
+|
+|-damage|p1a: Gyarados|94\/202 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1665079896
+|move|p1a: Gyarados|Protect|p1a: Gyarados
+|-singleturn|p1a: Gyarados|Protect
+|move|p1b: Magearna|Protect||[still]
+|-fail|p1b: Magearna
+|move|p2a: Magearna|Protect|p2a: Magearna
+|-singleturn|p2a: Magearna|Protect
+|move|p2b: Toxicroak|Rock Smash|p1b: Magearna
+|-damage|p1b: Magearna|169\/187
+|
+|-damage|p1a: Gyarados|69\/202 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1665079901
+|move|p1a: Gyarados|Protect|p1a: Gyarados
+|-singleturn|p1a: Gyarados|Protect
+|move|p2a: Magearna|Protect|p2a: Magearna
+|-singleturn|p2a: Magearna|Protect
+|move|p1b: Magearna|Protect|p1b: Magearna
+|-singleturn|p1b: Magearna|Protect
+|move|p2b: Toxicroak|Rock Smash|p1b: Magearna
+|-activate|p1b: Magearna|move: Protect
+|
+|-damage|p1a: Gyarados|44\/202 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1665079905
+|move|p1a: Gyarados|Protect||[still]
+|-fail|p1a: Gyarados
+|move|p2a: Magearna|Protect||[still]
+|-fail|p2a: Magearna
+|move|p1b: Magearna|Protect|p1b: Magearna
+|-singleturn|p1b: Magearna|Protect
+|move|p2b: Toxicroak|Rock Smash|p1b: Magearna
+|-activate|p1b: Magearna|move: Protect
+|
+|-damage|p1a: Gyarados|19\/202 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1665079910
+|move|p1a: Gyarados|Protect|p1a: Gyarados
+|-singleturn|p1a: Gyarados|Protect
+|move|p1b: Magearna|Protect||[still]
+|-fail|p1b: Magearna
+|move|p2a: Magearna|Protect|p2a: Magearna
+|-singleturn|p2a: Magearna|Protect
+|move|p2b: Toxicroak|Rock Smash|p1b: Magearna
+|-damage|p1b: Magearna|151\/187
+|-unboost|p1b: Magearna|def|1
+|
+|-damage|p1a: Gyarados|0 fnt|[from] psn
+|faint|p1a: Gyarados
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-ability|p1b: Magearna|Soul-Heart|boost
+|-boost|p1b: Magearna|spa|1
+|upkeep
+|
+|t:|1665079914
+|switch|p1a: Toxicroak|Toxicroak, L50, F|158\/158
+|turn|13
+|
+|t:|1665079925
+|move|p1a: Toxicroak|Bullet Punch|p2b: Toxicroak
+|-crit|p2b: Toxicroak
+|-damage|p2b: Toxicroak|30\/100
+|move|p2b: Toxicroak|Rock Smash|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|143\/158
+|-unboost|p1a: Toxicroak|def|1
+|move|p1b: Magearna|Dazzling Gleam|p2b: Toxicroak|[spread] p2a,p2b
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|78\/100
+|-damage|p2b: Toxicroak|0 fnt
+|faint|p2b: Toxicroak
+|-ability|p1b: Magearna|Soul-Heart|boost
+|-boost|p1b: Magearna|spa|1
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|move|p2a: Magearna|Dazzling Gleam|p1b: Magearna|[spread] p1a,p1b
+|-crit|p1a: Toxicroak
+|-resisted|p1b: Magearna
+|-crit|p1b: Magearna
+|-damage|p1a: Toxicroak|0 fnt
+|-damage|p1b: Magearna|79\/187
+|faint|p1a: Toxicroak
+|-ability|p1b: Magearna|Soul-Heart|boost
+|-boost|p1b: Magearna|spa|1
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+|
+|t:|1665079929
+|switch|p2b: Garchomp|Garchomp, L50, F|100\/100
+|switch|p1a: Garchomp|Garchomp, L50, F|192\/192
+|turn|14
+|
+|t:|1665079934
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|17\/100
+|move|p2b: Garchomp|Stomping Tantrum|p1b: Magearna
+|-supereffective|p1b: Magearna
+|-damage|p1b: Magearna|0 fnt
+|faint|p1b: Magearna
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|move|p2a: Magearna|Dazzling Gleam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|Auxotest3

@@ -1,0 +1,111 @@
+|init|battle
+|title|SmegMista vs. Kiraimu
+|j|☆SmegMista
+|j|☆Kiraimu
+|t:|1661711776
+|gametype|doubles
+|player|p1|SmegMista|roxie|
+|player|p2|Kiraimu|fantina|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex Leaks VGC
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Coalossal, L50, F|
+|poke|p1|Keldeo-Resolute, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Celesteela, L50|
+|poke|p2|Yveltal, L50|
+|poke|p2|Klefki, L50, F|
+|poke|p2|Togekiss, L50, F|
+|poke|p2|Doublade, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Reuniclus, L50, F|
+|teampreview|4
+|c|☆SmegMista|G1
+|
+|t:|1661711852
+|start
+|switch|p1a: Coalossal|Coalossal, L50, F, shiny|100\/100
+|switch|p1b: Keldeo|Keldeo-Resolute, L50|100\/100
+|switch|p2a: Holly|Klefki, L50, F|100\/100
+|switch|p2b: Diablo|Yveltal, L50|100\/100
+|-ability|p2b: Diablo|Dark Aura
+|turn|1
+|
+|t:|1661711894
+|-start|p1a: Coalossal|Dynamax
+|-formechange|p1a: Coalossal|Coalossal-Gmax
+|-heal|p1a: Coalossal|100\/100|[silent]
+|move|p2a: Holly|Reflect|p2a: Holly
+|-sidestart|p2: Kiraimu|Reflect
+|move|p1b: Keldeo|Surf|p2b: Diablo|[spread] p1a,p2a,p2b
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|38\/100
+|-damage|p2a: Holly|66\/100
+|-damage|p2b: Diablo|74\/100
+|-ability|p1a: Coalossal|Steam Engine|boost
+|-boost|p1a: Coalossal|spe|6
+|-enditem|p1a: Coalossal|Weakness Policy
+|-boost|p1a: Coalossal|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Coalossal|spa|2|[from] item: Weakness Policy
+|move|p1a: Coalossal|G-Max Volcalith|p2b: Diablo
+|-supereffective|p2b: Diablo
+|-damage|p2b: Diablo|0 fnt
+|-sidestart|p2: Kiraimu|G-Max Volcalith
+|faint|p2b: Diablo
+|
+|-damage|p2a: Holly|49\/100|[from] G-Max Volcalith
+|upkeep
+|
+|t:|1661711912
+|switch|p2b: Doublade|Doublade, L50, F|100\/100
+|turn|2
+|
+|t:|1661711920
+|move|p2a: Holly|Light Screen|p2a: Holly
+|-sidestart|p2: Kiraimu|move: Light Screen
+|move|p1a: Coalossal|Max Flare|p2b: Doublade
+|-supereffective|p2b: Doublade
+|-crit|p2b: Doublade
+|-damage|p2b: Doublade|0 fnt
+|-weather|SunnyDay
+|faint|p2b: Doublade
+|move|p1b: Keldeo|Secret Sword|p2a: Holly
+|-damage|p2a: Holly|26\/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Holly|10\/100|[from] G-Max Volcalith
+|upkeep
+|
+|t:|1661711931
+|switch|p2b: Noche|Dragonite, L50, M|100\/100
+|turn|3
+|
+|t:|1661711943
+|move|p2a: Holly|Thunder Wave|p1a: Coalossal
+|-status|p1a: Coalossal|par
+|move|p1b: Keldeo|Icy Wind|p2a: Holly|[spread] p2a,p2b
+|-resisted|p2a: Holly
+|-supereffective|p2b: Noche
+|-damage|p2a: Holly|5\/100
+|-damage|p2b: Noche|84\/100
+|-unboost|p2a: Holly|spe|1
+|-unboost|p2b: Noche|spe|1
+|-enditem|p2b: Noche|Weakness Policy
+|-boost|p2b: Noche|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Noche|spa|2|[from] item: Weakness Policy
+|move|p1a: Coalossal|G-Max Volcalith|p2b: Noche
+|-supereffective|p2b: Noche
+|-damage|p2b: Noche|0 fnt
+|faint|p2b: Noche
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Holly|0 fnt|[from] G-Max Volcalith
+|faint|p2a: Holly
+|
+|win|SmegMista
