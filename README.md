@@ -10,6 +10,8 @@ Analyzer class that can parse replays for Singles and VGC/Doubles matches given 
 ```python
 from analyzer import Analyzer
 
+analyzer = Analyzer()
+
 with open("example_logs/battlelog12345.txt") as file:
     data = file.read().splitlines()
 
